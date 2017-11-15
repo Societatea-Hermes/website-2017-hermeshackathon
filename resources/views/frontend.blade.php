@@ -346,9 +346,11 @@ $isDone = false;
 									<li><a href="#" data-scrollto="#wrapper" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">Top</a></li>
 									<li><a href="#" data-scrollto="#section-about" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">About</a></li>
 									<li><a href="#" data-scrollto="#section-services" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">Themes</a></li>
+									@if($isDone)
 									<li><a href="#" data-scrollto="#section-timeline" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">Event timeline</a></li>
-									<li><a href="#" data-scrollto="#section-signup" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">Sign up</a></li>
 									<li><a href="#" data-scrollto="#section-partners" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">Partners</a></li>
+									@endif
+									<li><a href="#" data-scrollto="#section-signup" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">Sign up</a></li>
 									<li><a href="#" data-scrollto="#section-contact" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">Contact</a></li>
 								</ul>
 							</div>
