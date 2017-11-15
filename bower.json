@@ -1,0 +1,31 @@
+{
+  "name": "SSMI",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Flaviu Porutiu"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ssmi",
+    "cluj",
+    "hermes",
+    "societatea",
+    "hermes",
+    "ubb",
+    "mate",
+    "info",
+    "mate-info"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/assets/bower_components",
+    "test",
+    "tests"
+  ]
+}
