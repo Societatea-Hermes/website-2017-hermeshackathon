@@ -211,7 +211,7 @@ $isDone = false;
 					<div class="nomargin">
 						<div class="container clearfix">
 							<div class="divcenter center" style="max-width: 900px;">
-								<h2 class="nobottommargin t300 ls1">Sign up <br /><small>Your team can have up to 3 members.</small></h2>
+								<h2 class="nobottommargin t300 ls1">Sign up <br /><small>Your team can have up to 4 members.</small></h2>
 								<h3><small>The sign-up form is open until December the 10th at 6.00 PM.</small></h3>
 							</div>
 						</div>
@@ -268,13 +268,13 @@ $isDone = false;
 								<div class="clearfix">&nbsp;</div>
 								<div class="row">
 									<div class="col-md-2 col-md-offset-3">
-										<input type="text" id="member4-name" name="member4-name" class="form-control input-lg required" placeholder="Member 3 name">
+										<input type="text" id="member4-name" name="member4-name" class="form-control input-lg required" placeholder="Member 4 name">
 									</div>
 									<div class="col-md-2">
-										<input type="email" id="member4-email" name="member4-email" class="form-control input-lg required" placeholder="Member 3 email">
+										<input type="email" id="member4-email" name="member4-email" class="form-control input-lg required" placeholder="Member 4 email">
 									</div>
 									<div class="col-md-2">
-										<input type="text" id="member4-phone" name="member4-phone" class="form-control input-lg required" placeholder="Member 3 phone">
+										<input type="text" id="member4-phone" name="member4-phone" class="form-control input-lg required" placeholder="Member 4 phone">
 									</div>
 								</div>
 								<div class="row">
