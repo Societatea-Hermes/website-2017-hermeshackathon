@@ -1,7 +1,7 @@
 <?php
 $currentDT = Carbon\Carbon::now('Europe/Bucharest');
 // $currentDT = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2016-12-10 11:30');
-$maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2017-12-09 18:00');
+$maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2017-12-03 00:00');
 $canSignup = true;
 if($currentDT->gte($maxSignupTime)) {
 	$canSignup = false;
@@ -88,7 +88,7 @@ $isDone = false;
 							A hackathon is a 24-hour coding marathon that involves creating a desktop, mobile or web application out of an idea. The aim of hermesHackathon is to find solutions that will improve the quality of life for our citizens and will help the environment.
 							<br /><br />
 							<b>How?</b><br />
-							Each team can have a maximum number of 3 members, so you can gather your friends and participate together or you can participate on your own. There will be at least 2 mentoring sessions during the event where the contestants will get advice and will be helped to better understand the approach of a hackathon.</p>
+							Each team can have a maximum number of 4 members, so you can gather your friends and participate together or you can participate on your own. There will be at least 2 mentoring sessions during the event where the contestants will get advice and will be helped to better understand the approach of a hackathon.</p>
 						<p class="bottommargin" style="font-size: 16px;"><a href="#" data-scrollto="#section-services" data-easing="easeInOutExpo" data-speed="1250" data-offset="70" class="more-link">Themes <i class="icon-angle-right"></i></a></p>
 					</div>
 				</div>
@@ -212,7 +212,7 @@ $isDone = false;
 						<div class="container clearfix">
 							<div class="divcenter center" style="max-width: 900px;">
 								<h2 class="nobottommargin t300 ls1">Sign up <br /><small>Your team can have up to 4 members.</small></h2>
-								<h3><small>The sign-up form is open until December the 10th at 6.00 PM.</small></h3>
+								<h3><small>The sign-up form is open until December the 3rd.</small></h3>
 							</div>
 						</div>
 					</div>
