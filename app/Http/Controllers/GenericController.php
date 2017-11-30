@@ -39,7 +39,7 @@ class GenericController extends Controller
                 'start_date'    =>  '2017-12-09 10:00',
                 'end_date'      =>  '2017-12-09 11:00'
             ),
-            'Official start + Idea pitch (1m/team)'  =>  array(
+            'Official start + Idea pitch (1m / team)'  =>  array(
                 'start_date'    =>  '2017-12-09 11:00',
                 'end_date'      =>  '2017-12-09 11:30'
             ),
@@ -64,18 +64,18 @@ class GenericController extends Controller
                 'end_date'      =>  '2017-12-10 09:00'
             ),
             'Breakfast'  =>  array(
-                'start_date'    =>  '2017-12-110 09:00',
+                'start_date'    =>  '2017-12-10 09:00',
                 'end_date'      =>  '2017-12-10 10:00'
             ),
             'Preparation for the demo and the final pitch'  =>  array(
                 'start_date'    =>  '2017-12-10 10:00',
                 'end_date'      =>  '2017-12-10 12:00'
             ),
-            'Technical demo (jury will visit each team - 5m/team)'  =>  array(
+            'Technical demo (jury will visit each team - 5m / team)'  =>  array(
                 'start_date'    =>  '2017-12-10 12:00',
                 'end_date'      =>  '2017-12-10 13:15'
             ),
-            'Final pitch (3m/team) &amp; jury questions (2m/team)'  =>  array(
+            'Final pitch (3m / team) &amp; jury questions (2m / team)'  =>  array(
                 'start_date'    =>  '2017-12-10 13:15',
                 'end_date'      =>  '2017-12-10 14:45'
             ),
