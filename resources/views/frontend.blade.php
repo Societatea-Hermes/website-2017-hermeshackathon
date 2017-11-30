@@ -7,7 +7,7 @@ if($currentDT->gte($maxSignupTime)) {
 	$canSignup = false;
 }
 
-$isDone = false;
+$isDone = true;
 ?>
 
 @extends('template')
@@ -316,8 +316,8 @@ $isDone = false;
 								<h3 class="font-body t400 ls1">hermesHackathon location</h3>
 								<div style="font-size: 16px; line-height: 1.7;">
 									<address style="line-height: 1.7;">
-										<strong>FSPAC, building 2:</strong><br>
-										Minerilor 81 Street, <br />Cluj-Napoca 400000, <br />Romania
+										<strong>thatdevspace</strong><br>
+										Brașov 37 Street, <br />Cluj-Napoca 400072, <br />Romania
 									</address>
 									<div class="clear topmargin"></div>
 									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (+40) 751.452-668<br>
@@ -402,13 +402,13 @@ $isDone = false;
 
 			// Google Map
 			jQuery('#headquarters-map').gMap({
-				address: 'Strada Minerilor 81, Cluj-Napoca',
+				address: 'Strada Brașov 37, Cluj-Napoca',
 				maptype: 'ROADMAP',
 				zoom: 16,
 				markers: [
 					{
-						address: "Strada Minerilor 81, Cluj-Napoca",
-						html: "Strada Minerilor 81",
+						address: "Strada Brașov 37, Cluj-Napoca",
+						html: "Strada Brașov 37",
 						icon: {
 							image: "images/icons/map-icon-red.png",
 							iconsize: [32, 39],

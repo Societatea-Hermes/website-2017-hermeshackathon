@@ -36,64 +36,56 @@ class GenericController extends Controller
 
         $timeline = array(
             'Registration / Welcoming people' =>  array(
-                'start_date'    =>  '2016-12-10 10:00',
-                'end_date'      =>  '2016-12-10 11:00'
+                'start_date'    =>  '2017-12-09 10:00',
+                'end_date'      =>  '2017-12-09 11:00'
             ),
-            'Idea pitch (1m/team)'  =>  array(
-                'start_date'    =>  '2016-12-10 11:00',
-                'end_date'      =>  '2016-12-10 11:30'
-            ),
-            'Crowd-voting and jury vote'  =>  array(
-                'start_date'    =>  '2016-12-10 11:30',
-                'end_date'      =>  '2016-12-10 12:00'
-            ),
-            'Organizing the teams'  =>  array(
-                'start_date'    =>  '2016-12-10 12:00',
-                'end_date'      =>  '2016-12-10 12:30'
-            ),
-            'Work time  &amp; mentoring'  =>  array(
-                'start_date'    =>  '2016-12-10 12:30',
-                'end_date'      =>  '2016-12-10 15:00'
-            ),
-            'Lunch break'  =>  array(
-                'start_date'    =>  '2016-12-10 15:00',
-                'end_date'      =>  '2016-12-10 16:30'
+            'Official start + Idea pitch (1m/team)'  =>  array(
+                'start_date'    =>  '2017-12-09 11:00',
+                'end_date'      =>  '2017-12-09 11:30'
             ),
             'Work time &amp; mentoring'  =>  array(
-                'start_date'    =>  '2016-12-10 16:30',
-                'end_date'      =>  '2016-12-10 23:00'
+                'start_date'    =>  '2017-12-09 11:30',
+                'end_date'      =>  '2017-12-09 15:00'
+            ),
+            'Lunch break'  =>  array(
+                'start_date'    =>  '2017-12-09 15:00',
+                'end_date'      =>  '2017-12-09 16:00'
+            ),
+            'Work time &amp; mentoring'  =>  array(
+                'start_date'    =>  '2017-12-09 16:00',
+                'end_date'      =>  '2017-12-09 23:00'
             ),
             'Late snack (pizza)'  =>  array(
-                'start_date'    =>  '2016-12-10 23:00',
-                'end_date'      =>  '2016-12-10 23:30'
+                'start_date'    =>  '2017-12-09 23:00',
+                'end_date'      =>  '2017-12-09 23:30'
             ),
-            'Work time   &amp; mentoring'  =>  array(
-                'start_date'    =>  '2016-12-10 23:30',
-                'end_date'      =>  '2016-12-11 09:00'
+            'Work time &amp; mentoring'  =>  array(
+                'start_date'    =>  '2017-12-09 23:30',
+                'end_date'      =>  '2017-12-10 09:00'
             ),
             'Breakfast'  =>  array(
-                'start_date'    =>  '2016-12-11 09:00',
-                'end_date'      =>  '2016-12-11 10:00'
+                'start_date'    =>  '2017-12-110 09:00',
+                'end_date'      =>  '2017-12-10 10:00'
             ),
             'Preparation for the demo and the final pitch'  =>  array(
-                'start_date'    =>  '2016-12-11 10:00',
-                'end_date'      =>  '2016-12-11 12:00'
+                'start_date'    =>  '2017-12-10 10:00',
+                'end_date'      =>  '2017-12-10 12:00'
             ),
-            'Technical demo (5m / team)'  =>  array(
-                'start_date'    =>  '2016-12-11 12:00',
-                'end_date'      =>  '2016-12-11 13:15'
+            'Technical demo (jury will visit each team - 5m/team)'  =>  array(
+                'start_date'    =>  '2017-12-10 12:00',
+                'end_date'      =>  '2017-12-10 13:15'
             ),
-            'Final pitch (3m / team) &amp; jury questions (2m / team)'  =>  array(
-                'start_date'    =>  '2016-12-11 13:15',
-                'end_date'      =>  '2016-12-11 14:45'
+            'Final pitch (3m/team) &amp; jury questions (2m/team)'  =>  array(
+                'start_date'    =>  '2017-12-10 13:15',
+                'end_date'      =>  '2017-12-10 14:45'
             ),
-            'Chillout time (jury debate in the meantime)'  =>  array(
-                'start_date'    =>  '2016-12-11 14:45',
-                'end_date'      =>  '2016-12-11 15:15'
+            'Chillout time &amp; networking (jury debate in the meantime)'  =>  array(
+                'start_date'    =>  '2017-12-10 14:45',
+                'end_date'      =>  '2017-12-10 15:15'
             ),
             'Awards ceremony'  =>  array(
-                'start_date'    =>  '2016-12-11 15:15',
-                'end_date'      =>  '2016-12-11 16:15'
+                'start_date'    =>  '2017-12-10 15:15',
+                'end_date'      =>  '2017-12-10 16:15'
             )
         );
 
