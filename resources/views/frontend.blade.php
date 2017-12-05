@@ -297,13 +297,13 @@ $isDone = true;
 						<div class="container clearfix">
 							<div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="80" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xxs="2" data-items-xs="3" data-items-sm="4" data-items-md="5" data-items-lg="6">
 								<div class="oc-item"><a href="https://www.accenture.com/ro-en/" target="_blank"><img src="/images/partners/2017/rendered/accenture.png" alt="Accenture"></a></div>
+								<div class="oc-item"><a href="https://halcyonmobile.com" target="_blank"><img src="/images/partners/2017/rendered/halcyon.png" alt="Halcyon Mobile"></a></div>
+								<div class="oc-item"><a href="https://www.facebook.com/ThatDevSpaceClujNapoca/" target="_blank"><img src="/images/partners/2017/rendered/devspace.png" alt="thatdevspace"></a></div>
 								<div class="oc-item"><a href="#" target="_blank"><img src="/images/partners/2017/rendered/csubb.png" alt="Consiliul studentilor Universitatii Babes-Bolyai"></a></div>
 								<div class="oc-item"><a href="http://www.endava.com/en" target="_blank"><img src="/images/partners/2017/rendered/endava.png" alt="Endava"></a></div>
 								<div class="oc-item"><a href="https://www.porscheengineering.com/peg/en/" target="_blank"><img src="/images/partners/2017/rendered/porsche.png" alt="Porsche Engineering"></a></div>
 								<div class="oc-item"><a href="http://www.cs.ubbcluj.ro/" target="_blank"><img src="/images/partners/2017/rendered/ubb.png" alt="Facultatea de Matematică și Informatică"></a></div>
 								<div class="oc-item"><a href="http://www.umtsoftware.com/" target="_blank"><img src="/images/partners/2017/rendered/umt.png" alt="UMT Software"></a></div>
-								<div class="oc-item"><a href="https://halcyonmobile.com" target="_blank"><img src="/images/partners/2017/rendered/halcyon.png" alt="Halcyon Mobile"></a></div>
-								<div class="oc-item"><a href="https://www.facebook.com/ThatDevSpaceClujNapoca/" target="_blank"><img src="/images/partners/2017/rendered/devspace.png" alt="thatdevspace"></a></div>
 							</div>
 						</div>
 					</div>
