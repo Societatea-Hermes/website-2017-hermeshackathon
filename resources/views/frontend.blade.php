@@ -302,6 +302,8 @@ $isDone = true;
 								<div class="oc-item"><a href="https://www.porscheengineering.com/peg/en/" target="_blank"><img src="/images/partners/2017/rendered/porsche.png" alt="Porsche Engineering"></a></div>
 								<div class="oc-item"><a href="http://www.cs.ubbcluj.ro/" target="_blank"><img src="/images/partners/2017/rendered/ubb.png" alt="Facultatea de Matematică și Informatică"></a></div>
 								<div class="oc-item"><a href="http://www.umtsoftware.com/" target="_blank"><img src="/images/partners/2017/rendered/umt.png" alt="UMT Software"></a></div>
+								<div class="oc-item"><a href="https://halcyonmobile.com" target="_blank"><img src="/images/partners/2017/rendered/halcyon.png" alt="Halcyon Mobile"></a></div>
+								<div class="oc-item"><a href="https://www.facebook.com/ThatDevSpaceClujNapoca/" target="_blank"><img src="/images/partners/2017/rendered/devspace.png" alt="thatdevspace"></a></div>
 							</div>
 						</div>
 					</div>

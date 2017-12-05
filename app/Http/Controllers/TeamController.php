@@ -199,4 +199,18 @@ class TeamController extends Controller
 
         return json_encode($toReturn);
     }
+
+    public function getTeamXls(AdminRequest $req, TeamMember $member) {
+        $search = array(
+            'sidx'      =>  Input::get('sidx'),
+            'sord'      =>  Input::get('sord'),
+            'limit'     =>  empty(Input::get('rows')) ? 10 : Input::get('rows'),
+            'page'      =>  empty(Input::get('page')) ? 1 : Input::get('page'),
+            'team_id'   =>  Input::get('team_id')
+        );
+
+        $members = $member->getFiltered($search);
+
+        
+    }
 }
