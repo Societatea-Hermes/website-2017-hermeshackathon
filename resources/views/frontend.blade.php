@@ -1,7 +1,7 @@
 <?php
 $currentDT = Carbon\Carbon::now('Europe/Bucharest');
 // $currentDT = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2016-12-10 11:30');
-$maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2017-12-03 00:00');
+$maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2018-11-22 00:00');
 $canSignup = true;
 if($currentDT->gte($maxSignupTime)) {
 	$canSignup = false;
