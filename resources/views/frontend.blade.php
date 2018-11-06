@@ -56,7 +56,7 @@ $isDone = true;
 					<div class="container clearfix">
 						<div class="vertical-middle" style="max-width: 700px;">
 							<div class="heading-block nobottomborder">
-								<h1 style="font-size: 36px;" class="nott font-body">hermesHackathon 2017</h1>
+								<h1 style="font-size: 36px;" class="nott font-body">hermesHackathon 2018</h1>
 								<span style="font-size: 18px;" class="t300 nott ls1 topmargin-sm">coding.start();</span>
 							</div>
 							<div class="bottommargin clearfix" style="display:block; border-top:1px solid rgba(255,255,255,0.2); border-bottom:1px solid rgba(255,255,255,0.2); max-width: 350px; padding: 15px 0; font-size: 16px;">
@@ -190,7 +190,7 @@ $isDone = true;
 												<div class="cd-timeline-img {{$class}}"></div> <!-- cd-timeline-img -->
 												<div class="cd-timeline-content">
 													<h2>{{$key}}</h2>
-													<span class="cd-date">{{$keyExploded[1]}} ({{$dateExploded[2]}} Dec)</span>
+													<span class="cd-date">{{$keyExploded[1]}} ({{$dateExploded[2]}} Nov)</span>
 												</div> <!-- cd-timeline-content -->
 											</div> <!-- cd-timeline-block -->
 										@endforeach
@@ -212,7 +212,7 @@ $isDone = true;
 						<div class="container clearfix">
 							<div class="divcenter center" style="max-width: 900px;">
 								<h2 class="nobottommargin t300 ls1">Sign up <br /><small>Your team can have up to 4 members.</small></h2>
-								<h3><small>The sign-up form is open until December the 3rd.</small></h3>
+								<h3><small>The sign-up form is open until November the 22nd.</small></h3>
 							</div>
 						</div>
 					</div>
@@ -292,18 +292,21 @@ $isDone = true;
 						<div class="container clearfix">
 							<div class="divcenter center" style="max-width: 900px;">
 								<h2 class="nobottommargin t300 ls1">Partners</h2>
+								<h3 class="nobottommargin t300 lsl">To be announced..</h3>
 							</div>
 						</div>
 						<div class="container clearfix">
 							<div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="80" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xxs="2" data-items-xs="3" data-items-sm="4" data-items-md="5" data-items-lg="6">
-								<div class="oc-item"><a href="https://www.accenture.com/ro-en/" target="_blank"><img src="/images/partners/2017/rendered/accenture.png" alt="Accenture"></a></div>
-								<div class="oc-item"><a href="https://halcyonmobile.com" target="_blank"><img src="/images/partners/2017/rendered/halcyon.png" alt="Halcyon Mobile"></a></div>
-								<div class="oc-item"><a href="https://www.facebook.com/ThatDevSpaceClujNapoca/" target="_blank"><img src="/images/partners/2017/rendered/devspace.png" alt="thatdevspace"></a></div>
-								<div class="oc-item"><a href="#" target="_blank"><img src="/images/partners/2017/rendered/csubb.png" alt="Consiliul studentilor Universitatii Babes-Bolyai"></a></div>
-								<div class="oc-item"><a href="http://www.endava.com/en" target="_blank"><img src="/images/partners/2017/rendered/endava.png" alt="Endava"></a></div>
-								<div class="oc-item"><a href="https://www.porscheengineering.com/peg/en/" target="_blank"><img src="/images/partners/2017/rendered/porsche.png" alt="Porsche Engineering"></a></div>
-								<div class="oc-item"><a href="http://www.cs.ubbcluj.ro/" target="_blank"><img src="/images/partners/2017/rendered/ubb.png" alt="Facultatea de Matematică și Informatică"></a></div>
-								<div class="oc-item"><a href="http://www.umtsoftware.com/" target="_blank"><img src="/images/partners/2017/rendered/umt.png" alt="UMT Software"></a></div>
+								<div class="oc-item"></div>
+
+								{{--<div class="oc-item"><a href="https://www.accenture.com/ro-en/" target="_blank"><img src="/images/partners/2017/rendered/accenture.png" alt="Accenture"></a></div>--}}
+								{{--<div class="oc-item"><a href="https://halcyonmobile.com" target="_blank"><img src="/images/partners/2017/rendered/halcyon.png" alt="Halcyon Mobile"></a></div>--}}
+								{{--<div class="oc-item"><a href="https://www.facebook.com/ThatDevSpaceClujNapoca/" target="_blank"><img src="/images/partners/2017/rendered/devspace.png" alt="thatdevspace"></a></div>--}}
+								{{--<div class="oc-item"><a href="#" target="_blank"><img src="/images/partners/2017/rendered/csubb.png" alt="Consiliul studentilor Universitatii Babes-Bolyai"></a></div>--}}
+								{{--<div class="oc-item"><a href="http://www.endava.com/en" target="_blank"><img src="/images/partners/2017/rendered/endava.png" alt="Endava"></a></div>--}}
+								{{--<div class="oc-item"><a href="https://www.porscheengineering.com/peg/en/" target="_blank"><img src="/images/partners/2017/rendered/porsche.png" alt="Porsche Engineering"></a></div>--}}
+								{{--<div class="oc-item"><a href="http://www.cs.ubbcluj.ro/" target="_blank"><img src="/images/partners/2017/rendered/ubb.png" alt="Facultatea de Matematică și Informatică"></a></div>--}}
+								{{--<div class="oc-item"><a href="http://www.umtsoftware.com/" target="_blank"><img src="/images/partners/2017/rendered/umt.png" alt="UMT Software"></a></div>--}}
 							</div>
 						</div>
 					</div>
