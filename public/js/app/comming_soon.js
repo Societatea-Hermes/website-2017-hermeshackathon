@@ -4,7 +4,7 @@ $(function(){
 });
 
 function initCountDown() {
-	var newDate = new Date(2017, 11, 09, 10); // luna - 1 => aprilie = 3 in loc de 4
+	var newDate = new Date(2018, 10, 23, 8); // luna - 1 => aprilie = 3 in loc de 4
 	$('#countdown-ex4').countdown({until: newDate});
 
 }
