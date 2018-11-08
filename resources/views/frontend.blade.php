@@ -132,7 +132,7 @@ $isDone = true;
 									<div class="col-md-3 col-sm-6 col-padding">
 										<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
 											<div class="fbox-icon">
-												<img src="/images/categories_2018/health_and_lifestyle.png">
+												<img src="/images/categories_2018/health_lifestyle.png">
 											</div>
 											<h3>Health & lifestyle</h3>
 										</div>
