@@ -117,7 +117,7 @@ $isDone = true;
 											<div class="fbox-icon">
 												<img src="/images/categories_2018/farming.png">
 											</div>
-											<h3>Farming</h3>
+											<h3>Smart agriculture</h3>
 										</div>
 									</div>
 
