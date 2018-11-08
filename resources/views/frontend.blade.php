@@ -104,44 +104,37 @@ $isDone = true;
 						<div class="col-md-12">
 							<div class="max-height">
 								<div class="row common-height grid-border clearfix">
-									<div class="col-md-4 col-sm-6 col-padding">
+									<div class="col-md-3 col-sm-6 col-padding">
 										<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
 											<div class="fbox-icon">
-												<img src="/images/icons/cyber-security.png">
+												<img src="/images/categories_2018/education.png">
 											</div>
-											<h3>Cyber security</h3>
+											<h3>Education</h3>
 										</div>
 									</div>
-									<div class="col-md-4 col-sm-6 col-padding">
+									<div class="col-md-3 col-sm-6 col-padding">
 										<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
 											<div class="fbox-icon">
-												<img src="/images/icons/smart-agriculture.png">
+												<img src="/images/categories_2018/farming.png">
 											</div>
-											<h3>Smart agriculture</h3>
+											<h3>Farming</h3>
 										</div>
 									</div>
-									<div class="col-md-4 col-sm-6 col-padding">
+
+									<div class="col-md-3 col-sm-6 col-padding">
 										<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
 											<div class="fbox-icon">
-												<img src="/images/icons/smart-city.png">
+												<img src="/images/categories_2018/smart_city.png">
 											</div>
 											<h3>Smart city</h3>
 										</div>
 									</div>
-									<div class="col-md-6 col-sm-6 col-padding">
+									<div class="col-md-3 col-sm-6 col-padding">
 										<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
 											<div class="fbox-icon">
-												<img src="/images/icons/health-lifestyle.png">
+												<img src="/images/categories_2018/health_and_lifestyle.png">
 											</div>
-											<h3>Health &amp; lifestyle</h3>
-										</div>
-									</div>
-									<div class="col-md-6 col-sm-6 col-padding">
-										<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
-											<div class="fbox-icon">
-												<img src="/images/icons/retail.png">
-											</div>
-											<h3>Retail</h3>
+											<h3>Health & lifestyle</h3>
 										</div>
 									</div>
 								</div>
@@ -299,9 +292,9 @@ $isDone = true;
 							<div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="80" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xxs="2" data-items-xs="3" data-items-sm="4" data-items-md="5" data-items-lg="6">
 								<div class="oc-item"></div>
 
-								<div class="oc-item"><a href="https://www.thatdevspace.com/cluj" target="_blank"><img src="https://techsylvania.co/wp-content/uploads/2018/05/thatdevspace-300x229.png" alt="Thatdevspace"></a></div>
+								{{--<div class="oc-item"><a href="https://www.thatdevspace.com/cluj" target="_blank"><img src="https://techsylvania.co/wp-content/uploads/2018/05/thatdevspace-300x229.png" alt="Thatdevspace"></a></div>--}}
 								{{--<div class="oc-item"><a href="https://halcyonmobile.com" target="_blank"><img src="/images/partners/2017/rendered/halcyon.png" alt="Halcyon Mobile"></a></div>--}}
-								{{--<div class="oc-item"><a href="https://www.facebook.com/ThatDevSpaceClujNapoca/" target="_blank"><img src="/images/partners/2017/rendered/devspace.png" alt="thatdevspace"></a></div>--}}
+								<div class="oc-item"><a href="https://www.facebook.com/ThatDevSpaceClujNapoca/" target="_blank"><img src="/images/partners/2017/rendered/devspace.png" alt="thatdevspace"></a></div>
 								{{--<div class="oc-item"><a href="#" target="_blank"><img src="/images/partners/2017/rendered/csubb.png" alt="Consiliul studentilor Universitatii Babes-Bolyai"></a></div>--}}
 								{{--<div class="oc-item"><a href="http://www.endava.com/en" target="_blank"><img src="/images/partners/2017/rendered/endava.png" alt="Endava"></a></div>--}}
 								{{--<div class="oc-item"><a href="https://www.porscheengineering.com/peg/en/" target="_blank"><img src="/images/partners/2017/rendered/porsche.png" alt="Porsche Engineering"></a></div>--}}
