@@ -24,142 +24,148 @@ use Uuid;
 
 class GenericController extends Controller
 {
-    public function defaultRoute() {
-    	$partnerImgArr = array(
-    		// 'hermes.png' 			=>	'http://societatea-hermes.ro/',
-    		// 'ssmi.png' 				=>	'#',
-    		// 'ullink.png' 	        =>	'http://www.ullink.com/',
-    		// 'endava.png' 			=>	'http://www.endava.com/',
-    		// 'isdc.png' 				=>	'http://www.isdc.eu/',
-    		// 'yonder.png' 			=>	'http://tss-yonder.com/'
-    	);
-
-        $timeline = array(
-            'To be announced..' =>  array(
-                'start_date'    =>  '2018-11-24 11:00',
-                'end_date'      =>  '2018-11-25 13:00'
-            )
-//        ,
-//            'Official start + Idea pitch (1m / team)'  =>  array(
-////                'start_date'    =>  '2017-12-09 11:00',
-////                'end_date'      =>  '2017-12-09 11:30'
-////            ),
-////            'Work time &amp; mentoring'  =>  array(
-////                'start_date'    =>  '2017-12-09 11:30',
-////                'end_date'      =>  '2017-12-09 15:00'
-////            ),
-////            'Lunch break'  =>  array(
-////                'start_date'    =>  '2017-12-09 15:00',
-////                'end_date'      =>  '2017-12-09 16:00'
-////            ),
-////            'Work time &amp; mentoring'  =>  array(
-////                'start_date'    =>  '2017-12-09 16:00',
-////                'end_date'      =>  '2017-12-09 23:00'
-////            ),
-////            'Late snack (pizza)'  =>  array(
-////                'start_date'    =>  '2017-12-09 23:00',
-////                'end_date'      =>  '2017-12-09 23:30'
-////            ),
-////            'Work time &amp; mentoring'  =>  array(
-////                'start_date'    =>  '2017-12-09 23:30',
-////                'end_date'      =>  '2017-12-10 09:00'
-////            ),
-////            'Breakfast'  =>  array(
-////                'start_date'    =>  '2017-12-10 09:00',
-////                'end_date'      =>  '2017-12-10 10:00'
-////            ),
-////            'Preparation for the demo and the final pitch'  =>  array(
-////                'start_date'    =>  '2017-12-10 10:00',
-////                'end_date'      =>  '2017-12-10 12:00'
-////            ),
-////            'Technical demo (jury will visit each team - 5m / team)'  =>  array(
-////                'start_date'    =>  '2017-12-10 12:00',
-////                'end_date'      =>  '2017-12-10 13:15'
-////            ),
-////            'Final pitch (3m / team) &amp; jury questions (2m / team)'  =>  array(
-////                'start_date'    =>  '2017-12-10 13:15',
-////                'end_date'      =>  '2017-12-10 14:45'
-////            ),
-////            'Chillout time &amp; networking (jury debate in the meantime)'  =>  array(
-////                'start_date'    =>  '2017-12-10 14:45',
-////                'end_date'      =>  '2017-12-10 15:15'
-////            ),
-////            'Awards ceremony'  =>  array(
-////                'start_date'    =>  '2017-12-10 15:15',
-////                'end_date'      =>  '2017-12-10 16:15'
-////            )
+    public function defaultRoute()
+    {
+        $partnerImgArr = array(
+            // 'hermes.png' 			=>	'http://societatea-hermes.ro/',
+            // 'ssmi.png' 				=>	'#',
+            // 'ullink.png' 	        =>	'http://www.ullink.com/',
+            // 'endava.png' 			=>	'http://www.endava.com/',
+            // 'isdc.png' 				=>	'http://www.isdc.eu/',
+            // 'yonder.png' 			=>	'http://tss-yonder.com/'
         );
 
-    	$addToView = array(
-    		'partnerArr'	=>	"",
-            'active'        =>  'home',
-            'timeline'      =>  $timeline
-    	);
+        $timeline = array(
 
-    	foreach($partnerImgArr as $key => $val) {
-    		$target = $val != "#" ? "_blank" : "_self";
-    		$addToView['partnerArr'] .= '<div class="oc-item"><a href="'.$val.'" target="'.$target.'"><img src="images/appImg/partners/'.$key.'" alt="Partners"></a></div>';
-    	}
+            'Event opening' => array(
+                'start_date' => '2018-11-24 11:00',
+                'end_date' => '2018-11-24 12:30'
+            ),
+            'Official start' => array(
+                'start_date' => '2018-11-24 12:30',
+                'end_date' => '2018-11-24 13:00'
+            ),
+            'Work time &amp; mentoring' => array(
+                'start_date' => '2018-11-24 13:00',
+                'end_date' => '2018-11-24 17:00'
+            ),
+            'Lunch break' => array(
+                'start_date' => '2018-11-24 17:00',
+                'end_date' => '2018-11-24 17:30'
+            ),
+            'Work time &amp; mentoring ' => array(
+                'start_date' => '2018-11-24 17:30',
+                'end_date' => '2018-11-24 23:59'
+            ),
+            'Late snack (pizza)' => array(
+                'start_date' => '2018-11-25 00:00',
+                'end_date' => '2018-11-25 00:30'
+            ),
+            'Work time &amp; mentoring  ' => array(
+                'start_date' => '2018-11-25 00:30',
+                'end_date' => '2018-11-25 09:00'
+            ),
+            'Breakfast' => array(
+                'start_date' => '2018-11-25 09:00',
+                'end_date' => '2018-11-25 10:00'
+            ),
+            'Preparation for the demo and the final pitch' => array(
+                'start_date' => '2018-11-25 10:00',
+                'end_date' => '2018-11-25 13:00'
+            ),
+//            'Technical Demo &amp; Final pitch (3m / team) &amp; jury questions (2m / team)' => array(
+            'Technical Demo &amp; Final pitch' => array(
+                'start_date' => '2018-11-25 13:10',
+                'end_date' => '2018-11-25 15:00'
+            ),
+            'Chillout time &amp; networking (jury debate in the meantime)' => array(
+                'start_date' => '2018-11-25 15:00',
+                'end_date' => '2018-11-25 16:00'
+            ),
+            'Awards ceremony' => array(
+                'start_date' => '2018-11-25 16:00',
+                'end_date' => '2018-11-25 17:00'
+            )
+        );
 
-    	return view('comming_soon', $addToView);
+        $addToView = array(
+            'partnerArr' => "",
+            'active' => 'home',
+            'timeline' => $timeline
+        );
+
+        foreach ($partnerImgArr as $key => $val) {
+            $target = $val != "#" ? "_blank" : "_self";
+            $addToView['partnerArr'] .= '<div class="oc-item"><a href="' . $val . '" target="' . $target . '"><img src="images/appImg/partners/' . $key . '" alt="Partners"></a></div>';
+        }
+
+        return view('comming_soon', $addToView);
     }
 
-    public function adminRoute() {
-    	$userData = Session::get('userData');
-    	if(empty($userData)) {
-    		return view('login');
-    	}
-        if($userData['logged_in']) {
+    public function adminRoute()
+    {
+        $userData = Session::get('userData');
+        if (empty($userData)) {
+            return view('login');
+        }
+        if ($userData['logged_in']) {
             $addToView['user'] = $userData;
-            return view("admin", $addToView); 
+            return view("admin", $addToView);
         }
     }
 
-    public function newsletterSubscribers(AdminRequest $req) {
+    public function newsletterSubscribers(AdminRequest $req)
+    {
         $addToView['user'] = $req->userData;
-    	return view('admin.subscribers', $addToView);
+        return view('admin.subscribers', $addToView);
     }
 
-    public function users(SuRequest $req) {
+    public function users(SuRequest $req)
+    {
         $addToView['user'] = $req->userData;
         return view('admin.users', $addToView);
     }
 
-    public function accountSettings(AdminRequest $req) {
+    public function accountSettings(AdminRequest $req)
+    {
         $addToView['user'] = $req->userData;
         return view('admin.accountSettings', $addToView);
     }
 
-    public function facebookLogins(AdminRequest $req) {
+    public function facebookLogins(AdminRequest $req)
+    {
         $addToView['user'] = $req->userData;
         return view('admin.fbLogins', $addToView);
     }
 
-    public function events(AdminRequest $req) {
+    public function events(AdminRequest $req)
+    {
         $addToView['user'] = $req->userData;
         return view('admin.events', $addToView);
     }
 
-    public function teams(AdminRequest $req) {
+    public function teams(AdminRequest $req)
+    {
         $addToView['user'] = $req->userData;
         return view('admin.teams', $addToView);
     }
 
-    public function event($id_event, Event $ev, Article $ar) {
+    public function event($id_event, Event $ev, Article $ar)
+    {
         $partnerImgArr = array(
             // 'hermes.png'             =>  'http://societatea-hermes.ro/',
             // 'ssmi.png'               =>  '#',
-            'ullink.png'            =>  'http://www.ullink.com/',
-            'endava.png'            =>  'http://www.endava.com/',
-            'isdc.png'              =>  'http://www.isdc.eu/',
-            'yonder.png'            =>  'http://tss-yonder.com/'
+            'ullink.png' => 'http://www.ullink.com/',
+            'endava.png' => 'http://www.endava.com/',
+            'isdc.png' => 'http://www.isdc.eu/',
+            'yonder.png' => 'http://tss-yonder.com/'
         );
 
         $addToView = array(
-            'partnerArr'    =>  "",
-            'eventDetails'  =>  '',
-            'eventType'     =>  '',
-            'articles'      =>  array()
+            'partnerArr' => "",
+            'eventDetails' => '',
+            'eventType' => '',
+            'articles' => array()
         );
 
         try {
@@ -168,9 +174,9 @@ class GenericController extends Controller
             return redirect('/');
         }
 
-        foreach($partnerImgArr as $key => $val) {
+        foreach ($partnerImgArr as $key => $val) {
             $target = $val != "#" ? "_blank" : "_self";
-            $addToView['partnerArr'] .= '<div class="oc-item"><a href="'.$val.'" target="'.$target.'"><img src="images/appImg/partners/'.$key.'" alt="Partners"></a></div>';
+            $addToView['partnerArr'] .= '<div class="oc-item"><a href="' . $val . '" target="' . $target . '"><img src="images/appImg/partners/' . $key . '" alt="Partners"></a></div>';
         }
 
         $addToView['eventDetails'] = $ev;
@@ -188,25 +194,26 @@ class GenericController extends Controller
         }
 
         $addToView['articles'] = $ar->select('articles.*', 'users.fullname')
-                                    ->join('users', 'users.id', '=', 'articles.user_id')
-                                    ->where('event_id', '=', $id_event)->get();
+            ->join('users', 'users.id', '=', 'articles.user_id')
+            ->where('event_id', '=', $id_event)->get();
 
         return view('event', $addToView);
     }
 
-    public function article($id_article, Article $ar) {
+    public function article($id_article, Article $ar)
+    {
         $partnerImgArr = array(
             // 'hermes.png'             =>  'http://societatea-hermes.ro/',
             // 'ssmi.png'               =>  '#',
-            'ullink.png'            =>  'http://www.ullink.com/',
-            'endava.png'            =>  'http://www.endava.com/',
-            'isdc.png'              =>  'http://www.isdc.eu/',
-            'yonder.png'            =>  'http://tss-yonder.com/'
+            'ullink.png' => 'http://www.ullink.com/',
+            'endava.png' => 'http://www.endava.com/',
+            'isdc.png' => 'http://www.isdc.eu/',
+            'yonder.png' => 'http://tss-yonder.com/'
         );
 
         $addToView = array(
-            'partnerArr'    =>  "",
-            'articleDetails'  =>  ''
+            'partnerArr' => "",
+            'articleDetails' => ''
         );
 
         try {
@@ -215,9 +222,9 @@ class GenericController extends Controller
             return redirect('/');
         }
 
-        foreach($partnerImgArr as $key => $val) {
+        foreach ($partnerImgArr as $key => $val) {
             $target = $val != "#" ? "_blank" : "_self";
-            $addToView['partnerArr'] .= '<div class="oc-item"><a href="'.$val.'" target="'.$target.'"><img src="images/appImg/partners/'.$key.'" alt="Partners"></a></div>';
+            $addToView['partnerArr'] .= '<div class="oc-item"><a href="' . $val . '" target="' . $target . '"><img src="images/appImg/partners/' . $key . '" alt="Partners"></a></div>';
         }
 
         $addToView['articleDetails'] = $ar;
@@ -227,13 +234,15 @@ class GenericController extends Controller
 
 
     // Facebook handler
-    public function facebookLogin() {
+    public function facebookLogin()
+    {
         return Socialite::driver('facebook')->redirect();
     }
 
-    public function facebookOauth(FacebookAuth $fbAuth) {
+    public function facebookOauth(FacebookAuth $fbAuth)
+    {
         $user = Socialite::driver('facebook')->user();
-        
+
         $fbAuth = $fbAuth->firstOrNew(['fb_id' => $user->id]);
         $fbAuth->fullname = $user->name;
         $fbAuth->token = $user->token;
@@ -244,20 +253,21 @@ class GenericController extends Controller
         return redirect('/facebookOverlay');
     }
 
-    public function facebookOverlay() {
+    public function facebookOverlay()
+    {
         $facebookData = Session::get('facebookData');
         $imgName = Uuid::generate('4');
 
         $fbAvatar = $facebookData->avatar_original;
         $fbAvatar = explode('?', $fbAvatar);
-        $fbAvatar = $fbAvatar[0]."?width=500&height=500";
+        $fbAvatar = $fbAvatar[0] . "?width=500&height=500";
 
-        $img = Image::make($fbAvatar)->resize(500, null, function($constraint) {
-                $constraint->aspectRatio();
-            })->insert('images/appImg/overlay/overlay.png', 'bottom-left')->save('images/overlays/'.$imgName.".jpg");
+        $img = Image::make($fbAvatar)->resize(500, null, function ($constraint) {
+            $constraint->aspectRatio();
+        })->insert('images/appImg/overlay/overlay.png', 'bottom-left')->save('images/overlays/' . $imgName . ".jpg");
 
         $addToView['imgSrc'] = $imgName;
-        
+
         return view('facebookOverlay', $addToView);
     }
 
@@ -284,8 +294,9 @@ class GenericController extends Controller
     //     return json_encode($toReturn);
     // }
 
-    public function logout() {
-    	Session::flush();
+    public function logout()
+    {
+        Session::flush();
         session_start();
         session_destroy();
         return redirect('/');
