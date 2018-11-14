@@ -291,7 +291,6 @@ $isDone = true;
 						<div class="container clearfix">
 							<div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="80" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xxs="2" data-items-xs="3" data-items-sm="4" data-items-md="5" data-items-lg="6">
 								<div class="oc-item"></div>
-
 								{{--<div class="oc-item"><a href="https://www.thatdevspace.com/cluj" target="_blank"><img src="https://techsylvania.co/wp-content/uploads/2018/05/thatdevspace-300x229.png" alt="Thatdevspace"></a></div>--}}
 								{{--<div class="oc-item"><a href="https://halcyonmobile.com" target="_blank"><img src="/images/partners/2017/rendered/halcyon.png" alt="Halcyon Mobile"></a></div>--}}
 								<div class="oc-item"><a href="https://www.facebook.com/ThatDevSpaceClujNapoca/" target="_blank"><img src="/images/partners/2017/rendered/devspace.png" alt="thatdevspace"></a></div>

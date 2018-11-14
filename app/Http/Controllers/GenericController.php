@@ -45,8 +45,12 @@ class GenericController extends Controller
                 'start_date' => '2018-11-24 12:30',
                 'end_date' => '2018-11-24 13:00'
             ),
-            'Work time &amp; mentoring' => array(
+            'Contest begins' => array(
                 'start_date' => '2018-11-24 13:00',
+                'end_date' => '2018-11-24 14:00'
+            ),
+            'Work time &amp; mentoring  ' => array(
+                'start_date'=> '2018-11-24 13:00',
                 'end_date' => '2018-11-24 17:00'
             ),
             'Lunch break' => array(
@@ -54,14 +58,14 @@ class GenericController extends Controller
                 'end_date' => '2018-11-24 17:30'
             ),
             'Work time &amp; mentoring ' => array(
-                'start_date' => '2018-11-24 17:30',
+                'start_date'=> '2018-11-24 17:30',
                 'end_date' => '2018-11-24 23:59'
             ),
-            'Late snack (pizza)' => array(
+            'Pizza time' => array(
                 'start_date' => '2018-11-25 00:00',
                 'end_date' => '2018-11-25 00:30'
             ),
-            'Work time &amp; mentoring  ' => array(
+            'Work time &amp; mentoring' => array(
                 'start_date' => '2018-11-25 00:30',
                 'end_date' => '2018-11-25 09:00'
             ),
@@ -71,6 +75,9 @@ class GenericController extends Controller
             ),
             'Preparation for the demo and the final pitch' => array(
                 'start_date' => '2018-11-25 10:00',
+                'end_date' => '2018-11-25 13:00'
+            ),'Contest finishes' => array(
+                'start_date' => '2018-11-25 13:00',
                 'end_date' => '2018-11-25 13:00'
             ),
 //            'Technical Demo &amp; Final pitch (3m / team) &amp; jury questions (2m / team)' => array(
