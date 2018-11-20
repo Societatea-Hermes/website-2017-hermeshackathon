@@ -1,7 +1,7 @@
 <?php
 $currentDT = Carbon\Carbon::now('Europe/Bucharest');
 // $currentDT = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2016-12-10 11:30');
-$maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2018-11-22 00:00');
+$maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2018-11-19 00:00');
 $canSignup = true;
 if($currentDT->gte($maxSignupTime)) {
 	$canSignup = false;
@@ -205,7 +205,7 @@ $isDone = true;
 						<div class="container clearfix">
 							<div class="divcenter center" style="max-width: 900px;">
 								<h2 class="nobottommargin t300 ls1">Sign up <br /><small>Your team can have up to 4 members.</small></h2>
-								<h3><small>The sign-up form is open until November the 22nd.</small></h3>
+								<h3><small>The sign-up form is open until November the 20nd at 12.00. Due to the large number of teams that signed up, we chose to end the formular earlier. Thank you for choosing hermesHackathon :) </small></h3>
 							</div>
 						</div>
 					</div>
