@@ -15,7 +15,7 @@ class CreateAuthsTable extends Migration
         Schema::create('auths', function (Blueprint $table) {
             $table->increments('id');
             $table->string('ip');
-            $table->integer('user_id')->nullable();
+            $table->unsignedInteger('user_id')->nullable();
             $table->string('user_agent');
             $table->text('raw_request_params');
             $table->integer('successful')->nullable();
@@ -23,6 +23,10 @@ class CreateAuthsTable extends Migration
             $table->timestamp('expiration')->nullable();
             $table->timestamps();
 
+
+        });
+
+        Schema::table('auths', function($table) {
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }

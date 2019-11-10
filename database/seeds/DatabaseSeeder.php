@@ -26,10 +26,10 @@ class UserSeeder extends Seeder {
     public function run()
     {
         User::create([
-        	'fullname'	=>	'Flaviu Porutiu',
-        	'username'	=>	'glitch',
-        	'password'	=>	Hash::make('theSecretPasswordIsReal'),
-        	'email'		=>	'flaviu@glitch.ro',
+        	'fullname'	=>	'Oana Sabadas',
+        	'username'	=>	'oana',
+        	'password'	=>	Hash::make('sclipiciOana'),
+        	'email'		=>	's.oana.sabadas@gmail.com',
         	'is_admin'	=>	1
         ]);
     }

@@ -25,3 +25,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+
+## Installation steps
+- copy env.example file and edit the database and other fields according to your needs
+- run xampp apache & mysql 
+- create a database in mysql admin
+- composer install  (need to have composer installed)
+- npm install
+- php artisan db:migrate
+- php artisan serv
