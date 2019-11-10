@@ -4,7 +4,7 @@ $(function(){
 });
 
 function initCountDown() {
-	var newDate = new Date(2018, 10, 24, 11); // luna - 1 => aprilie = 3 in loc de 4
+	var newDate = new Date(2019, 10, 23, 11); // luna - 1 => aprilie = 3 in loc de 4
 	$('#countdown-ex4').countdown({until: newDate});
 
 }
@@ -60,6 +60,31 @@ function subscribeToNewsletter() {
 			$('#email').val('');
 		}
 	});
+}
+
+function acceptGDPR() {
+	console.log("intra in functie")
+	let x = document.getElementById("gdpr")
+	let checkBox = document.getElementById("accept");
+	if (checkBox.checked == true) {
+		console.log("accept");
+		x.style.display = "block";
+	} else {
+		console.log("not accept");
+		x.style.display = "none";
+	}
+}
+function showDetailsGdpr() {
+	console.log("intra in functie")
+	let x = document.getElementById("detailsGdpr")
+	let checkBox = document.getElementById("showGdpr");
+	if (checkBox.checked == true) {
+		console.log("accept");
+		x.style.display = "block";
+	} else {
+		console.log("not accept");
+		x.style.display = "none";
+	}
 }
 
 function signupTeam() {

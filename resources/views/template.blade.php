@@ -45,7 +45,7 @@ $isProduction = App::environment() == 'production' ? true : false;
 
 		<!-- Document Title
 		============================================= -->
-		<title>{{$isProduction ? "" : "[DEV] "}}hermesHackathon 2018</title>
+		<title>{{$isProduction ? "" : "[DEV] "}}hermesHackathon 2019</title>
 
 	</head>
 

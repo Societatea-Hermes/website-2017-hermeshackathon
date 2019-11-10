@@ -1,7 +1,7 @@
 <?php
 $currentDT = Carbon\Carbon::now('Europe/Bucharest');
 // $currentDT = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2016-12-10 11:30');
-$maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2018-11-19 00:00');
+$maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2019-11-22 00:00');
 $canSignup = true;
 if($currentDT->gte($maxSignupTime)) {
 	$canSignup = false;
@@ -56,7 +56,7 @@ $isDone = true;
 					<div class="container clearfix">
 						<div class="vertical-middle" style="max-width: 700px;">
 							<div class="heading-block nobottomborder">
-								<h1 style="font-size: 36px;" class="nott font-body">hermesHackathon 2018</h1>
+								<h1 style="font-size: 36px;" class="nott font-body">hermesHackathon 2019</h1>
 								<span style="font-size: 18px;" class="t300 nott ls1 topmargin-sm">coding.start();</span>
 							</div>
 							<div class="bottommargin clearfix" style="display:block; border-top:1px solid rgba(255,255,255,0.2); border-bottom:1px solid rgba(255,255,255,0.2); max-width: 350px; padding: 15px 0; font-size: 16px;">
@@ -271,7 +271,75 @@ $isDone = true;
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-md-12 text-center">
+									<div class="nomargin">
+										<div class="container clearfix topmargin-sm">
+											<div class="divcenter center" style="max-width: 900px;">
+												<h3><small><input class="topmargin-sm text-center" type="checkbox"  onclick="acceptGDPR()" id="accept" value="Politici">
+														I accept the processing of personal data by the Hermes Society, within the Hermes Hackathon contest.<br>
+													</small>
+												</h3>
+												<h3><small> <input type="checkbox" onclick="showDetailsGdpr()" id="showGdpr">
+														See more about personal data processing:
+													</small>
+												</h3>
+											</div>
+
+											<div class="divcenter center" style="max-width: 900px;display: none" id="detailsGdpr" >
+												<b>Agreement on the Privacy Policy</b><br>
+												This form contains information about the data collected from you. In collecting this data,<br>
+												according to the law, we must provide you with information about us, the reasons why we<br>
+												collect the data and how we will use it, as well as the rights that you have regarding<br>
+												your personal data. Through this form we ask you to express your consent in order to use<br>
+												the processing of personal data, for the purposes specified herein. Please fill in this<br>
+												form only if you agree to give us this consent for the purposes specified below.<br><br>
+
+												<b>Who are we?</b>
+												<br>
+												The name of the company requesting your consent for the use of your data,  <br>
+												for the purposes specified in this form, is:   <br>
+												HERMES SOCIETY  <br>
+												 str. Bogdan Petriceicu, nr.45, room H4   <br>
+												 Cluj-Napoca, Cluj County, Romania  <br>
+												 <br>
+
+												 <b>We want to use the following personal data:</b>
+												 <br>
+												 Name and Surname  <br>
+												 E-mail address  <br>
+												 Phone number   <br><br>
+
+												 <b>Use of your data</b>
+												 <br>
+												Your data will be used exclusively for contact purposes within the "Hermes Hackathon" contest.   <br>
+												With your consent, your data can <b>only</b> be transmitted in the Hermes Society to be contacted <br>
+												regarding the status of the event. You may at any time withdraw your consent for future use, storage,   <br>
+												distribution or disclosure of your personal data. However, please note that withdrawing your consent <br>
+												will only affect the further processing of your personal data and will not affect the legality  <br>
+												of the processing already carried out.<br>
+
+												<br>
+												<b>Withdrawal of consent</b>   <br>
+												You can withdraw your consent at any time by email:   <br>
+												contact@societatea-hermes.ro.   <br>
+												<br><br>
+
+												<b>Duration of data retention</b>
+												<br>
+												We will keep your data for 2 months from the date of its supply to us.  <br><br>
+
+												<b>Contact</b>
+												<br>
+												If you have questions, complaints or need you additional information about    <br>
+												this Privacy Policy, please contact us at the email address:  <br>
+												contact@societatea-hermes.ro.   <br>
+
+											</div>
+										</div>
+									</div>
+{{--									<div class="col-md-12 text-center" >--}}
+{{--										<input class="topmargin-sm text-center" type="checkbox"  onclick="acceptGDPR()" id="accept" value="Politici"> Accept prelucrarea datelor personale de catre Societatea Hermes, in cadrul evenimentului Hermes Hackathon.<br>--}}
+{{--									</div>--}}
+									<div class="col-md-12 text-center"  id="gdpr" style="display: none">
 										<button class="button button-border button-circle topmargin-sm" type="submit" onclick="signupTeam();return false;">Sign up</button>
 									</div>
 								</div>
@@ -285,14 +353,14 @@ $isDone = true;
 						<div class="container clearfix">
 							<div class="divcenter center" style="max-width: 900px;">
 								<h2 class="nobottommargin t300 ls1">Partners</h2>
-								{{--<h3 class="nobottommargin t300 lsl">To be a</h3>--}}
+								<h3 class="nobottommargin t300 lsl">To be announced</h3>
 							</div>
 						</div>
 						<div class="container clearfix">
 							<div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="80" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xxs="2" data-items-xs="3" data-items-sm="4" data-items-md="5" data-items-lg="6">
-								<div class="oc-item"><a href="https://www.brd.ro/en" target="_blank"><img src="/images/partners/2018/brd.jpg" alt="BRD"></a></div>
-								<div class="oc-item"><a href="https://www.facebook.com/ThatDevSpaceClujNapoca/" target="_blank"><img src="/images/partners/2017/rendered/devspace.png" alt="thatdevspace"></a></div>
-								<div class="oc-item"><a href="https://wayfare.ro/" target="_blank"><img src="https://wayfare.ro/wp-content/uploads/2016/11/logo_wayfare_rgb@1x.png" alt="WAYFARE"></a></div>
+{{--								<div class="oc-item"><a href="https://techntrade.ro/" target="_blank"><img src="/images/partners/2019/techntrade.jpg" alt="Techntrade"></a></div>--}}
+{{--								<div class="oc-item"><a href="https://www.facebook.com/ThatDevSpaceClujNapoca/" target="_blank"><img src="/images/partners/2017/rendered/devspace.png" alt="thatdevspace"></a></div>--}}
+{{--								<div class="oc-item"><a href="https://wayfare.ro/" target="_blank"><img src="https://wayfare.ro/wp-content/uploads/2016/11/logo_wayfare_rgb@1x.png" alt="WAYFARE"></a></div>--}}
 						</div>
 						</div>
 					</div>
@@ -307,11 +375,11 @@ $isDone = true;
 								<h3 class="font-body t400 ls1">hermesHackathon location</h3>
 								<div style="font-size: 16px; line-height: 1.7;">
 									<address style="line-height: 1.7;">
-										<strong>thatdevspace</strong><br>
-										Brașov 37 Street, <br />Cluj-Napoca 400072, <br />Romania
+										<strong>Techntrade</strong><br>
+										Teodor Mihali 62 Street, <br />Cluj-Napoca 400000, <br />Romania
 									</address>
 									<div class="clear topmargin"></div>
-									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (+40) 751.452-668<br>
+{{--									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (+40) 751.452-668<br>--}}
 									<abbr title="Email Address"><strong>Email:</strong></abbr> hackathon@societatea-hermes.ro
 								</div>
 							</div>
@@ -328,7 +396,7 @@ $isDone = true;
 			<div class="container center">
 				<div class="footer-widgets-wrap nobottompadding">
 					<div class="row divcenter clearfix">
-						<div class="col-md-4">
+						<div class="col-md-6">
 							<div class="widget clearfix">
 								<h4>Site Links</h4>
 								<ul class="list-unstyled footer-site-links nobottommargin">
@@ -344,17 +412,17 @@ $isDone = true;
 								</ul>
 							</div>
 						</div>
-						<div class="col-md-4">
-							<div class="widget subscribe-widget clearfix" data-loader="button">
-								<h4>Subscribe</h4>
-								<div class="widget-subscribe-form-result"></div>
-								<form id="widget-subscribe-form" role="form" method="post" class="nobottommargin">
-									<input type="email" id="email" name="email" class="form-control input-lg not-dark required email" placeholder="Your Email Address">
-									<button class="button button-border button-circle button-light topmargin-sm" type="submit" onclick="subscribeToNewsletter();return false;">Subscribe Now</button>
-								</form>
-							</div>
-						</div>
-						<div class="col-md-4">
+{{--						<div class="col-md-4">--}}
+{{--							<div class="widget subscribe-widget clearfix" data-loader="button">--}}
+{{--								<h4>Subscribe</h4>--}}
+{{--								<div class="widget-subscribe-form-result"></div>--}}
+{{--								<form id="widget-subscribe-form" role="form" method="post" class="nobottommargin">--}}
+{{--									<input type="email" id="email" name="email" class="form-control input-lg not-dark required email" placeholder="Your Email Address">--}}
+{{--									<button class="button button-border button-circle button-light topmargin-sm" type="submit" onclick="subscribeToNewsletter();return false;">Subscribe Now</button>--}}
+{{--								</form>--}}
+{{--							</div>--}}
+{{--						</div>--}}
+						<div class="col-md-6">
 							<div class="widget clearfix">
 								<h4>Contact<br /><small>Societatea Hermes</small></h4>
 								<p class="lead">Cantina Hasdeu, <br />Complex Studentesc Hasdeu, <br />Bogdan Petriceicu Hasdeu street, number 45, <br />Cluj-Napoca <br />Romania</p>
@@ -393,13 +461,13 @@ $isDone = true;
 
 			// Google Map
 			jQuery('#headquarters-map').gMap({
-				address: 'Strada Brașov 37, Cluj-Napoca',
+				address: 'Strada Teodor Mihali 62, Cluj-Napoca',
 				maptype: 'ROADMAP',
 				zoom: 16,
 				markers: [
 					{
-						address: "Strada Brașov 37, Cluj-Napoca",
-						html: "Strada Brașov 37",
+						address: "Strada Teodor Mihali 62, Cluj-Napoca",
+						html: "Strada Teodor Mihali 62",
 						icon: {
 							image: "images/icons/map-icon-red.png",
 							iconsize: [32, 39],
