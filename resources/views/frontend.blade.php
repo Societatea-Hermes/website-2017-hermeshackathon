@@ -223,25 +223,6 @@ $isDone = true;
 									</div>
 								</div>
 
-{{--								additional questions--}}
-
-								<div class="row">
-									<div class="col-md-6 col-md-offset-3">
-										<input type="text" id="team-joke" name="team-joke" class="form-control input-lg required" placeholder="Tell us a joke :))">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-6 col-md-offset-3">
-										<input type="text" id="team-balloons" name="team-balloons" class="form-control input-lg required" placeholder="How many balloons enter in a 5x5x5 room">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-6 col-md-offset-3">
-										<input type="text" id="team-theme" name="team-theme" class="form-control input-lg required" placeholder="Do you have a project idea? Tell us more!">
-									</div>
-								</div>
-
-{{--								end of additional questions --}}
 
 								<div class="clearfix">&nbsp;</div>
 								<div class="row">
@@ -291,6 +272,30 @@ $isDone = true;
 										<input type="text" id="member4-phone" name="member4-phone" class="form-control input-lg required" placeholder="Member 4 phone">
 									</div>
 								</div>
+
+
+								{{--								additional questions--}}
+								<div class="clearfix">&nbsp;</div>
+								<div class="row">
+									<div class="col-md-6 col-md-offset-3">
+										<input type="text" id="team-joke" name="team-joke" class="form-control input-lg required" placeholder="Tell us a joke :))">
+									</div>
+								</div>
+								<div class="clearfix">&nbsp;</div>
+								<div class="row">
+									<div class="col-md-6 col-md-offset-3">
+										<input type="text" id="team-balloons" name="team-balloons" class="form-control input-lg required" placeholder="How many balloons enter in a 5x5x5 room?">
+									</div>
+								</div>
+								<div class="clearfix">&nbsp;</div>
+								<div class="row">
+									<div class="col-md-6 col-md-offset-3">
+										<input type="text" id="team-theme" name="team-theme" class="form-control input-lg required" placeholder="Do you have any project idea? Tell us more!">
+									</div>
+								</div>
+
+								{{--								end of additional questions --}}
+
 								<div class="row">
 									<div class="nomargin">
 										<div class="container clearfix topmargin-sm">
