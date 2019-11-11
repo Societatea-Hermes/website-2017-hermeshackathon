@@ -89,6 +89,9 @@ function showDetailsGdpr() {
 
 function signupTeam() {
 	var teamName = $('#team-name').val();
+	var teamJoke = $('#team-joke').val();
+	var teamTheme = $('#team-theme').val();
+	var teamBalloons = $('#team-balloons').val();
 	var teamLeadName = $('#member1-name').val();
 	var teamLeadEmail = $('#member1-email').val();
 	var teamLeadPhone = $('#member1-phone').val();
@@ -104,6 +107,9 @@ function signupTeam() {
 		dataType: 'json',
 		data: {
 			team: teamName,
+			joke: teamJoke,
+			theme: teamTheme,
+			balloons: teamBalloons,
 			teamLeadName: teamLeadName,
 			teamLeadEmail: teamLeadEmail,
 			teamLeadPhone: teamLeadPhone,
@@ -124,6 +130,10 @@ function signupTeam() {
 			if(response.success == 1) {
 				toastr.success('Thank you for signing up!');
 				$('#team-name').val("");
+				$('#team-joke').val("");
+				$('#team-balloons').val("");
+				$('#team-theme').val("");
+
 				$('#member1-name').val("");
 				$('#member1-email').val("");
 

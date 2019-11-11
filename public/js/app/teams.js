@@ -19,17 +19,32 @@ function loadSubscribersGrid() {
     params.shrinkToFit = true;
     params.colNames = [
         'Team name',
+        'Joke',
+        'Ballons',
+        'Theme',
         'Created at'
     ];
     params.colModel = [
         {
             name: 'name',
             index: 'name',
+            width: 100
+        }, {
+            name: 'joke',
+            index: 'joke',
+            width: 200
+        }, {
+            name: 'balloons',
+            index: 'balloons',
+            width: 200
+        }, {
+            name: 'theme',
+            index: 'theme',
             width: 200
         }, {
             name: 'created_at',
             index: 'created_at',
-            width: 200
+            width: 100
         }
     ];
     params.rowNum = 25;
