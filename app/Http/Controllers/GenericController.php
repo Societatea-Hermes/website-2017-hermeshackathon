@@ -38,8 +38,8 @@ class GenericController extends Controller
         $timeline = array(
 
             'Event opening' => array(
-                'start_date' => '2019-11-23 11:00',
-                'end_date' => '2019-11-23 11:30'
+                'start_date' => '2019-11-23 12:30',
+                'end_date' => '2019-11-23 13:00'
             ),
 //            'Awards ceremony' => array(
 //                'start_date' => '2019-11-24 16:00',
