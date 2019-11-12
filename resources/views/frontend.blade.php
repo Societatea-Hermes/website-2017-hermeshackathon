@@ -205,7 +205,7 @@ $isDone = true;
 						<div class="container clearfix">
 							<div class="divcenter center" style="max-width: 900px;">
 								<h2 class="nobottommargin t300 ls1">Sign up <br /><small>Your team can have up to 4 members.</small></h2>
-								<h3><small>The sign-up form is open until November the 22nd at 12.00. Due to the large number of teams that signed up, we chose to end the formular earlier. Thank you for choosing hermesHackathon :) </small></h3>
+{{--								<h3><small>The sign-up form is open until November the 22nd at 12.00. Due to the large number of teams that signed up, we chose to end the formular earlier. Thank you for choosing hermesHackathon :) </small></h3>--}}
 							</div>
 						</div>
 					</div>
@@ -273,6 +273,17 @@ $isDone = true;
 									</div>
 								</div>
 
+
+								<div class="clearfix">&nbsp;</div>
+								<div class="clearfix">&nbsp;</div>
+								<div class="nomargin">
+									<div class="container clearfix">
+										<div class="divcenter center" style="max-width: 900px;">
+{{--											<h2 class="nobottommargin t300 ls1">Sign up <br /><small>Your team can have up to 4 members.</small></h2>--}}
+											<h3><small> Please accept the data processing policy and fill the questions below. Let the code begin!</small></h3>
+										</div>
+									</div>
+								</div>
 
 								{{--								additional questions--}}
 								<div class="clearfix">&nbsp;</div>
