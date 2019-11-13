@@ -65,18 +65,18 @@ class GenericController extends Controller
                 'start_date'=> '2019-11-23 19:00',
                 'end_date' => '2019-11-23 20:59'
             ),
-            'Pizza time' => array(
-                'start_date' => '2019-11-24 21:00',
-                'end_date' => '2019-11-24 21:45'
-            ),
+//            'Pizza time' => array(
+//                'start_date' => '2019-11-24 21:00',
+//                'end_date' => '2019-11-24 21:45'
+//            ),
 //            'Work time &amp; mentoring' => array(
 //                'start_date' => '2019-11-24 00:30',
 //                'end_date' => '2019-11-24 09:00'
 //            ),
-            'Breakfast' => array(
-                'start_date' => '2019-11-24 09:00',
-                'end_date' => '2019-11-24 10:00'
-            ),
+//            'Breakfast' => array(
+//                'start_date' => '2019-11-24 09:00',
+//                'end_date' => '2019-11-24 10:00'
+//            ),
             'Preparation for the demo and the final pitch' => array(
                 'start_date' => '2019-11-24 10:00',
                 'end_date' => '2019-11-24 13:00'
