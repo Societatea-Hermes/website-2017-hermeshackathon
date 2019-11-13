@@ -390,7 +390,7 @@ $isDone = true;
 						<div class="container clearfix">
 							<div class="divcenter center" style="max-width: 900px;">
 								<h2 class="nobottommargin t300 ls1">Partners</h2>
-{{--								<h3 class="nobottommargin t300 lsl">To be announced</h3>--}}
+								<h3 class="nobottommargin t300 lsl">To be announced</h3>
 							</div>
 						</div>
 						<div class="container clearfix">
