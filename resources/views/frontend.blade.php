@@ -396,8 +396,8 @@ $isDone = true;
 							</div>
 						</div>
 						<div class="container clearfix">
-							<div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="50" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xxs="1" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-lg="4">
-								<div class="oc-item"><a href="https://techntrade.ro/" target="_blank"><img src="/images/partners/2019/techntrade.png" alt="TECH'N TRADE"></a></div>
+							<div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="50" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xxs="1" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5">
+								<div class="oc-item"><a href="https://techntrade.ro/" target="_blank"><img src="/images/partners/2019/techntrade.jpg" alt="TECH'N TRADE"></a></div>
 {{--								<div class="oc-item"><a href="https://www.facebook.com/ThatDevSpaceClujNapoca/" target="_blank"><img src="/images/partners/2017/rendered/devspace.png" alt="thatdevspace"></a></div>--}}
 {{--								<div class="oc-item"><a href="https://wayfare.ro/" target="_blank"><img src="https://wayfare.ro/wp-content/uploads/2016/11/logo_wayfare_rgb@1x.png" alt="WAYFARE"></a></div>--}}
 						</div>
