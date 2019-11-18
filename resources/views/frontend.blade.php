@@ -205,7 +205,9 @@ $isDone = true;
 						<div class="container clearfix">
 							<div class="divcenter center" style="max-width: 900px;">
 								<h2 class="nobottommargin t300 ls1">Sign up <br /><small>Your team can have up to 4 members.</small></h2>
-{{--								<h3><small>The sign-up form is open until November the 22nd at 12.00. Due to the large number of teams that signed up, we chose to end the formular earlier. Thank you for choosing hermesHackathon :) </small></h3>--}}
+								<h3><small> Due to the large number of participants, we decided to end the registration on 20th November at 23:59.</small></h3>
+
+								{{--								<h3><small>The sign-up form is open until November the 22nd at 12.00. Due to the large number of teams that signed up, we chose to end the formular earlier. Thank you for choosing hermesHackathon :) </small></h3>--}}
 							</div>
 						</div>
 					</div>
@@ -390,12 +392,12 @@ $isDone = true;
 						<div class="container clearfix">
 							<div class="divcenter center" style="max-width: 900px;">
 								<h2 class="nobottommargin t300 ls1">Partners</h2>
-								<h3 class="nobottommargin t300 lsl">To be announced</h3>
+{{--								<h3 class="nobottommargin t300 lsl">To be announced</h3>--}}
 							</div>
 						</div>
 						<div class="container clearfix">
-							<div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="50" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xxs="1" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5">
-{{--								<div class="oc-item"><a href="https://techntrade.ro/" target="_blank"><img src="/images/partners/2019/techntrade.png" alt="TECH'N TRADE"></a></div>--}}
+							<div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="50" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xxs="1" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-lg="4">
+								<div class="oc-item"><a href="https://techntrade.ro/" target="_blank"><img src="/images/partners/2019/techntrade.png" alt="TECH'N TRADE"></a></div>
 {{--								<div class="oc-item"><a href="https://www.facebook.com/ThatDevSpaceClujNapoca/" target="_blank"><img src="/images/partners/2017/rendered/devspace.png" alt="thatdevspace"></a></div>--}}
 {{--								<div class="oc-item"><a href="https://wayfare.ro/" target="_blank"><img src="https://wayfare.ro/wp-content/uploads/2016/11/logo_wayfare_rgb@1x.png" alt="WAYFARE"></a></div>--}}
 						</div>
