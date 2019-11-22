@@ -403,6 +403,7 @@ $isDone = true;
 								<div class="oc-item"><a href="http://lasertag-cluj.ro/ro/" target="_blank"><img src="/images/partners/2019/laser_tag.png" alt="LASER TAG"></a></div>
 								<div class="oc-item"><a href="https://laserflash.ro/rezervare/" target="_blank"><img src="/images/partners/2019/laser_flash.jpg" alt="LASER FLASH"></a></div>
 								<div class="oc-item"><a href="https://newagepizza.ro/" target="_blank"><img src="/images/partners/2019/new_age_pizz.jpg" alt="NEW AGE PIZZA"></a></div>
+								<div class="oc-item"><a href="https://www.fortech.ro/" target="_blank"><img src="/images/partners/2019/fortech.jpg" alt="FORTECH"></a></div>
 						</div>
 						</div>
 					</div>
