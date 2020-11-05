@@ -412,14 +412,14 @@ $isDone = true;
 				@if($isDone)
 				<div id="section-contact" class="page-section nopadding">
 					<div class="row noleftmargin nomargin bottommargin-lg common-height">
-						<div id="headquarters-map" class="col-md-8 col-sm-6 gmap hidden-xs nopadding"></div>
-						<div class="col-md-4 col-sm-6 dark" style="background-color: rgb(51, 51, 51);">
-							<div class="col-padding max-height">
+{{--						<div id="headquarters-map" class="col-md-8 col-sm-6 gmap hidden-xs nopadding"></div>--}}
+						<div class="col-md col-sm dark" style="background-color: rgb(51, 51, 51);">
+							<div class="col-padding max-height center">
 								<h3 class="font-body t400 ls1">hermesHackathon location</h3>
 								<div style="font-size: 16px; line-height: 1.7;">
 									<address style="line-height: 1.7;">
-										<strong>Techntrade</strong><br>
-										Teodor Mihali 62 Street, <br />Cluj-Napoca 400000, <br />Romania
+										<h2>Online</h2><br>
+										Due to current situation, we've <br> decided to move everything online
 									</address>
 									<div class="clear topmargin"></div>
 {{--									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (+40) 751.452-668<br>--}}
@@ -435,7 +435,7 @@ $isDone = true;
 
 		<!-- Footer
 		============================================= -->
-		<footer id="footer" class="dark noborder">
+		<footer id="footer" class="lightgrey noborder">
 			<div class="container center">
 				<div class="footer-widgets-wrap nobottompadding">
 					<div class="row divcenter clearfix">

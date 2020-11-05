@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="Image location fix">
-      <change afterPath="$PROJECT_DIR$/public/images/categories_2020/health_lifestyle.png" afterDir="false" />
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="Image location fix and count down reset">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app/comming_soon.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app/comming_soon.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +179,7 @@
       <workItem from="1573382215257" duration="12137000" />
       <workItem from="1604272543335" duration="8134000" />
       <workItem from="1604560427620" duration="3598000" />
-      <workItem from="1604570901196" duration="7402000" />
+      <workItem from="1604570901196" duration="10627000" />
     </task>
     <task id="LOCAL-00001" summary="tables altered to be successfully created with xampp mysql --- unsignedInteger() instead of integer() for the foreign key columns">
       <created>1573385174444</created>
@@ -232,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604575520793</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Image location fix and count down reset">
+      <created>1604578616918</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604578616919</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -267,7 +272,8 @@
     <MESSAGE value="themes updated according to the 2020 event" />
     <MESSAGE value="Registration date updated" />
     <MESSAGE value="Image location fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Image location fix" />
+    <MESSAGE value="Image location fix and count down reset" />
+    <option name="LAST_COMMIT_MESSAGE" value="Image location fix and count down reset" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2199" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604572089838">
