@@ -107,15 +107,15 @@ $isDone = true;
 									<div class="col-md-3 col-sm-6 col-padding">
 										<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
 											<div class="fbox-icon">
-												<img src="/images/categories_2018/education.png">
+												<img src="/images/categories_2020/online-course.png">
 											</div>
-											<h3>Education</h3>
+											<h3>Online Education</h3>
 										</div>
 									</div>
 									<div class="col-md-3 col-sm-6 col-padding">
 										<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
 											<div class="fbox-icon">
-												<img src="/images/categories_2018/farming.png">
+												<img src="/images/categories_2020/farming.png">
 											</div>
 											<h3>Smart agriculture</h3>
 										</div>
@@ -124,9 +124,9 @@ $isDone = true;
 									<div class="col-md-3 col-sm-6 col-padding">
 										<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
 											<div class="fbox-icon">
-												<img src="/images/categories_2018/smart_city.png">
+												<img src="/images/categories_2020/desk.png">
 											</div>
-											<h3>Smart city</h3>
+											<h3>Work from home</h3>
 										</div>
 									</div>
 									<div class="col-md-3 col-sm-6 col-padding">
@@ -134,7 +134,7 @@ $isDone = true;
 											<div class="fbox-icon">
 												<img src="/images/categories_2018/health_lifestyle.png">
 											</div>
-											<h3>Health & lifestyle</h3>
+											<h3>Medical soft</h3>
 										</div>
 									</div>
 								</div>
