@@ -132,7 +132,7 @@ $isDone = true;
 									<div class="col-md-3 col-sm-6 col-padding">
 										<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
 											<div class="fbox-icon">
-												<img src="/images/categories_2018/health_lifestyle.png">
+												<img src="/images/categories_2020/health_lifestyle.png">
 											</div>
 											<h3>Medical soft</h3>
 										</div>
@@ -205,9 +205,8 @@ $isDone = true;
 						<div class="container clearfix">
 							<div class="divcenter center" style="max-width: 900px;">
 								<h2 class="nobottommargin t300 ls1">Sign up <br /><small>Your team can have up to 4 members.</small></h2>
-								<h3><small> Due to the large number of participants, we decided to end the registration on 19th November at 23:59.</small></h3>
-
-								{{--								<h3><small>The sign-up form is open until November the 22nd at 12.00. Due to the large number of teams that signed up, we chose to end the formular earlier. Thank you for choosing hermesHackathon :) </small></h3>--}}
+{{--								<h3><small> Due to the large number of participants, we decided to end the registration on 19th November at 23:59.</small></h3>--}}
+								<h3><small>The sign-up form is open until November the 17th at 23:59. Thank you for choosing hermesHackathon :) </small></h3>
 							</div>
 						</div>
 					</div>
