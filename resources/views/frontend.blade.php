@@ -390,14 +390,12 @@ $isDone = true;
 							</div>
 						</div>
 						<div class="container clearfix">
-							<div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="50" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xxs="1" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5">
-								<div class="oc-item"><a href="https://techntrade.ro/" target="_blank"><img src="/images/partners/2019/techntrade.jpg" alt="TECH'N TRADE"></a></div>
-								<div class="oc-item"><a href="https://www.takeaway.com/ro/fresgo?gclid=Cj0KCQiAiNnuBRD3ARIsAM8Kmlsg7M53ULhVr-FNDjn6KcsNPwribTHHIJ1RJ5U8kvJAVK_t1QZKsHIaAlaoEALw_wcB&gclsrc=aw.ds" target="_blank"><img src="/images/partners/2019/fresgo.jpg" alt="FRESGO"></a></div>
-								<div class="oc-item"><a href="https://hotpipes.ro/" target="_blank"><img src="/images/partners/2019/hot_pipes.jpg" alt="HOT PIPES"></a></div>
-								<div class="oc-item"><a href="http://lasertag-cluj.ro/ro/" target="_blank"><img src="/images/partners/2019/laser_tag.png" alt="LASER TAG"></a></div>
-								<div class="oc-item"><a href="https://laserflash.ro/rezervare/" target="_blank"><img src="/images/partners/2019/laser_flash.jpg" alt="LASER FLASH"></a></div>
-								<div class="oc-item"><a href="https://newagepizza.ro/" target="_blank"><img src="/images/partners/2019/new_age_pizz.jpg" alt="NEW AGE PIZZA"></a></div>
-								<div class="oc-item"><a href="https://www.fortech.ro/" target="_blank"><img src="/images/partners/2019/fortech.jpg" alt="FORTECH"></a></div>
+							<div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="50" data-loop="true" data-nav="false" data-autoplay="5000000" data-pagi="false" data-items-xxs="1" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5">
+								<div class="oc-item"><a></a></div>
+								<div class="oc-item"><a href="https://www.metrosystems.ro/" target="_blank"><img src="/images/partners/2020/techntrade.jpg" alt="Metro systems"></a></div>
+								<div class="oc-item"><a></a></div>
+								<div class="oc-item"><a href="https://careers.yardiromania.ro/" target="_blank"><img src="/images/partners/2020/Logo-Yardi-black.png" alt="TECH'N TRADE"></a></div>
+								<div class="oc-item"><a></a></div>
 						</div>
 						</div>
 					</div>
