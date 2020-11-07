@@ -20,7 +20,6 @@ function loadSubscribersGrid() {
     params.colNames = [
         'Team name',
         'Joke',
-        'Ballons',
         'Theme',
         'Created at'
     ];
@@ -32,10 +31,6 @@ function loadSubscribersGrid() {
         }, {
             name: 'joke',
             index: 'joke',
-            width: 200
-        }, {
-            name: 'balloons',
-            index: 'balloons',
             width: 200
         }, {
             name: 'theme',

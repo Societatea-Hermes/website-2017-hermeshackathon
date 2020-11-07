@@ -30,7 +30,6 @@ class TeamController extends Controller
     	// Prereq..
     	$teamName = Input::get('team');
     	$teamJoke = Input::get('joke');
-    	$teamBalloons = Input::get('balloons');
     	$teamTheme = Input::get('theme');
     	$teamLead = Input::get('teamLeadName');
         $teamLeadEmail = Input::get('teamLeadEmail');
@@ -55,7 +54,6 @@ class TeamController extends Controller
 
     	$team->name = $teamName;
     	$team->joke = $teamJoke;
-    	$team->balloons = $teamBalloons;
     	$team->theme = $teamTheme;
     	$team->creation_ip = $req->ip();
     	$team->save();
@@ -155,7 +153,6 @@ class TeamController extends Controller
                 	$team->name,
                 	$team->theme,
                 	$team->joke,
-                	$team->balloons,
                     $team->created_at->format('Y-m-d H:i:s')
                 )
             );
