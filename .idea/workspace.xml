@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="Automatic sign up form setup and old timeline clear">
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="Dates updated for 2020">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app/comming_soon.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app/comming_soon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/template.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +180,7 @@
       <workItem from="1573382215257" duration="12137000" />
       <workItem from="1604272543335" duration="8134000" />
       <workItem from="1604560427620" duration="3598000" />
-      <workItem from="1604570901196" duration="19044000" />
+      <workItem from="1604570901196" duration="19133000" />
     </task>
     <task id="LOCAL-00001" summary="tables altered to be successfully created with xampp mysql --- unsignedInteger() instead of integer() for the foreign key columns">
       <created>1573385174444</created>
@@ -254,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604844112558</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Dates updated for 2020">
+      <created>1604846874414</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604846874414</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -292,7 +297,8 @@
     <MESSAGE value="Image location fix and count down reset" />
     <MESSAGE value="Footer updated for online version" />
     <MESSAGE value="Automatic sign up form setup and old timeline clear" />
-    <option name="LAST_COMMIT_MESSAGE" value="Automatic sign up form setup and old timeline clear" />
+    <MESSAGE value="Dates updated for 2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dates updated for 2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2199" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604572089838">
@@ -324,10 +330,10 @@
     </state>
     <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604509236407" />
     <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604572278786" />
-    <state x="2586" y="119" width="585" height="801" key="find.popup" timestamp="1604846845388">
+    <state x="2586" y="119" width="585" height="801" key="find.popup" timestamp="1604846911905">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2586" y="119" width="585" height="801" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604846845388" />
+    <state x="2586" y="119" width="585" height="801" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604846911905" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604846521103">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
