@@ -37,71 +37,71 @@ class GenericController extends Controller
 
         $timeline = array(
 
-            'Event opening' => array(
-                'start_date' => '2019-11-23 12:30',
-                'end_date' => '2019-11-23 13:00'
-            ),
+//            'Event opening' => array(
+//                'start_date' => '2019-11-23 12:30',
+//                'end_date' => '2019-11-23 13:00'
+//            ),
+////            'Awards ceremony' => array(
+////                'start_date' => '2019-11-24 16:00',
+////                'end_date' => '2019-11-24 17:00'
+////            )
+////            'Official start' => array(
+////                'start_date' => '2019-11-23 12:30',
+////                'end_date' => '2019-11-23 13:00'
+////            ),
+//            'Contest begins' => array(
+//                'start_date' => '2019-11-23 13:00',
+//                'end_date' => '2019-11-23 14:00'
+//            ),
+//            'Work time &amp; mentoring  ' => array(
+//                'start_date'=> '2019-11-23 14:00',
+//                'end_date' => '2019-11-23 16:00'
+//            ),
+//            'Lunch break' => array(
+//                'start_date' => '2019-11-23 17:00',
+//                'end_date' => '2019-11-23 17:30'
+//            ),
+//            'Work time &amp; mentoring ' => array(
+//                'start_date'=> '2019-11-23 19:00',
+//                'end_date' => '2019-11-23 20:59'
+//            ),
+//            'Dinner time' => array(
+//                'start_date' => '2019-11-24 23:00',
+//                'end_date' => '2019-11-24 23:30'
+//            ),
+////            'Work time &amp; mentoring' => array(
+////                'start_date' => '2019-11-24 00:30',
+////                'end_date' => '2019-11-24 09:00'
+////            ),
+//            'Breakfast' => array(
+//                'start_date' => '2019-11-24 06:30',
+//                'end_date' => '2019-11-24 7:00'
+//            ),
+//            'Preparation for the demo and the final pitch' => array(
+//                'start_date' => '2019-11-24 10:00',
+//                'end_date' => '2019-11-24 13:00'
+//
+//            ),'Contest finishes' => array(
+//                'start_date' => '2019-11-24 13:00',
+//                'end_date' => '2019-11-24 13:00'
+//            ),
+//            'Lunch break ' => array(
+//                'start_date' => '2019-11-24 13:00',
+//                'end_date' => '2019-11-24 13:15'
+//            ),
+//////            'Technical Demo &amp; Final pitch (3m / team) &amp; jury questions (2m / team)' => array(
+//            'Technical Demo &amp; Final pitch' => array(
+//                'start_date' => '2019-11-24 13:15',
+//                'end_date' => '2019-11-24 15:00'
+//            ),
+//            'Chillout time &amp; networking (jury debate in the meantime)' => array(
+//                'start_date' => '2019-11-24 15:00',
+//                'end_date' => '2019-11-24 16:00'
+//            ),
 //            'Awards ceremony' => array(
 //                'start_date' => '2019-11-24 16:00',
 //                'end_date' => '2019-11-24 17:00'
 //            )
-//            'Official start' => array(
-//                'start_date' => '2019-11-23 12:30',
-//                'end_date' => '2019-11-23 13:00'
-//            ),
-            'Contest begins' => array(
-                'start_date' => '2019-11-23 13:00',
-                'end_date' => '2019-11-23 14:00'
-            ),
-            'Work time &amp; mentoring  ' => array(
-                'start_date'=> '2019-11-23 14:00',
-                'end_date' => '2019-11-23 16:00'
-            ),
-            'Lunch break' => array(
-                'start_date' => '2019-11-23 17:00',
-                'end_date' => '2019-11-23 17:30'
-            ),
-            'Work time &amp; mentoring ' => array(
-                'start_date'=> '2019-11-23 19:00',
-                'end_date' => '2019-11-23 20:59'
-            ),
-            'Dinner time' => array(
-                'start_date' => '2019-11-24 23:00',
-                'end_date' => '2019-11-24 23:30'
-            ),
-//            'Work time &amp; mentoring' => array(
-//                'start_date' => '2019-11-24 00:30',
-//                'end_date' => '2019-11-24 09:00'
-//            ),
-            'Breakfast' => array(
-                'start_date' => '2019-11-24 06:30',
-                'end_date' => '2019-11-24 7:00'
-            ),
-            'Preparation for the demo and the final pitch' => array(
-                'start_date' => '2019-11-24 10:00',
-                'end_date' => '2019-11-24 13:00'
-
-            ),'Contest finishes' => array(
-                'start_date' => '2019-11-24 13:00',
-                'end_date' => '2019-11-24 13:00'
-            ),
-            'Lunch break ' => array(
-                'start_date' => '2019-11-24 13:00',
-                'end_date' => '2019-11-24 13:15'
-            ),
-////            'Technical Demo &amp; Final pitch (3m / team) &amp; jury questions (2m / team)' => array(
-            'Technical Demo &amp; Final pitch' => array(
-                'start_date' => '2019-11-24 13:15',
-                'end_date' => '2019-11-24 15:00'
-            ),
-            'Chillout time &amp; networking (jury debate in the meantime)' => array(
-                'start_date' => '2019-11-24 15:00',
-                'end_date' => '2019-11-24 16:00'
-            ),
-            'Awards ceremony' => array(
-                'start_date' => '2019-11-24 16:00',
-                'end_date' => '2019-11-24 17:00'
-            )
         );
 
         $addToView = array(

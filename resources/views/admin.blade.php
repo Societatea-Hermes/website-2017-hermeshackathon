@@ -16,7 +16,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">SSMI Admin page</a>
+				<a class="navbar-brand" href="#">Hackathon Admin page</a>
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->

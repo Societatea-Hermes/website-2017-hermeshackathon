@@ -394,7 +394,7 @@ $isDone = true;
 								<div class="oc-item"><a></a></div>
 								<div class="oc-item"><a href="https://www.metrosystems.ro/" target="_blank"><img src="/images/partners/2020/techntrade.jpg" alt="Metro systems"></a></div>
 								<div class="oc-item"><a></a></div>
-								<div class="oc-item"><a href="https://careers.yardiromania.ro/" target="_blank"><img src="/images/partners/2020/Logo-Yardi-black.png" alt="TECH'N TRADE"></a></div>
+								<div class="oc-item"><a href="https://careers.yardiromania.ro/" target="_blank"><img src="/images/partners/2020/Logo-Yardi-black.png" alt="Yardi Romania"></a></div>
 								<div class="oc-item"><a></a></div>
 						</div>
 						</div>
