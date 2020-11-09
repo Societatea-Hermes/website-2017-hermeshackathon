@@ -128,7 +128,7 @@ $isDone = true;
 											<div class="fbox-icon">
 												<img src="/images/categories_2020/desk.png">
 											</div>
-											<h3>Work from home</h3>
+											<h3>Remote work</h3>
 										</div>
 									</div>
 									<div class="col-md-3 col-sm-6 col-padding">
