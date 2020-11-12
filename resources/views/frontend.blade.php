@@ -207,7 +207,7 @@ $isDone = true;
 						<div class="nomargin">
 							<div class="container clearfix">
 								<div class="divcenter center" style="max-width: 900px;">
-									<h2 class="nobottommargin t300 ls1">Sign up <br />
+                                    <h2 class="nobottommargin t300 ls1">Sign up <br /></h2>
 									{{--								<h3><small> Due to the large number of participants, we decided to end the registration on 19th November at 23:59.</small></h3>--}}
 									<h3><small>The sign-up form will be available starting with November 09th 00:00.</small></h3>
 								</div>
@@ -223,6 +223,7 @@ $isDone = true;
 									<h2 class="nobottommargin t300 ls1">Sign up <br /><small>Your team can have up to 4 members.</small></h2>
 									{{--								<h3><small> Due to the large number of participants, we decided to end the registration on 19th November at 23:59.</small></h3>--}}
 									<h3><small>The sign-up form is open until November the 17th at 23:59. Thank you for choosing hermesHackathon :) </small></h3>
+									<h3><small>*In case the form doesn't show up, please use the incognito mode of your browser.</small></h3>
 								</div>
 							</div>
 						</div>
@@ -399,15 +400,15 @@ $isDone = true;
 {{--								<h3 class="nobottommargin t300 lsl">To be announced</h3>--}}
 							</div>
 						</div>
-						<div class="container clearfix">
-							<div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="50" data-loop="true" data-nav="false" data-autoplay="5000000" data-pagi="false" data-items-xxs="1" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5">
-								<div class="oc-item"><a></a></div>
-								<div class="oc-item"><a href="https://www.metrosystems.ro/" target="_blank"><img src="/images/partners/2020/techntrade.jpg" alt="Metro systems"></a></div>
-								<div class="oc-item"><a></a></div>
-								<div class="oc-item"><a href="https://careers.yardiromania.ro/" target="_blank"><img src="/images/partners/2020/Logo-Yardi-black.png" alt="Yardi Romania"></a></div>
-								<div class="oc-item"><a></a></div>
-						</div>
-						</div>
+                        <div class="container clearfix">
+                            <div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="50" data-loop="true" data-nav="false" data-autoplay="5000000" data-pagi="false" data-items-xxs="1" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5">
+                                <div class="oc-item"><a></a></div>
+                                <div class="oc-item"><a href="https://www.metrosystems.ro/" target="_blank"><img src="/images/partners/2020/techntrade.jpg" alt="Metro systems"></a></div>
+                                <div class="oc-item"><a></a></div>
+                                <div class="oc-item"><a href="https://careers.yardiromania.ro/" target="_blank"><img src="/images/partners/2020/Logo-Yardi-black.png" alt="Yardi Romania"></a></div>
+                                <div class="oc-item"><a></a></div>
+                            </div>
+                        </div>
 					</div>
 				</div>
 
