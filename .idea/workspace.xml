@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="Themes update">
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="Message added in case of form failure">
+      <change afterPath="$PROJECT_DIR$/public/images/partners/2020/accenture_logo_black.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend.blade.php" afterDir="false" />
     </list>
@@ -128,15 +129,16 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Cosmin\Desktop\Hermes\website-2017-hermeshackathon\public\images\partners\2020" />
+      <recent name="C:\Users\Cosmin\Desktop\Hermes\website-2017-hermeshackathon\public\images\categories_2020" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Cosmin\Desktop\Hermes\website-2017-hermeshackathon\public\images\partners\2020" />
       <recent name="C:\Users\Cosmin\Desktop\Hermes\website-2017-hermeshackathon\public\images\categories_2020" />
       <recent name="C:\Hermes\Hackaton-2018\website-2017-hermeshackathon\public\images\categories_2018" />
       <recent name="C:\Hermes\Hackaton-2018\website-2017-hermeshackathon\design-resources" />
       <recent name="C:\Hermes\Hackaton-2018\website-2017-hermeshackathon" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Cosmin\Desktop\Hermes\website-2017-hermeshackathon\public\images\partners\2020" />
-      <recent name="C:\Users\Cosmin\Desktop\Hermes\website-2017-hermeshackathon\public\images\categories_2020" />
     </key>
   </component>
   <component name="RunManager">
@@ -182,7 +184,8 @@
       <workItem from="1604560427620" duration="3598000" />
       <workItem from="1604570901196" duration="22272000" />
       <workItem from="1604910774422" duration="6851000" />
-      <workItem from="1605187278269" duration="519000" />
+      <workItem from="1605187278269" duration="1991000" />
+      <workItem from="1605429470919" duration="714000" />
     </task>
     <task id="LOCAL-00001" summary="tables altered to be successfully created with xampp mysql --- unsignedInteger() instead of integer() for the foreign key columns">
       <created>1573385174444</created>
@@ -275,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604910919162</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Message added in case of form failure">
+      <created>1605187853829</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605187853829</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -316,7 +326,8 @@
     <MESSAGE value="Dates updated for 2020" />
     <MESSAGE value="Dates updated" />
     <MESSAGE value="Themes update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Themes update" />
+    <MESSAGE value="Message added in case of form failure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Message added in case of form failure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2199" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604572089838">

@@ -404,7 +404,7 @@ $isDone = true;
                             <div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="50" data-loop="true" data-nav="false" data-autoplay="5000000" data-pagi="false" data-items-xxs="1" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5">
                                 <div class="oc-item"><a></a></div>
                                 <div class="oc-item"><a href="https://www.metrosystems.ro/" target="_blank"><img src="/images/partners/2020/techntrade.jpg" alt="Metro systems"></a></div>
-                                <div class="oc-item"><a></a></div>
+                                <div class="oc-item"><a href="https://www.accenture.com/ro-en" target="_blank"><img src="/images/partners/2020/accenture_logo_black.jpeg" alt="Accenture"></a></div>
                                 <div class="oc-item"><a href="https://careers.yardiromania.ro/" target="_blank"><img src="/images/partners/2020/Logo-Yardi-black.png" alt="Yardi Romania"></a></div>
                                 <div class="oc-item"><a></a></div>
                             </div>
