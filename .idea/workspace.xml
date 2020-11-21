@@ -22,7 +22,6 @@
     <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="Timeline for 2020 added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/template.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +194,7 @@
       <workItem from="1605187278269" duration="1991000" />
       <workItem from="1605429470919" duration="4153000" />
       <workItem from="1605686447511" duration="2693000" />
-      <workItem from="1605862470991" duration="1867000" />
+      <workItem from="1605862470991" duration="3234000" />
     </task>
     <task id="LOCAL-00001" summary="tables altered to be successfully created with xampp mysql --- unsignedInteger() instead of integer() for the foreign key columns">
       <created>1573385174444</created>

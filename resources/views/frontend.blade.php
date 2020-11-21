@@ -80,12 +80,12 @@ $isDone = true;
 		<section id="content">
 			<div class="content-wrap nopadding">
 				<div id="twitch-live" class="page-section">
-					<div class="container clearfix">
+					<div class="container" style="width: 70%">
 						<h2 class="center">Watch us live</h2>
 						<div class="twitch">
 							<div class="twitch-video">
 								<iframe
-										src="https://player.twitch.tv/?video=v40464143&parent=streamernews.example.com&autoplay=false"
+										src="https://player.twitch.tv/?channel=societatea_hermes&parent=hackathon.societatea-hermes.ro&autoplay=false"
 										height="720"
 										width="1280"
 										frameborder="0"
@@ -97,7 +97,7 @@ $isDone = true;
 								<iframe frameborder="0"
 										scrolling="no"
 										id="chat_embed"
-										src="https://www.twitch.tv/embed/hebo/chat?parent=streamernews.example.com"
+										src="https://www.twitch.tv/embed/societatea_hermes/chat?parent=hackathon.societatea-hermes.ro/"
 										height="500"
 										width="350">
 								</iframe>
