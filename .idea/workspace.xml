@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="Timeline for 2020 added">
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="Twitch updated for website">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend.blade.php" afterDir="false" />
     </list>
@@ -194,7 +194,7 @@
       <workItem from="1605187278269" duration="1991000" />
       <workItem from="1605429470919" duration="4153000" />
       <workItem from="1605686447511" duration="2693000" />
-      <workItem from="1605862470991" duration="3234000" />
+      <workItem from="1605862470991" duration="3537000" />
     </task>
     <task id="LOCAL-00001" summary="tables altered to be successfully created with xampp mysql --- unsignedInteger() instead of integer() for the foreign key columns">
       <created>1573385174444</created>
@@ -308,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605431077669</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Twitch updated for website">
+      <created>1605943658236</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1605943658236</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -352,7 +359,8 @@
     <MESSAGE value="Message added in case of form failure" />
     <MESSAGE value="Accenture added as partner" />
     <MESSAGE value="Timeline for 2020 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Timeline for 2020 added" />
+    <MESSAGE value="Twitch updated for website" />
+    <option name="LAST_COMMIT_MESSAGE" value="Twitch updated for website" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2199" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604572089838">

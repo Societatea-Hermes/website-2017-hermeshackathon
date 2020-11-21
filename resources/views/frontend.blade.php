@@ -97,7 +97,7 @@ $isDone = true;
 								<iframe frameborder="0"
 										scrolling="no"
 										id="chat_embed"
-										src="https://www.twitch.tv/embed/societatea_hermes/chat?parent=hackathon.societatea-hermes.ro/"
+										src="https://www.twitch.tv/embed/societatea_hermes/chat?parent=hackathon.societatea-hermes.ro"
 										height="500"
 										width="350">
 								</iframe>
