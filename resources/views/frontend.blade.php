@@ -79,6 +79,32 @@ $isDone = true;
 		============================================= -->
 		<section id="content">
 			<div class="content-wrap nopadding">
+				<div id="twitch-live" class="page-section">
+					<div class="container clearfix">
+						<h2 class="center">Watch us live</h2>
+						<div class="twitch">
+							<div class="twitch-video">
+								<iframe
+										src="https://player.twitch.tv/?video=v40464143&parent=streamernews.example.com&autoplay=false"
+										height="720"
+										width="1280"
+										frameborder="0"
+										scrolling="no"
+										allowfullscreen="true">
+								</iframe>
+							</div>
+							<div class="twitch-chat">
+								<iframe frameborder="0"
+										scrolling="no"
+										id="chat_embed"
+										src="https://www.twitch.tv/embed/hebo/chat?parent=streamernews.example.com"
+										height="500"
+										width="350">
+								</iframe>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div id="section-about" class="center page-section">
 					<div class="container clearfix">
 						<h2 class="divcenter bottommargin font-body" style="max-width: 700px; font-size: 40px;">GENERAL INFORMATION</h2>

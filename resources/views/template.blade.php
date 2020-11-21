@@ -19,8 +19,8 @@ $isProduction = App::environment() == 'production' ? true : false;
 		<link rel="stylesheet" href="/css/magnific-popup.css" type="text/css" />
 		<link rel="stylesheet" href="/css/calendar.css" type="text/css" />
 		<link rel="stylesheet" href="/css/et-line.css" type="text/css" />
+		<link rel="stylesheet" href="/css/twitch.css">
 		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" type="text/css" />
-
 		<link rel="stylesheet" href="css/responsive.css" type="text/css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
