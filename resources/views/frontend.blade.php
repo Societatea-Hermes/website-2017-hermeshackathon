@@ -1,8 +1,8 @@
 <?php
 $currentDT = Carbon\Carbon::now('Europe/Bucharest');
 // $currentDT = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2016-12-10 11:30');
-$maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2020-11-17 23:59');
-$minSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2020-11-09 00:00');
+$maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2021-11-14 23:59');
+$minSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2021-11-08 10:00'); /// e cu 2 ore in urma: adica daca setezi sa se porneasca la 10, e o sa inceapa la 12
 $canSignup = true;
 if($currentDT->gte($maxSignupTime) || $currentDT->lte($minSignupTime)) {
 	$canSignup = false;
@@ -57,7 +57,7 @@ $isDone = true;
 					<div class="container clearfix">
 						<div class="vertical-middle" style="max-width: 700px;">
 							<div class="heading-block nobottomborder">
-								<h1 style="font-size: 36px;" class="nott font-body">hermesHackathon 2020</h1>
+								<h1 style="font-size: 36px;" class="nott font-body">hermesHackathon 2021</h1>
 								<span style="font-size: 18px;" class="t300 nott ls1 topmargin-sm">coding.start();</span>
 							</div>
 							<div class="bottommargin clearfix" style="display:block; border-top:1px solid rgba(255,255,255,0.2); border-bottom:1px solid rgba(255,255,255,0.2); max-width: 350px; padding: 15px 0; font-size: 16px;">
@@ -79,7 +79,7 @@ $isDone = true;
 		============================================= -->
 		<section id="content">
 			<div class="content-wrap nopadding">
-				<div id="twitch-live" class="page-section">
+				<!--<div id="twitch-live" class="page-section">
 					<div class="container" style="width: 70%">
 						<h2 class="center">Watch us live</h2>
 						<div class="twitch">
@@ -104,7 +104,7 @@ $isDone = true;
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<div id="section-about" class="center page-section">
 					<div class="container clearfix">
 						<h2 class="divcenter bottommargin font-body" style="max-width: 700px; font-size: 40px;">GENERAL INFORMATION</h2>
@@ -180,50 +180,7 @@ $isDone = true;
 						</div>
 					</div>
 					<div class="common-height nomargin notoppadding section clearfix dark">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-12 timeline">
-									<section id="cd-timeline" class="cd-container">
-										<?php $itemRedShown = 0; ?>
-										@foreach($timeline as $key => $val)
-											<?php
-												$keyExploded = explode(' ', $val['start_date']);
-												$dateExploded = explode('-', $keyExploded[0]);
-												$dateTmp = Carbon\Carbon::createFromFormat('Y-m-d H:i', $val['start_date']);
-												$dateTmpEnd = Carbon\Carbon::createFromFormat('Y-m-d H:i', $val['end_date']);
-												if($dateTmp->gt($currentDT)) {
-													$class = "cd-movie"; // Urmeaza sa fie..
-													$itemRedShown++;
-												} elseif($dateTmp->lte($currentDT) && $dateTmpEnd->gt($currentDT)) {
-													$class = "cd-location"; // In desfasurare..
-												} else {
-													$class = "cd-picture"; // A fost..
-												}
-
-												$isHidden = false;
-												if($class == "cd-picture") {
-													$isHidden = true;
-												} elseif($class == 'cd-movie' && $itemRedShown > 2) {
-													$isHidden = true;
-												}
-											?>
-											<div class="cd-timeline-block {{$isHidden ? 'hiddenItem' : ''}}">
-												<div class="cd-timeline-img {{$class}}"></div> <!-- cd-timeline-img -->
-												<div class="cd-timeline-content">
-													<h2>{{$key}}</h2>
-													<span class="cd-date">{{$keyExploded[1]}} ({{$dateExploded[2]}} Nov)</span>
-												</div> <!-- cd-timeline-content -->
-											</div> <!-- cd-timeline-block -->
-										@endforeach
-									</section> <!-- cd-timeline -->
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12 text-center">
-									<button id="showTimelineBtn" class="button button-border button-circle button-light topmargin-sm" type="submit" onclick="showFullTimeline();return false;">Show full timeline</button>
-								</div>
-							</div>
-						</div>
+						<div style="text-align: center">TBA</div>
 					</div>
 				</div>
 				@endif
@@ -235,7 +192,7 @@ $isDone = true;
 								<div class="divcenter center" style="max-width: 900px;">
                                     <h2 class="nobottommargin t300 ls1">Sign up <br /></h2>
 									{{--								<h3><small> Due to the large number of participants, we decided to end the registration on 19th November at 23:59.</small></h3>--}}
-									<h3><small>The sign-up form will be available starting with November 09th 00:00.</small></h3>
+									<h3><small>The sign-up form will be available starting with November 08th 12:00.</small></h3>
 								</div>
 							</div>
 						</div>
@@ -447,8 +404,8 @@ $isDone = true;
 								<h3 class="font-body t400 ls1">hermesHackathon location</h3>
 								<div style="font-size: 16px; line-height: 1.7;">
 									<address style="line-height: 1.7;">
-										<h2>Online</h2><br>
-										Due to current situation, we've <br> decided to move everything online
+										<h2>TBA</h2><br>
+										<!--Due to current situation, we've <br> decided to move everything online -->
 									</address>
 									<div class="clear topmargin"></div>
 {{--									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (+40) 751.452-668<br>--}}

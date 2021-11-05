@@ -4,7 +4,7 @@ $(function(){
 });
 
 function initCountDown() {
-	var newDate = new Date(2020, 10, 21, 12); // luna - 1 => aprilie = 3 in loc de 4
+	var newDate = new Date(2021, 10, 20, 12); // luna - 1 => aprilie = 3 in loc de 4
 	$('#countdown-ex4').countdown({until: newDate});
 
 }
