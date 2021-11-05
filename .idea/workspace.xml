@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="Twitch updated for website">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +196,7 @@
       <workItem from="1605429470919" duration="4153000" />
       <workItem from="1605686447511" duration="2693000" />
       <workItem from="1605862470991" duration="3537000" />
-      <workItem from="1636122378377" duration="6680000" />
+      <workItem from="1636122378377" duration="9829000" />
     </task>
     <task id="LOCAL-00001" summary="tables altered to be successfully created with xampp mysql --- unsignedInteger() instead of integer() for the foreign key columns">
       <created>1573385174444</created>
@@ -318,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605943658236</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="test">
+      <created>1636139811690</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1636139811690</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -363,6 +369,7 @@
     <MESSAGE value="Accenture added as partner" />
     <MESSAGE value="Timeline for 2020 added" />
     <MESSAGE value="Twitch updated for website" />
-    <option name="LAST_COMMIT_MESSAGE" value="Twitch updated for website" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
