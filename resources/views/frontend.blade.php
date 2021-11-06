@@ -135,34 +135,34 @@ $isDone = true;
 									<div class="col-md-3 col-sm-6 col-padding">
 										<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
 											<div class="fbox-icon">
-												<img src="/images/categories_2020/online-course.png">
+												<img src="/images/categories_2021/digitalizare.png">
 											</div>
-											<h3>Online Education</h3>
+											<h3>Digital</h3>
 										</div>
 									</div>
 									<div class="col-md-3 col-sm-6 col-padding">
 										<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
 											<div class="fbox-icon">
-												<img src="/images/categories_2020/farming.png">
+												<img src="/images/categories_2021/sanatate.png">
 											</div>
-											<h3>Smart agriculture</h3>
+											<h3>Health</h3>
 										</div>
 									</div>
 
 									<div class="col-md-3 col-sm-6 col-padding">
 										<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
 											<div class="fbox-icon">
-												<img src="/images/categories_2020/desk.png">
+												<img src="/images/categories_2021/securitate.png">
 											</div>
-											<h3>Remote work</h3>
+											<h3>Security</h3>
 										</div>
 									</div>
 									<div class="col-md-3 col-sm-6 col-padding">
 										<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
 											<div class="fbox-icon">
-												<img src="/images/categories_2020/health_lifestyle.png">
+												<img src="/images/categories_2021/sport.png">
 											</div>
-											<h3>Medical soft</h3>
+											<h3>Sport</h3>
 										</div>
 									</div>
 								</div>
