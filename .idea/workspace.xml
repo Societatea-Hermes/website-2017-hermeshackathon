@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="change year in 2021, start date for event, comment twitch part, extract time-line, update sign up date and change location in TBA">
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="change signup interval">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend.blade.php" afterDir="false" />
     </list>
@@ -196,7 +196,7 @@
       <workItem from="1605429470919" duration="4153000" />
       <workItem from="1605686447511" duration="2693000" />
       <workItem from="1605862470991" duration="3537000" />
-      <workItem from="1636122378377" duration="16393000" />
+      <workItem from="1636122378377" duration="16941000" />
     </task>
     <task id="LOCAL-00001" summary="tables altered to be successfully created with xampp mysql --- unsignedInteger() instead of integer() for the foreign key columns">
       <created>1573385174444</created>
@@ -338,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636152006831</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="change signup interval">
+      <created>1636212834223</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1636212834223</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView">
@@ -386,6 +393,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="change seeder in Nicoleta Balan" />
     <MESSAGE value="change year in 2021, start date for event, comment twitch part, extract time-line, update sign up date and change location in TBA" />
-    <option name="LAST_COMMIT_MESSAGE" value="change year in 2021, start date for event, comment twitch part, extract time-line, update sign up date and change location in TBA" />
+    <MESSAGE value="change signup interval" />
+    <option name="LAST_COMMIT_MESSAGE" value="change signup interval" />
   </component>
 </project>
