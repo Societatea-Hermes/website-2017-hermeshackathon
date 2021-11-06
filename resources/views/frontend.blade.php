@@ -1,8 +1,8 @@
 <?php
 $currentDT = Carbon\Carbon::now('Europe/Bucharest');
 // $currentDT = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2016-12-10 11:30');
-$maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2021-11-14 23:59');
-$minSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2021-11-08 10:00'); /// e cu 2 ore in urma: adica daca setezi sa se porneasca la 10, e o sa inceapa la 12
+$maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2021-11-15 23:59');
+$minSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2021-11-08 18:00'); /// e cu 2 ore in urma: adica daca setezi sa se porneasca la 10, e o sa inceapa la 12
 $canSignup = true;
 if($currentDT->gte($maxSignupTime) || $currentDT->lte($minSignupTime)) {
 	$canSignup = false;
