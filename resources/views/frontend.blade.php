@@ -192,7 +192,7 @@ $isDone = true;
 								<div class="divcenter center" style="max-width: 900px;">
                                     <h2 class="nobottommargin t300 ls1">Sign up <br /></h2>
 									{{--								<h3><small> Due to the large number of participants, we decided to end the registration on 19th November at 23:59.</small></h3>--}}
-									<h3><small>The sign-up form will be available starting with November 08th 12:00.</small></h3>
+									<h3><small>The sign-up form will be available starting with November 08th 20:00.</small></h3>
 								</div>
 							</div>
 						</div>
