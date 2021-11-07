@@ -94,9 +94,10 @@ function signupTeam() {
 	var teamLeadName = $('#member1-name').val();
 	var teamLeadEmail = $('#member1-email').val();
 	var teamLeadPhone = $('#member1-phone').val();
+	var questions = $('#questions').val;
 
-	if(teamName == '' || teamLeadEmail == '' || teamLeadName == '' || teamLeadPhone == '') {
-		alert('Team name, team leader name, team leader email or team leader phone cannot be empty!');
+	if(teamName == '' || teamLeadEmail == '' || teamLeadName == '' || teamLeadPhone == '' || teamJoke == '' || teamTheme == '') {
+		alert('Team name, team leader name, team leader email, team leader phone, presentation link or technologies cannot be empty!');
 		return;
 	}
 
@@ -111,6 +112,7 @@ function signupTeam() {
 			teamLeadName: teamLeadName,
 			teamLeadEmail: teamLeadEmail,
 			teamLeadPhone: teamLeadPhone,
+			questions: questions,
 
 			member2Name: $('#member2-name').val(),
 			member2Email: $('#member2-email').val(),
@@ -130,18 +132,23 @@ function signupTeam() {
 				$('#team-name').val("");
 				$('#team-joke').val("");
 				$('#team-theme').val("");
+				$('#questions').val("");
 
 				$('#member1-name').val("");
 				$('#member1-email').val("");
+				$('#member1-phone').val("");
 
 				$('#member2-name').val("");
 				$('#member2-email').val("");
-			
+				$('#member2-phone').val("");
+
 				$('#member3-name').val("");
 				$('#member3-email').val("");
-			
+				$('#member3-phone').val("");
+
 				$('#member4-name').val("");
 				$('#member4-email').val("");
+				$('#member4-phone').val("");
 			} else {
 				toastr.error(response.message);
 			}

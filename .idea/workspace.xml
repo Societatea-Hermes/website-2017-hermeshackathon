@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="change labels placeholders again">
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="change sign-up limit time">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TeamController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TeamController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app/comming_soon.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app/comming_soon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app/teams.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app/teams.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +203,7 @@
       <workItem from="1605862470991" duration="3537000" />
       <workItem from="1636122378377" duration="20543000" />
       <workItem from="1636277054091" duration="1414000" />
-      <workItem from="1636316578913" duration="3477000" />
+      <workItem from="1636316578913" duration="6944000" />
     </task>
     <task id="LOCAL-00001" summary="tables altered to be successfully created with xampp mysql --- unsignedInteger() instead of integer() for the foreign key columns">
       <created>1573385174444</created>
@@ -427,7 +429,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636322525327</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="change labels placeholders again">
+      <created>1636322897876</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1636322897878</updated>
+    </task>
+    <task id="LOCAL-00034" summary="change sign-up limit time">
+      <created>1636323177533</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1636323177533</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TodoView">
@@ -455,7 +471,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Registration date updated" />
     <MESSAGE value="Image location fix" />
     <MESSAGE value="Image location fix and count down reset" />
     <MESSAGE value="Footer updated for online version" />
@@ -480,6 +495,7 @@
     <MESSAGE value="test 2021" />
     <MESSAGE value="change labels placeholders" />
     <MESSAGE value="change labels placeholders again" />
-    <option name="LAST_COMMIT_MESSAGE" value="change labels placeholders again" />
+    <MESSAGE value="change sign-up limit time" />
+    <option name="LAST_COMMIT_MESSAGE" value="change sign-up limit time" />
   </component>
 </project>

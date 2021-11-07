@@ -34,11 +34,12 @@ class TeamController extends Controller
     	$teamLead = Input::get('teamLeadName');
         $teamLeadEmail = Input::get('teamLeadEmail');
     	$teamLeadPhone = Input::get('teamLeadPhone');
+    	$questions = Input::get('$questions');
 
-    	if(empty($teamName) || empty($teamLeadEmail) || empty($teamLead) || empty($teamLeadPhone)) {
+    	if(empty($teamName) || empty($teamLeadEmail) || empty($teamLead) || empty($teamLeadPhone) || empty($teamJoke) || empty($teamTheme)) {
     		$toReturn = array(
     			'success' => 0,
-    			'message' => 'Team name, team leader name, team leader email and phone cannot be empty!'
+    			'message' => 'Team name, team leader name, team leader email, phone, presentation link or technologies cannot be empty!'
     		);
     		return json_encode($toReturn);
     	}
@@ -56,6 +57,7 @@ class TeamController extends Controller
     	$team->joke = $teamJoke;
     	$team->theme = $teamTheme;
     	$team->creation_ip = $req->ip();
+        $team->questions = $questions;
     	$team->save();
 
     	// Team members..
@@ -153,7 +155,8 @@ class TeamController extends Controller
                 	$team->name,
                 	$team->theme,
                 	$team->joke,
-                    $team->created_at->format('Y-m-d H:i:s')
+                    $team->created_at->format('Y-m-d H:i:s'),
+                    $team->questions
                 )
             );
         }

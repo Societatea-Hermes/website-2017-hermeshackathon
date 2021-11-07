@@ -21,7 +21,8 @@ function loadSubscribersGrid() {
         'Team name',
         'Theme',
         'Joke',
-        'Created at'
+        'Created at',
+        'Questions'
     ];
     params.colModel = [
         {
@@ -39,6 +40,10 @@ function loadSubscribersGrid() {
         }, {
             name: 'created_at',
             index: 'created_at',
+            width: 100
+        }, {
+            name: 'questions',
+            index: 'questions',
             width: 100
         }
     ];
