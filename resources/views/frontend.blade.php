@@ -205,7 +205,7 @@ $isDone = true;
 								<div class="divcenter center" style="max-width: 900px;">
 									<h2 class="nobottommargin t300 ls1">Sign up <br /><small>Your team can have up to 4 members.</small></h2>
 									{{--								<h3><small> Due to the large number of participants, we decided to end the registration on 19th November at 23:59.</small></h3>--}}
-									<h3><small>The sign-up form is open until November the 17th at 23:59. Thank you for choosing hermesHackathon :) </small></h3>
+									<h3><small>The sign-up form is open until November the 15th at 23:59. Thank you for choosing hermesHackathon :) </small></h3>
 									<h3><small>*In case the form doesn't show up, please use the incognito mode of your browser.</small></h3>
 								</div>
 							</div>
