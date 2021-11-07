@@ -18,7 +18,7 @@ class CreateTeamsTable extends Migration
             $table->text('theme')->nullable();
             $table->text('joke')->nullable();
             $table->string('creation_ip');
-            $table->string('questions');
+            $table->string('questions')->nullable();
             $table->timestamps();
         });
     }
