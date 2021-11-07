@@ -19,8 +19,8 @@ function loadSubscribersGrid() {
     params.shrinkToFit = true;
     params.colNames = [
         'Team name',
-        'Theme',
-        'Joke',
+        'Techologies',
+        'Link',
         'Created at',
         'Questions'
     ];

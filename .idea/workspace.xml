@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="add questions field">
-      <change beforePath="$PROJECT_DIR$/database/migrations/2016_12_01_164025_create_teams_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2016_12_01_164025_create_teams_table.php" afterDir="false" />
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="add questions field in migrates">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app/teams.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app/teams.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +201,7 @@
       <workItem from="1605862470991" duration="3537000" />
       <workItem from="1636122378377" duration="20543000" />
       <workItem from="1636277054091" duration="1414000" />
-      <workItem from="1636316578913" duration="7186000" />
+      <workItem from="1636316578913" duration="7437000" />
     </task>
     <task id="LOCAL-00001" summary="tables altered to be successfully created with xampp mysql --- unsignedInteger() instead of integer() for the foreign key columns">
       <created>1573385174444</created>
@@ -447,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636327977718</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="add questions field in migrates">
+      <created>1636328229253</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1636328229253</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TodoView">
@@ -475,7 +483,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Image location fix and count down reset" />
     <MESSAGE value="Footer updated for online version" />
     <MESSAGE value="Automatic sign up form setup and old timeline clear" />
     <MESSAGE value="Dates updated for 2020" />
@@ -500,6 +507,7 @@
     <MESSAGE value="change labels placeholders again" />
     <MESSAGE value="change sign-up limit time" />
     <MESSAGE value="add questions field" />
-    <option name="LAST_COMMIT_MESSAGE" value="add questions field" />
+    <MESSAGE value="add questions field in migrates" />
+    <option name="LAST_COMMIT_MESSAGE" value="add questions field in migrates" />
   </component>
 </project>
