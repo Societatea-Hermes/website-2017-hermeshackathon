@@ -2,7 +2,7 @@
 $currentDT = Carbon\Carbon::now('Europe/Bucharest');
 // $currentDT = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2016-12-10 11:30');
 $maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2021-11-15 23:59');
-$minSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2021-11-08 18:00'); /// e cu 2 ore in urma: adica daca setezi sa se porneasca la 10, e o sa inceapa la 12
+$minSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2021-11-07 18:00'); /// e cu 2 ore in urma: adica daca setezi sa se porneasca la 10, e o sa inceapa la 12
 $canSignup = true;
 if($currentDT->gte($maxSignupTime) || $currentDT->lte($minSignupTime)) {
 	$canSignup = false;
@@ -285,13 +285,13 @@ $isDone = true;
 								<div class="clearfix">&nbsp;</div>
 								<div class="row">
 									<div class="col-md-6 col-md-offset-3">
-										<input type="text" id="team-joke" name="team-joke" class="form-control input-lg required" placeholder="Tell us a joke :))">
+										<input type="text" id="team-joke" name="team-joke" class="form-control input-lg required" placeholder="Leave a link with your team presentation">
 									</div>
 								</div>
 								<div class="clearfix">&nbsp;</div>
 								<div class="row">
 									<div class="col-md-6 col-md-offset-3">
-										<input type="text" id="team-theme" name="team-theme" class="form-control input-lg required" placeholder="Do you have any project idea? Tell us more!">
+										<input type="text" id="team-theme" name="team-theme" class="form-control input-lg required" placeholder="What tehnology do you intend to use?">
 									</div>
 								</div>
 
