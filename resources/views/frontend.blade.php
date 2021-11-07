@@ -405,8 +405,8 @@ $isDone = true;
 								<h3 class="font-body t400 ls1">hermesHackathon location</h3>
 								<div style="font-size: 16px; line-height: 1.7;">
 									<address style="line-height: 1.7;">
-										<h2>TBA</h2><br>
-										<!--Due to current situation, we've <br> decided to move everything online -->
+										<h2>Online</h2><br>
+										Due to current situation, we've <br> decided to move everything online
 									</address>
 									<div class="clear topmargin"></div>
 {{--									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (+40) 751.452-668<br>--}}

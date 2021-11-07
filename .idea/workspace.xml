@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="update logo">
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="change themes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend.blade.php" afterDir="false" />
     </list>
@@ -199,7 +199,8 @@
       <workItem from="1605429470919" duration="4153000" />
       <workItem from="1605686447511" duration="2693000" />
       <workItem from="1605862470991" duration="3537000" />
-      <workItem from="1636122378377" duration="18946000" />
+      <workItem from="1636122378377" duration="20543000" />
+      <workItem from="1636277054091" duration="542000" />
     </task>
     <task id="LOCAL-00001" summary="tables altered to be successfully created with xampp mysql --- unsignedInteger() instead of integer() for the foreign key columns">
       <created>1573385174444</created>
@@ -362,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636219533334</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="change themes">
+      <created>1636220187471</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1636220187471</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView">
@@ -413,6 +421,7 @@
     <MESSAGE value="change signup interval" />
     <MESSAGE value="TBA for Parteners section" />
     <MESSAGE value="update logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="update logo" />
+    <MESSAGE value="change themes" />
+    <option name="LAST_COMMIT_MESSAGE" value="change themes" />
   </component>
 </project>
