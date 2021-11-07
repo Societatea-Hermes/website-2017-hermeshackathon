@@ -235,37 +235,37 @@ $isDone = true;
 								<div class="clearfix">&nbsp;</div>
 								<div class="row">
 									<div class="col-md-2 col-md-offset-3">
-										<input type="text" id="member2-name" name="member2-name" class="form-control input-lg required" placeholder="Member 2 name">
+										<input type="text" id="member2-name" name="member2-name" class="form-control input-lg " placeholder="Member 2 name">
 									</div>
 									<div class="col-md-2">
-										<input type="email" id="member2-email" name="member2-email" class="form-control input-lg required" placeholder="Member 2 email">
+										<input type="email" id="member2-email" name="member2-email" class="form-control input-lg " placeholder="Member 2 email">
 									</div>
 									<div class="col-md-2">
-										<input type="text" id="member2-phone" name="member2-phone" class="form-control input-lg required" placeholder="Member 2 phone">
+										<input type="text" id="member2-phone" name="member2-phone" class="form-control input-lg " placeholder="Member 2 phone">
 									</div>
 								</div>
 								<div class="clearfix">&nbsp;</div>
 								<div class="row">
 									<div class="col-md-2 col-md-offset-3">
-										<input type="text" id="member3-name" name="member3-name" class="form-control input-lg required" placeholder="Member 3 name">
+										<input type="text" id="member3-name" name="member3-name" class="form-control input-lg " placeholder="Member 3 name">
 									</div>
 									<div class="col-md-2">
-										<input type="email" id="member3-email" name="member3-email" class="form-control input-lg required" placeholder="Member 3 email">
+										<input type="email" id="member3-email" name="member3-email" class="form-control input-lg " placeholder="Member 3 email">
 									</div>
 									<div class="col-md-2">
-										<input type="text" id="member3-phone" name="member3-phone" class="form-control input-lg required" placeholder="Member 3 phone">
+										<input type="text" id="member3-phone" name="member3-phone" class="form-control input-lg " placeholder="Member 3 phone">
 									</div>
 								</div>
 								<div class="clearfix">&nbsp;</div>
 								<div class="row">
 									<div class="col-md-2 col-md-offset-3">
-										<input type="text" id="member4-name" name="member4-name" class="form-control input-lg required" placeholder="Member 4 name">
+										<input type="text" id="member4-name" name="member4-name" class="form-control input-lg " placeholder="Member 4 name">
 									</div>
 									<div class="col-md-2">
-										<input type="email" id="member4-email" name="member4-email" class="form-control input-lg required" placeholder="Member 4 email">
+										<input type="email" id="member4-email" name="member4-email" class="form-control input-lg " placeholder="Member 4 email">
 									</div>
 									<div class="col-md-2">
-										<input type="text" id="member4-phone" name="member4-phone" class="form-control input-lg required" placeholder="Member 4 phone">
+										<input type="text" id="member4-phone" name="member4-phone" class="form-control input-lg " placeholder="Member 4 phone">
 									</div>
 								</div>
 
@@ -297,7 +297,7 @@ $isDone = true;
 								<div class="clearfix">&nbsp;</div>
 								<div class="row">
 									<div class="col-md-6 col-md-offset-3">
-										<input type="text" id="questions" name="questions" class="form-control input-lg required" placeholder="Do you wish to tell us something else?">
+										<input type="text" id="questions" name="questions" class="form-control input-lg " placeholder="Do you wish to tell us something else?">
 									</div>
 								</div>
 
