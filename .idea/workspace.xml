@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="test 2021">
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="change labels placeholders">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app/teams.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app/teams.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +201,7 @@
       <workItem from="1605862470991" duration="3537000" />
       <workItem from="1636122378377" duration="20543000" />
       <workItem from="1636277054091" duration="1414000" />
-      <workItem from="1636316578913" duration="2357000" />
+      <workItem from="1636316578913" duration="2869000" />
     </task>
     <task id="LOCAL-00001" summary="tables altered to be successfully created with xampp mysql --- unsignedInteger() instead of integer() for the foreign key columns">
       <created>1573385174444</created>
@@ -407,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636317735796</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="change labels placeholders">
+      <created>1636322072805</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1636322072805</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView">
@@ -435,7 +441,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=".gitignore updated" />
     <MESSAGE value="themes updated according to the 2020 event" />
     <MESSAGE value="Registration date updated" />
     <MESSAGE value="Image location fix" />
@@ -460,6 +465,7 @@
     <MESSAGE value="add imgs" />
     <MESSAGE value="test 2000" />
     <MESSAGE value="test 2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 2021" />
+    <MESSAGE value="change labels placeholders" />
+    <option name="LAST_COMMIT_MESSAGE" value="change labels placeholders" />
   </component>
 </project>

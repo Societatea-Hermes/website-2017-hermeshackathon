@@ -285,13 +285,13 @@ $isDone = true;
 								<div class="clearfix">&nbsp;</div>
 								<div class="row">
 									<div class="col-md-6 col-md-offset-3">
-										<input type="text" id="team-joke" name="team-joke" class="form-control input-lg required" placeholder="Leave a link with your team presentation">
+										<input type="text" id="team-joke" name="team-joke" class="form-control input-lg required" placeholder="Leave a link with your project's presentation">
 									</div>
 								</div>
 								<div class="clearfix">&nbsp;</div>
 								<div class="row">
 									<div class="col-md-6 col-md-offset-3">
-										<input type="text" id="team-theme" name="team-theme" class="form-control input-lg required" placeholder="What tehnology do you intend to use?">
+										<input type="text" id="team-theme" name="team-theme" class="form-control input-lg required" placeholder="Which technologies do you intend to use?">
 									</div>
 								</div>
 
