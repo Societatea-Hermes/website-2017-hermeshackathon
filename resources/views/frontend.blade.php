@@ -57,7 +57,7 @@ $isDone = true;
 					<div class="container clearfix">
 						<div class="vertical-middle" style="max-width: 700px;">
 							<div class="heading-block nobottomborder">
-								<h1 style="font-size: 36px;" class="nott font-body">hermesHackathon 2021</h1>
+								<h1 style="font-size: 36px;" class="nott font-body">hermesHackathon 2000</h1>
 								<span style="font-size: 18px;" class="t300 nott ls1 topmargin-sm">coding.start();</span>
 							</div>
 							<div class="bottommargin clearfix" style="display:block; border-top:1px solid rgba(255,255,255,0.2); border-bottom:1px solid rgba(255,255,255,0.2); max-width: 350px; padding: 15px 0; font-size: 16px;">
