@@ -94,7 +94,7 @@ function signupTeam() {
 	var teamLeadName = $('#member1-name').val();
 	var teamLeadEmail = $('#member1-email').val();
 	var teamLeadPhone = $('#member1-phone').val();
-	var questions = $('#questions').val;
+	var questions = $('#questions').val();
 
 	if(teamName == '' || teamLeadEmail == '' || teamLeadName == '' || teamLeadPhone == '' || teamJoke == '' || teamTheme == '') {
 		alert('Team name, team leader name, team leader email, team leader phone, presentation link or technologies cannot be empty!');

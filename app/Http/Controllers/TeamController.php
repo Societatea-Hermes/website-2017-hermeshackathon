@@ -34,7 +34,7 @@ class TeamController extends Controller
     	$teamLead = Input::get('teamLeadName');
         $teamLeadEmail = Input::get('teamLeadEmail');
     	$teamLeadPhone = Input::get('teamLeadPhone');
-    	$questions = Input::get('$questions');
+    	$questions = Input::get('questions');
 
     	if(empty($teamName) || empty($teamLeadEmail) || empty($teamLead) || empty($teamLeadPhone) || empty($teamJoke) || empty($teamTheme)) {
     		$toReturn = array(
