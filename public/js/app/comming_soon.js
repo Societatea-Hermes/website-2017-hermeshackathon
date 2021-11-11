@@ -74,6 +74,19 @@ function acceptGDPR() {
 		x.style.display = "none";
 	}
 }
+
+function showSchoolInput(fieldId, checkboxId) {
+	let x = document.getElementById(fieldId)
+	let checkBox = document.getElementById(checkboxId);
+	console.log(checkBox)
+	if (checkBox.checked == true) {
+		console.log("accept");
+		x.style.display = "block";
+	} else {
+		console.log("not accept");
+		x.style.display = "none";
+	}
+}
 function showDetailsGdpr() {
 	console.log("intra in functie")
 	let x = document.getElementById("detailsGdpr")
@@ -94,6 +107,7 @@ function signupTeam() {
 	var teamLeadName = $('#member1-name').val();
 	var teamLeadEmail = $('#member1-email').val();
 	var teamLeadPhone = $('#member1-phone').val();
+	var teamLeadSchool = $('#member1-school').val();
 	var questions = $('#questions').val();
 
 	if(teamName == '' || teamLeadEmail == '' || teamLeadName == '' || teamLeadPhone == '' || teamJoke == '' || teamTheme == '') {
@@ -112,19 +126,23 @@ function signupTeam() {
 			teamLeadName: teamLeadName,
 			teamLeadEmail: teamLeadEmail,
 			teamLeadPhone: teamLeadPhone,
+			teamLeadSchool: teamLeadSchool,
 			questions: questions,
 
 			member2Name: $('#member2-name').val(),
 			member2Email: $('#member2-email').val(),
 			member2Phone: $('#member2-phone').val(),
+			member2School: $('#member2-school').val(),
 			
 			member3Name: $('#member3-name').val(),
 			member3Email: $('#member3-email').val(),
 			member3Phone: $('#member3-phone').val(),
+			member3School: $('#member3-school').val(),
 			
 			member4Name: $('#member4-name').val(),
 			member4Email: $('#member4-email').val(),
-			member4Phone: $('#member4-phone').val()
+			member4Phone: $('#member4-phone').val(),
+			member4School: $('#member4-school').val()
 		},
 		success: function(response) {
 			if(response.success == 1) {
@@ -137,18 +155,22 @@ function signupTeam() {
 				$('#member1-name').val("");
 				$('#member1-email').val("");
 				$('#member1-phone').val("");
+				$('#member1-school').val("");
 
 				$('#member2-name').val("");
 				$('#member2-email').val("");
 				$('#member2-phone').val("");
+				$('#member2-school').val("");
 
 				$('#member3-name').val("");
 				$('#member3-email').val("");
 				$('#member3-phone').val("");
+				$('#member3-school').val("");
 
 				$('#member4-name').val("");
 				$('#member4-email').val("");
 				$('#member4-phone').val("");
+				$('#member4-school').val("");
 			} else {
 				toastr.error(response.message);
 			}

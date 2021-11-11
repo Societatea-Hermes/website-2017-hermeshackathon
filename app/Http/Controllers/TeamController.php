@@ -34,6 +34,7 @@ class TeamController extends Controller
     	$teamLead = Input::get('teamLeadName');
         $teamLeadEmail = Input::get('teamLeadEmail');
     	$teamLeadPhone = Input::get('teamLeadPhone');
+    	$teamLeadSchool = Input::get('teamLeadSchool');
     	$questions = Input::get('questions');
 
     	if(empty($teamName) || empty($teamLeadEmail) || empty($teamLead) || empty($teamLeadPhone) || empty($teamJoke) || empty($teamTheme)) {
@@ -68,6 +69,7 @@ class TeamController extends Controller
     	$teamTmp->team_id = $team->id;
     	$teamTmp->phone = $teamLeadPhone;
     	$teamTmp->is_teamlead = 1;
+    	$teamTmp->school = $teamLeadSchool;
     	$teamTmp->save();
 
     	// Team member 2..
@@ -79,6 +81,7 @@ class TeamController extends Controller
 	    	$teamTmp->email = $team2Email;
 	    	$teamTmp->team_id = $team->id;
 	    	$teamTmp->phone = Input::get('member2Phone');
+	    	$teamTmp->school = Input::get('member2School');
 	    	$teamTmp->save();
     	}
 
@@ -91,6 +94,7 @@ class TeamController extends Controller
 	    	$teamTmp->email = $team3Email;
 	    	$teamTmp->team_id = $team->id;
 	    	$teamTmp->phone = Input::get('member3Phone');
+            $teamTmp->school = Input::get('member3School');
 	    	$teamTmp->save();
     	}
 
@@ -103,6 +107,7 @@ class TeamController extends Controller
 	    	$teamTmp->email = $team4Email;
 	    	$teamTmp->team_id = $team->id;
 	    	$teamTmp->phone = Input::get('member4Phone');
+            $teamTmp->school = Input::get('member4School');
 	    	$teamTmp->save();
     	}
 

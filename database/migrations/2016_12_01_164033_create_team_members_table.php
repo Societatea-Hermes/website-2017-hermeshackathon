@@ -17,6 +17,7 @@ class CreateTeamMembersTable extends Migration
             $table->string('name');
             $table->string('email');
             $table->string('phone')->nullable();
+            $table->string('school')->nullable();
             $table->unsignedInteger('team_id');
             $table->unsignedInteger('is_teamlead')->nullable();
             $table->timestamps();

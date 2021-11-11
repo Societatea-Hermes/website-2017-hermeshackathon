@@ -98,7 +98,8 @@ function addMembersSubgrid(subgridDivID, rowID) {
                 'Nume',
                 'Email',
                 'Nr telefon',
-                'Team leader'
+                'Team leader',
+                'School'
             ],
             colModel: [
                 {
@@ -116,6 +117,10 @@ function addMembersSubgrid(subgridDivID, rowID) {
                 }, {
                     name: 'is_teamlead',
                     index: 'is_teamlead',
+                    width: 150
+                }, {
+                    name: 'school',
+                    index: 'school',
                     width: 150
                 }
             ],

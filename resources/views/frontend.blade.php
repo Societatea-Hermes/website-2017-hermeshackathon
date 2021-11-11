@@ -232,6 +232,17 @@ $isDone = true;
 										<input type="text" id="member1-phone" name="member1-phone" class="form-control input-lg required" placeholder="Team leader phone">
 									</div>
 								</div>
+								<div class="container">
+									<div class="row align-middle col-md-offset-3" style="display: flex; align-items: center;">
+										<div class="col-md-3">
+											<input class="topmargin-sm text-left" type="checkbox"  onclick="showSchoolInput('member1-school', 'member1_check')" id="member1_check">
+											<label style="font-weight:normal;" for="member_1_student">Student</label>
+										</div>
+										<div class="col-md-5">
+											<input type="text" id="member1-school" style="max-width: 250px; display: none" name="member1-school" class="form-control input-lg " placeholder="Team leader school name">
+										</div>
+									</div>
+								</div>
 								<div class="clearfix">&nbsp;</div>
 								<div class="row">
 									<div class="col-md-2 col-md-offset-3">
@@ -242,6 +253,17 @@ $isDone = true;
 									</div>
 									<div class="col-md-2">
 										<input type="text" id="member2-phone" name="member2-phone" class="form-control input-lg " placeholder="Member 2 phone">
+									</div>
+								</div>
+								<div class="container">
+									<div class="row align-middle col-md-offset-3" style="display: flex; align-items: center;">
+										<div class="col-md-3">
+											<input class="topmargin-sm text-left" type="checkbox"  onclick="showSchoolInput('member2-school', 'member2_check')" id="member2_check">
+											<label style="font-weight:normal;" for="member_2_student">Student</label>
+										</div>
+										<div class="col-md-5">
+											<input type="text" id="member2-school" style="max-width: 250px; display: none" name="member2-school" class="form-control input-lg " placeholder="Member 2 school name">
+										</div>
 									</div>
 								</div>
 								<div class="clearfix">&nbsp;</div>
@@ -256,6 +278,17 @@ $isDone = true;
 										<input type="text" id="member3-phone" name="member3-phone" class="form-control input-lg " placeholder="Member 3 phone">
 									</div>
 								</div>
+								<div class="container">
+									<div class="row align-middle col-md-offset-3" style="display: flex; align-items: center;">
+										<div class="col-md-3">
+											<input class="topmargin-sm text-left" type="checkbox"  onclick="showSchoolInput('member3-school', 'member3_check')" id="member3_check">
+											<label style="font-weight:normal;" for="member_3_student">Student</label>
+										</div>
+										<div class="col-md-5">
+											<input type="text" id="member3-school" style="max-width: 250px; display: none" name="member3-school" class="form-control input-lg " placeholder="Member 3 school name">
+										</div>
+									</div>
+								</div>
 								<div class="clearfix">&nbsp;</div>
 								<div class="row">
 									<div class="col-md-2 col-md-offset-3">
@@ -266,6 +299,17 @@ $isDone = true;
 									</div>
 									<div class="col-md-2">
 										<input type="text" id="member4-phone" name="member4-phone" class="form-control input-lg " placeholder="Member 4 phone">
+									</div>
+								</div>
+								<div class="container">
+									<div class="row align-middle col-md-offset-3" style="display: flex; align-items: center;">
+										<div class="col-md-3">
+											<input class="topmargin-sm text-left" type="checkbox"  onclick="showSchoolInput('member4-school', 'member4_check')" id="member4_check">
+											<label style="font-weight:normal;" for="member_4_student">Student</label>
+										</div>
+										<div class="col-md-5">
+											<input type="text" id="member4-school" style="max-width: 250px; display: none" name="member4-school" class="form-control input-lg " placeholder="Member 4 school name">
+										</div>
 									</div>
 								</div>
 
