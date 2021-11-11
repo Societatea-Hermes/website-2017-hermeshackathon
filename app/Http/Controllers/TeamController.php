@@ -206,7 +206,8 @@ class TeamController extends Controller
                 	$member->name,
                     $member->email,
                     $member->phone,
-                    empty($member->is_teamlead) ? "Nu" : "Da"
+                    empty($member->is_teamlead) ? "Nu" : "Da",
+                    $member->school
                 )
             );
         }
