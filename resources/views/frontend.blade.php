@@ -207,6 +207,10 @@ $isDone = true;
 									{{--								<h3><small> Due to the large number of participants, we decided to end the registration on 19th November at 23:59.</small></h3>--}}
 									<h3><small>The sign-up form is open until November the 16th at 23:59. Thank you for choosing hermesHackathon :) </small></h3>
 									<h3><small>*In case the form doesn't show up, please use the incognito mode of your browser.</small></h3>
+									<h3><small>
+											Don't have a team? Don't worry! We have prepared a group for you to find the perfect teammates. Join here: <a href="https://chat.whatsapp.com/KsZFw8ipVaW6U47HsvJjaF">Group</a><br>
+										</small>
+									</h3>
 								</div>
 							</div>
 						</div>
@@ -218,8 +222,6 @@ $isDone = true;
 										<input type="text" id="team-name" name="team-name" class="form-control input-lg required" placeholder="Team name">
 									</div>
 								</div>
-
-
 								<div class="clearfix">&nbsp;</div>
 								<div class="row">
 									<div class="col-md-2 col-md-offset-3">
@@ -351,10 +353,6 @@ $isDone = true;
 									<div class="nomargin">
 										<div class="container clearfix topmargin-sm">
 											<div class="divcenter center" style="max-width: 900px;">
-												<h3><small>
-														Don't have a team? Don't worry! We have prepared a group for you to find the perfect teammates. Join here: <a href="https://chat.whatsapp.com/KsZFw8ipVaW6U47HsvJjaF">Group</a><br>
-													</small>
-												</h3>
 												<h3><small><input class="topmargin-sm text-center" type="checkbox"  onclick="acceptGDPR()" id="accept" value="Politici">
 														I accept the processing of personal data by the Hermes Society, within the Hermes Hackathon contest.<br>
 													</small>
