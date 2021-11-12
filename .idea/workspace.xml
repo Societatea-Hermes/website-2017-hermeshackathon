@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="update ceva">
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="update date limit for signup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TeamController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TeamController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +203,9 @@
       <workItem from="1636122378377" duration="20543000" />
       <workItem from="1636277054091" duration="1414000" />
       <workItem from="1636316578913" duration="10143000" />
-      <workItem from="1636359382520" duration="116000" />
+      <workItem from="1636359382520" duration="619000" />
+      <workItem from="1636373011638" duration="1987000" />
+      <workItem from="1636720611682" duration="472000" />
     </task>
     <task id="LOCAL-00001" summary="tables altered to be successfully created with xampp mysql --- unsignedInteger() instead of integer() for the foreign key columns">
       <created>1573385174444</created>
@@ -485,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636329645668</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="update date limit for signup">
+      <created>1636359601146</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1636359601146</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView">
@@ -513,7 +522,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Themes update" />
     <MESSAGE value="Message added in case of form failure" />
     <MESSAGE value="Accenture added as partner" />
     <MESSAGE value="Timeline for 2020 added" />
@@ -538,6 +546,7 @@
     <MESSAGE value="remove requireds" />
     <MESSAGE value="nullable added" />
     <MESSAGE value="update ceva" />
-    <option name="LAST_COMMIT_MESSAGE" value="update ceva" />
+    <MESSAGE value="update date limit for signup" />
+    <option name="LAST_COMMIT_MESSAGE" value="update date limit for signup" />
   </component>
 </project>

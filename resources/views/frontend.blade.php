@@ -351,6 +351,10 @@ $isDone = true;
 									<div class="nomargin">
 										<div class="container clearfix topmargin-sm">
 											<div class="divcenter center" style="max-width: 900px;">
+												<h3><small>
+														Don't have a team? Don't worry! We have prepared a group for you to find the perfect teammates. Join here: <a href="https://chat.whatsapp.com/KsZFw8ipVaW6U47HsvJjaF">Group</a><br>
+													</small>
+												</h3>
 												<h3><small><input class="topmargin-sm text-center" type="checkbox"  onclick="acceptGDPR()" id="accept" value="Politici">
 														I accept the processing of personal data by the Hermes Society, within the Hermes Hackathon contest.<br>
 													</small>
