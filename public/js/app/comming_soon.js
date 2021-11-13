@@ -102,7 +102,7 @@ function showDetailsGdpr() {
 
 function signupTeam() {
 	var teamName = $('#team-name').val();
-	var teamJoke = $('#team-joke').val();
+	var teamJoke = 'nu exista'
 	var teamTheme = $('#team-theme').val();
 	var teamLeadName = $('#member1-name').val();
 	var teamLeadEmail = $('#member1-email').val();
@@ -148,7 +148,7 @@ function signupTeam() {
 			if(response.success == 1) {
 				toastr.success('Thank you for signing up!');
 				$('#team-name').val("");
-				$('#team-joke').val("");
+				// $('#team-joke').val("");
 				$('#team-theme').val("");
 				$('#questions').val("");
 
