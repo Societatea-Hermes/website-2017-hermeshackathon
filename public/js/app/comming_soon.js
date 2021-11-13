@@ -110,8 +110,8 @@ function signupTeam() {
 	var teamLeadSchool = $('#member1-school').val();
 	var questions = $('#questions').val();
 
-	if(teamName == '' || teamLeadEmail == '' || teamLeadName == '' || teamLeadPhone == '' || teamJoke == '' || teamTheme == '') {
-		alert('Team name, team leader name, team leader email, team leader phone, presentation link or technologies cannot be empty!');
+	if(teamName == '' || teamLeadEmail == '' || teamLeadName == '' || teamLeadPhone == '' || teamTheme == '') {
+		alert('Team name, team leader name, team leader email, team leader phone or technologies cannot be empty!');
 		return;
 	}
 

@@ -37,10 +37,10 @@ class TeamController extends Controller
     	$teamLeadSchool = Input::get('teamLeadSchool');
     	$questions = Input::get('questions');
 
-    	if(empty($teamName) || empty($teamLeadEmail) || empty($teamLead) || empty($teamLeadPhone) || empty($teamJoke) || empty($teamTheme)) {
+    	if(empty($teamName) || empty($teamLeadEmail) || empty($teamLead) || empty($teamLeadPhone) || empty($teamTheme)) {
     		$toReturn = array(
     			'success' => 0,
-    			'message' => 'Team name, team leader name, team leader email, phone, presentation link or technologies cannot be empty!'
+    			'message' => 'Team name, team leader name, team leader email, phone or technologies cannot be empty!'
     		);
     		return json_encode($toReturn);
     	}
