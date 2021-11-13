@@ -121,7 +121,7 @@ function signupTeam() {
 		dataType: 'json',
 		data: {
 			team: teamName,
-			joke: teamJoke,
+			joke: "nu exista",
 			theme: teamTheme,
 			teamLeadName: teamLeadName,
 			teamLeadEmail: teamLeadEmail,
