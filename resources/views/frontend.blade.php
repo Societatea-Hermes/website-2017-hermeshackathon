@@ -1,7 +1,7 @@
 <?php
 $currentDT = Carbon\Carbon::now('Europe/Bucharest');
 // $currentDT = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2016-12-10 11:30');
-$maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2021-11-15 23:59');
+$maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2021-11-17 23:59');
 $minSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2021-11-07 18:00'); /// e cu 2 ore in urma: adica daca setezi sa se porneasca la 10, e o sa inceapa la 12
 $canSignup = true;
 if($currentDT->gte($maxSignupTime) || $currentDT->lte($minSignupTime)) {
@@ -205,7 +205,7 @@ $isDone = true;
 								<div class="divcenter center" style="max-width: 900px;">
 									<h2 class="nobottommargin t300 ls1">Sign up <br /><small>Your team can have up to 4 members.</small></h2>
 									{{--								<h3><small> Due to the large number of participants, we decided to end the registration on 19th November at 23:59.</small></h3>--}}
-									<h3><small>The sign-up form is open until November the 16th at 23:59. Thank you for choosing hermesHackathon :) </small></h3>
+									<h3><small>The sign-up form is open until November the 17th at 23:59. Thank you for choosing hermesHackathon :) </small></h3>
 									<h3><small>*In case the form doesn't show up, please use the incognito mode of your browser.</small></h3>
 									<h3><small>
 											Don't have a team? Don't worry! We have prepared a group for you to find the perfect teammates. Join here: <a href="https://chat.whatsapp.com/KsZFw8ipVaW6U47HsvJjaF">Group</a><br>

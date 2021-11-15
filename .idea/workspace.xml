@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="add link for wapp group">
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="move link for wapp group">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend.blade.php" afterDir="false" />
     </list>
@@ -127,7 +127,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/categories_2021" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -137,8 +137,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Faculta\HERMES\website-2017-hermeshackathon\public\images\categories_2021" />
       <recent name="D:\Faculta\HERMES\website-2017-hermeshackathon\public\images" />
+      <recent name="D:\Faculta\HERMES\website-2017-hermeshackathon\public\images\categories_2021" />
       <recent name="D:\Faculta\HERMES\website-2017-hermeshackathon\public\images\wedding" />
       <recent name="C:\Users\Cosmin\Desktop\Hermes\website-2017-hermeshackathon\public\images\partners\2020" />
       <recent name="C:\Users\Cosmin\Desktop\Hermes\website-2017-hermeshackathon\public\images\categories_2020" />
@@ -205,7 +205,9 @@
       <workItem from="1636359382520" duration="619000" />
       <workItem from="1636373011638" duration="1987000" />
       <workItem from="1636720611682" duration="1545000" />
-      <workItem from="1636722731461" duration="818000" />
+      <workItem from="1636722731461" duration="1013000" />
+      <workItem from="1636726348490" duration="1736000" />
+      <workItem from="1637009234592" duration="458000" />
     </task>
     <task id="LOCAL-00001" summary="tables altered to be successfully created with xampp mysql --- unsignedInteger() instead of integer() for the foreign key columns">
       <created>1573385174444</created>
@@ -501,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636721135354</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="move link for wapp group">
+      <created>1636723571307</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1636723571307</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView">
@@ -529,7 +538,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Accenture added as partner" />
     <MESSAGE value="Timeline for 2020 added" />
     <MESSAGE value="Twitch updated for website" />
     <MESSAGE value="test" />
@@ -554,6 +562,7 @@
     <MESSAGE value="update ceva" />
     <MESSAGE value="update date limit for signup" />
     <MESSAGE value="add link for wapp group" />
-    <option name="LAST_COMMIT_MESSAGE" value="add link for wapp group" />
+    <MESSAGE value="move link for wapp group" />
+    <option name="LAST_COMMIT_MESSAGE" value="move link for wapp group" />
   </component>
 </project>
