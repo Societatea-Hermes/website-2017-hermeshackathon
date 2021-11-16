@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="move link for wapp group">
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="change signup interval again">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend.blade.php" afterDir="false" />
     </list>
@@ -207,7 +207,8 @@
       <workItem from="1636720611682" duration="1545000" />
       <workItem from="1636722731461" duration="1013000" />
       <workItem from="1636726348490" duration="1736000" />
-      <workItem from="1637009234592" duration="458000" />
+      <workItem from="1637009234592" duration="977000" />
+      <workItem from="1637058147768" duration="65000" />
     </task>
     <task id="LOCAL-00001" summary="tables altered to be successfully created with xampp mysql --- unsignedInteger() instead of integer() for the foreign key columns">
       <created>1573385174444</created>
@@ -510,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636723571307</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="change signup interval again">
+      <created>1637010013881</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1637010013881</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TodoView">
@@ -538,7 +546,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Timeline for 2020 added" />
     <MESSAGE value="Twitch updated for website" />
     <MESSAGE value="test" />
     <MESSAGE value="change seeder in Nicoleta Balan" />
@@ -563,6 +570,7 @@
     <MESSAGE value="update date limit for signup" />
     <MESSAGE value="add link for wapp group" />
     <MESSAGE value="move link for wapp group" />
-    <option name="LAST_COMMIT_MESSAGE" value="move link for wapp group" />
+    <MESSAGE value="change signup interval again" />
+    <option name="LAST_COMMIT_MESSAGE" value="change signup interval again" />
   </component>
 </project>
