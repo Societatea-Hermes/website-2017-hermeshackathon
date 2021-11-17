@@ -180,7 +180,50 @@ $isDone = true;
 						</div>
 					</div>
 					<div class="common-height nomargin notoppadding section clearfix dark">
-						<div style="text-align: center">TBA</div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 timeline">
+									<section id="cd-timeline" class="cd-container">
+										<?php $itemRedShown = 0; ?>
+										@foreach($timeline as $key => $val)
+											<?php
+											$keyExploded = explode(' ', $val['start_date']);
+											$dateExploded = explode('-', $keyExploded[0]);
+											$dateTmp = Carbon\Carbon::createFromFormat('Y-m-d H:i', $val['start_date']);
+											$dateTmpEnd = Carbon\Carbon::createFromFormat('Y-m-d H:i', $val['end_date']);
+											if($dateTmp->gt($currentDT)) {
+												$class = "cd-movie"; // Urmeaza sa fie..
+												$itemRedShown++;
+											} elseif($dateTmp->lte($currentDT) && $dateTmpEnd->gt($currentDT)) {
+												$class = "cd-location"; // In desfasurare..
+											} else {
+												$class = "cd-picture"; // A fost..
+											}
+
+											$isHidden = false;
+											if($class == "cd-picture") {
+												$isHidden = true;
+											} elseif($class == 'cd-movie' && $itemRedShown > 2) {
+												$isHidden = true;
+											}
+											?>
+											<div class="cd-timeline-block {{$isHidden ? 'hiddenItem' : ''}}">
+												<div class="cd-timeline-img {{$class}}"></div> <!-- cd-timeline-img -->
+												<div class="cd-timeline-content">
+													<h2>{{$key}}</h2>
+													<span class="cd-date">{{$keyExploded[1]}} ({{$dateExploded[2]}} Nov)</span>
+												</div> <!-- cd-timeline-content -->
+											</div> <!-- cd-timeline-block -->
+										@endforeach
+									</section> <!-- cd-timeline -->
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 text-center">
+									<button id="showTimelineBtn" class="button button-border button-circle button-light topmargin-sm" type="submit" onclick="showFullTimeline();return false;">Show full timeline</button>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				@endif
