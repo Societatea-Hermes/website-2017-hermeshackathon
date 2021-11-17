@@ -37,37 +37,33 @@ class GenericController extends Controller
 
         $timeline = array(
 
-            'Live event starts' => array(
-                'start_date' => '2020-11-21 12:00',
-                'end_date' => '2020-11-21 12:30'
+            'Prezentarea de inceput a Hackathonului: mod de desfasurare, orar, premii, mod de jurizare' => array(
+                'start_date' => '2021-11-20 13:00',
+                'end_date' => '2021-11-20 14:00'
             ),
-            'Coding starts' => array(
-                'start_date' => '2020-11-21 12:30',
-                'end_date' => '2020-11-22 13:30'
+            'Prima sesiune de mentorat' => array(
+                'start_date' => '2021-11-20 16:00',
+                'end_date' => '2021-11-20 17:00'
             ),
-            'First mentoring session' => array(
-                'start_date' => '2020-11-21 14:00',
-                'end_date' => '2020-11-21 16:00'
+            'A doua sesiune de mentorat' => array(
+                'start_date' => '2021-11-20 20:00',
+                'end_date' => '2021-11-20 21:00'
             ),
-            'Second mentoring session' => array(
-                'start_date' => '2020-11-21 19:00',
-                'end_date' => '2020-11-21 22:00'
+            'INCHEIEREA CONCURSULUI' => array(
+                'start_date' => '2021-11-21 13:00',
+                'end_date' => '2021-11-21 13:30'
             ),
-            'Last mentoring session' => array(
-                'start_date' => '2020-11-22 09:00',
-                'end_date' => '2020-11-22 11:00'
+            'Primirea juratilor' => array(
+                'start_date' => '2021-11-21 13:30',
+                'end_date' => '2021-11-21 14:00'
             ),
-            'Coding stops' => array(
-                'start_date' => '2020-11-22 12:30',
-                'end_date' => '2020-11-22 12:30'
+            'Inceperea jurizarii' => array(
+                'start_date' => '2021-11-21 14:00',
+                'end_date' => '2021-11-21 15:00'
             ),
-            'Technical Demo &amp; Final pitch' => array(
-                'start_date' => '2020-11-22 13:00',
-                'end_date' => '2020-11-22 16:00'
-            ),
-            'Awards ceremony' => array(
-                'start_date' => '2020-11-22 16:30',
-                'end_date' => '2020-11-22 17:00'
+            'Decernarea premiilor' => array(
+                'start_date' => '2021-11-21 15:00',
+                'end_date' => '2021-11-21 15:30'
             )
         );
 
