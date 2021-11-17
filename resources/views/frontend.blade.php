@@ -192,18 +192,18 @@ $isDone = true;
 											$dateTmp = Carbon\Carbon::createFromFormat('Y-m-d H:i', $val['start_date']);
 											$dateTmpEnd = Carbon\Carbon::createFromFormat('Y-m-d H:i', $val['end_date']);
 											if($dateTmp->gt($currentDT)) {
-												$class = "cd-movie"; // Urmeaza sa fie..
+												$class = "cd-picture"; // Urmeaza sa fie..
 												$itemRedShown++;
 											} elseif($dateTmp->lte($currentDT) && $dateTmpEnd->gt($currentDT)) {
 												$class = "cd-location"; // In desfasurare..
 											} else {
-												$class = "cd-picture"; // A fost..
+												$class = "cd-movie"; // A fost..
 											}
 
 											$isHidden = false;
-											if($class == "cd-picture") {
+											if($class == "cd-movie") {
 												$isHidden = true;
-											} elseif($class == 'cd-movie' && $itemRedShown > 2) {
+											} elseif($class == 'cd-picture' && $itemRedShown > 2) {
 												$isHidden = true;
 											}
 											?>

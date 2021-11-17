@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="add old timeline">
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="add new timeline">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GenericController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GenericController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +210,7 @@
       <workItem from="1637009234592" duration="977000" />
       <workItem from="1637058147768" duration="215000" />
       <workItem from="1637174513704" duration="147000" />
-      <workItem from="1637174827152" duration="2192000" />
+      <workItem from="1637174827152" duration="2370000" />
     </task>
     <task id="LOCAL-00001" summary="tables altered to be successfully created with xampp mysql --- unsignedInteger() instead of integer() for the foreign key columns">
       <created>1573385174444</created>
@@ -534,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637175746575</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="add new timeline">
+      <created>1637177066085</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1637177066085</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TodoView">
@@ -562,7 +569,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
     <MESSAGE value="change seeder in Nicoleta Balan" />
     <MESSAGE value="change year in 2021, start date for event, comment twitch part, extract time-line, update sign up date and change location in TBA" />
     <MESSAGE value="change signup interval" />
@@ -587,6 +593,7 @@
     <MESSAGE value="move link for wapp group" />
     <MESSAGE value="change signup interval again" />
     <MESSAGE value="add old timeline" />
-    <option name="LAST_COMMIT_MESSAGE" value="add old timeline" />
+    <MESSAGE value="add new timeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new timeline" />
   </component>
 </project>
