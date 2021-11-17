@@ -35,35 +35,42 @@ class GenericController extends Controller
             // 'yonder.png' 			=>	'http://tss-yonder.com/'
         );
 
-        $timeline = array(
+        $timeline = array( /// start_date si end_date sunt in urma cu 2 ore, deci ora 20 devine ora 18; am folosit real_start_time pentru afisare
 
             'Prezentarea de inceput a Hackathonului: mod de desfasurare, orar, premii, mod de jurizare' => array(
-                'start_date' => '2021-11-20 13:00',
-                'end_date' => '2021-11-20 14:00'
+                'start_date' => '2021-11-20 11:00',
+                'end_date' => '2021-11-20 13:00',
+                'real_start_date' => '2021-11-20 13:00'
             ),
             'Prima sesiune de mentorat' => array(
-                'start_date' => '2021-11-20 16:00',
-                'end_date' => '2021-11-20 17:00'
+                'start_date' => '2021-11-20 14:00',
+                'end_date' => '2021-11-20 15:00',
+                'real_start_date' => '2021-11-20 16:00'
             ),
             'A doua sesiune de mentorat' => array(
-                'start_date' => '2021-11-20 20:00',
-                'end_date' => '2021-11-20 21:00'
+                'start_date' => '2021-11-20 18:00',
+                'end_date' => '2021-11-20 19:00',
+                'real_start_date' => '2021-11-20 20:00'
             ),
             'INCHEIEREA CONCURSULUI' => array(
-                'start_date' => '2021-11-21 13:00',
-                'end_date' => '2021-11-21 13:30'
+                'start_date' => '2021-11-21 11:00',
+                'end_date' => '2021-11-21 11:30',
+                'real_start_date' => '2021-11-21 13:00'
             ),
             'Primirea juratilor' => array(
-                'start_date' => '2021-11-21 13:30',
-                'end_date' => '2021-11-21 14:00'
+                'start_date' => '2021-11-21 11:30',
+                'end_date' => '2021-11-21 12:00',
+                'real_start_date' => '021-11-21 13:30'
             ),
             'Inceperea jurizarii' => array(
-                'start_date' => '2021-11-21 14:00',
-                'end_date' => '2021-11-21 15:00'
+                'start_date' => '2021-11-21 12:00',
+                'end_date' => '2021-11-21 13:00',
+                'real_start_date' => '2021-11-21 14:00'
             ),
             'Decernarea premiilor' => array(
-                'start_date' => '2021-11-21 15:00',
-                'end_date' => '2021-11-21 15:30'
+                'start_date' => '2021-11-21 13:00',
+                'end_date' => '2021-11-21 13:30',
+                'real_start_date' => '2021-11-21 15:00'
             )
         );
 

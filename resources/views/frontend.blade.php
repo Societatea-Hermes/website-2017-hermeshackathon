@@ -187,7 +187,8 @@ $isDone = true;
 										<?php $itemRedShown = 0; ?>
 										@foreach($timeline as $key => $val)
 											<?php
-											$keyExploded = explode(' ', $val['start_date']);
+											//$keyExploded = explode(' ', $val['start_date']); versiunea veche
+											$keyExploded = explode(' ', $val['real_start_date']);
 											$dateExploded = explode('-', $keyExploded[0]);
 											$dateTmp = Carbon\Carbon::createFromFormat('Y-m-d H:i', $val['start_date']);
 											$dateTmpEnd = Carbon\Carbon::createFromFormat('Y-m-d H:i', $val['end_date']);
