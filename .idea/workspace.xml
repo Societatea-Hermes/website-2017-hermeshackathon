@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="repair colors">
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="repair time (:">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GenericController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GenericController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TeamController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TeamController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +210,8 @@
       <workItem from="1637009234592" duration="977000" />
       <workItem from="1637058147768" duration="215000" />
       <workItem from="1637174513704" duration="147000" />
-      <workItem from="1637174827152" duration="4215000" />
+      <workItem from="1637174827152" duration="4594000" />
+      <workItem from="1637229608871" duration="91000" />
     </task>
     <task id="LOCAL-00001" summary="tables altered to be successfully created with xampp mysql --- unsignedInteger() instead of integer() for the foreign key columns">
       <created>1573385174444</created>
@@ -549,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637177258605</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="repair time (:">
+      <created>1637179092936</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1637179092936</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TodoView">
@@ -577,7 +584,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change year in 2021, start date for event, comment twitch part, extract time-line, update sign up date and change location in TBA" />
     <MESSAGE value="change signup interval" />
     <MESSAGE value="TBA for Parteners section" />
     <MESSAGE value="update logo" />
@@ -602,6 +608,7 @@
     <MESSAGE value="add old timeline" />
     <MESSAGE value="add new timeline" />
     <MESSAGE value="repair colors" />
-    <option name="LAST_COMMIT_MESSAGE" value="repair colors" />
+    <MESSAGE value="repair time (:" />
+    <option name="LAST_COMMIT_MESSAGE" value="repair time (:" />
   </component>
 </project>

@@ -18,7 +18,7 @@ class TeamController extends Controller
 {
     public function addTeam(Team $team, Request $req) {
         $currentDT = \Carbon\Carbon::now('Europe/Bucharest');
-        $maxSignupTime = \Carbon\Carbon::createFromFormat('Y-m-d H:i', '2021-11-16 23:59');
+        $maxSignupTime = \Carbon\Carbon::createFromFormat('Y-m-d H:i', '2021-11-18 23:59');
         if($currentDT->gte($maxSignupTime)) {
             $toReturn = array(
                 'success' => 0,
