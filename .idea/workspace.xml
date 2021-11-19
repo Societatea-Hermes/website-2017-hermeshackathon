@@ -19,17 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="extend signup time">
-      <change afterPath="$PROJECT_DIR$/public/images/partners/2021/Accenture-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/partners/2021/Cartofisserie-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/partners/2021/CrispyStore-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/partners/2021/Ducfarm-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/partners/2021/Evozon-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/partners/2021/Jouve-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/partners/2021/MC-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/partners/2021/NobilSushi-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/partners/2021/TechnologySportFun-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/partners/2021/Telenav-logo.png" afterDir="false" />
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="add sponsors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend.blade.php" afterDir="false" />
     </list>
@@ -222,14 +212,7 @@
       <workItem from="1637174513704" duration="147000" />
       <workItem from="1637174827152" duration="4594000" />
       <workItem from="1637229608871" duration="652000" />
-      <workItem from="1637322653822" duration="4220000" />
-    </task>
-    <task id="LOCAL-00002" summary="2019 timelined v1 changed,&#10;sponsors to be announced&#10;privacy policy added for sign up form&#10;newsletter unneeded -&gt; commented out&#10;location added">
-      <created>1573396005541</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1573396005541</updated>
+      <workItem from="1637322653822" duration="5431000" />
     </task>
     <task id="LOCAL-00003" summary="sign up text retouch">
       <created>1573396505670</created>
@@ -567,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637229817877</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="add sponsors">
+      <created>1637326939527</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1637326939527</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TodoView">
@@ -595,7 +585,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TBA for Parteners section" />
     <MESSAGE value="update logo" />
     <MESSAGE value="change themes" />
     <MESSAGE value="change online mess" />
@@ -620,6 +609,7 @@
     <MESSAGE value="repair colors" />
     <MESSAGE value="repair time (:" />
     <MESSAGE value="extend signup time" />
-    <option name="LAST_COMMIT_MESSAGE" value="extend signup time" />
+    <MESSAGE value="add sponsors" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sponsors" />
   </component>
 </project>
