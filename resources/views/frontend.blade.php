@@ -480,14 +480,20 @@ $isDone = true;
 							</div>
 						</div>
                         <div class="container clearfix">
-                            {{--<div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="50" data-loop="true" data-nav="false" data-autoplay="5000000" data-pagi="false" data-items-xxs="1" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5">
+                            <div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="50" data-loop="true" data-nav="false" data-autoplay="5000000" data-pagi="false" data-items-xxs="1" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5">
                                 <div class="oc-item"><a></a></div>
-                                <div class="oc-item"><a href="https://www.metrosystems.ro/" target="_blank"><img src="/images/partners/2020/techntrade.jpg" alt="Metro systems"></a></div>
-                                <div class="oc-item"><a href="https://www.accenture.com/ro-en" target="_blank"><img src="/images/partners/2020/accenture_logo_black.jpeg" alt="Accenture"></a></div>
-                                <div class="oc-item"><a href="https://careers.yardiromania.ro/" target="_blank"><img src="/images/partners/2020/Logo-Yardi-black.png" alt="Yardi Romania"></a></div>
+                                <div class="oc-item"><a href="https://www.accenture.com/ro-en" target="_blank"><img src="/images/partners/2021/Accenture-logo.png" alt="Accenture"></a></div>
+                                <div class="oc-item"><a href="https://cartofisserie.ro/" target="_blank"><img src="/images/partners/2021/Cartofisserie-logo.png" alt="Cartofisserie"></a></div>
+                                <div class="oc-item"><a href="" target="_blank"><img src="/images/partners/2021/CrispyStore-logo.jpg" alt="Crispy Store"></a></div>
+                                <div class="oc-item"><a href="https://www.ducfarm.ro/" target="_blank"><img src="/images/partners/2021/Ducfarm-logo.png" alt="Ducfarm"></a></div>
+                                <div class="oc-item"><a href="https://www.evozon.com/ro/" target="_blank"><img src="/images/partners/2021/Evozon-logo.png" alt="Evozon"></a></div>
+                                <div class="oc-item"><a href="https://www.jouve.com/en/" target="_blank"><img src="/images/partners/2021/Jouve-logo.png" alt="Jouve"></a></div>
+                                <div class="oc-item"><a href="https://www.mcdonalds.ro/" target="_blank"><img src="/images/partners/2021/MC-logo.png" alt="MC"></a></div>
+                                <div class="oc-item"><a href="https://nobilsushi.ro/" target="_blank"><img src="/images/partners/2021/NobilSushi-logo.png" alt="Nobil Sushi"></a></div>
+                                <div class="oc-item"><a href="https://tsfhealthclub.ro/" target="_blank"><img src="/images/partners/2021/TechnologySportFun-logo.png" alt="Technology.Sport.Fun"></a></div>
+                                <div class="oc-item"><a href="https://www.telenav.com/" target="_blank"><img src="/images/partners/2021/Telenav-logo.png" alt="Telenav"></a></div>
                                 <div class="oc-item"><a></a></div>
-                            </div>--}}
-							<div style="text-align: center"> TBA </div>
+                            </div>
                         </div>
 					</div>
 				</div>
