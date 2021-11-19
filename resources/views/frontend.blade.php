@@ -480,7 +480,7 @@ $isDone = true;
 							</div>
 						</div>
                         <div class="container clearfix">
-                            <div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="50" data-loop="true" data-nav="false" data-autoplay="5000000" data-pagi="false" data-items-xxs="1" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5">
+                            <div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="50" data-loop="true" data-nav="false" data-autoplay="4000" data-pagi="false" data-items-xxs="1" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5">
                                 <div class="oc-item"><a></a></div>
                                 <div class="oc-item" style="margin-top: 30px"><a href="https://www.accenture.com/ro-en" target="_blank"><img src="/images/partners/2021/Accenture-logo.png" alt="Accenture"></a></div>
                                 <div class="oc-item"><a href="https://cartofisserie.ro/" target="_blank"><img src="/images/partners/2021/Cartofisserie-logo.png" alt="Cartofisserie"></a></div>

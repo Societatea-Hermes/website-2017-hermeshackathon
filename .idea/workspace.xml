@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="add sponsors">
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="align sponsor logos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend.blade.php" afterDir="false" />
     </list>
@@ -212,14 +212,7 @@
       <workItem from="1637174513704" duration="147000" />
       <workItem from="1637174827152" duration="4594000" />
       <workItem from="1637229608871" duration="652000" />
-      <workItem from="1637322653822" duration="5431000" />
-    </task>
-    <task id="LOCAL-00003" summary="sign up text retouch">
-      <created>1573396505670</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1573396505670</updated>
+      <workItem from="1637322653822" duration="6245000" />
     </task>
     <task id="LOCAL-00004" summary=".gitignore updated">
       <created>1604562342476</created>
@@ -557,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637326939527</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="align sponsor logos">
+      <created>1637343044840</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1637343044840</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TodoView">
@@ -585,7 +585,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update logo" />
     <MESSAGE value="change themes" />
     <MESSAGE value="change online mess" />
     <MESSAGE value="add imgs" />
@@ -610,6 +609,7 @@
     <MESSAGE value="repair time (:" />
     <MESSAGE value="extend signup time" />
     <MESSAGE value="add sponsors" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sponsors" />
+    <MESSAGE value="align sponsor logos" />
+    <option name="LAST_COMMIT_MESSAGE" value="align sponsor logos" />
   </component>
 </project>
