@@ -60,6 +60,9 @@ Route::any('/oauth/facebook', "GenericController@facebookOauth");
 Route::any('/facebookOverlay', "GenericController@facebookOverlay");
 
 // Not logged routes
+Route::any('/articol', function() {
+    return view('articol', array('active' => 'articol'));
+});
 
 // ALL ROUTES SHOULD GO BEFORE THIS ONE!
 Route::any('{all}', array('uses' => 'GenericController@defaultRoute'))->where('all', '.*');

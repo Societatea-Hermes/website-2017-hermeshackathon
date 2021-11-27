@@ -43,6 +43,9 @@ $isDone = true;
 								<li><a href="#" data-href="#section-partners"><div>Partners</div></a></li>
 							@endif
 							<li><a href="#" data-href="#section-contact"><div>Contact</div></a></li>
+							<li class="{{$active == 'articol' ? 'current' : ''}}"><a href="/articol">
+									<div>Articol</div>
+								</a></li>
 						</ul>
 					</nav><!-- #primary-menu end -->
 				</div>

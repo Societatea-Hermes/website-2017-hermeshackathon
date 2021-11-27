@@ -19,8 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="align sponsor logos">
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="set timer to move sponsor bar">
+      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/EasyQR.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/EasyQR2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/Manuscrito.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/Manuscrito2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/PMs.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/Polytron.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/Polytron2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/Speak2code.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/Speak2code2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/prez.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/articol.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +139,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/partners/2021" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/pozeHH2021" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -137,11 +149,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Faculta\HERMES\website-2017-hermeshackathon\public\images\partners\2021" />
+      <recent name="D:\Faculta\HERMES\website-2017-hermeshackathon\public\images\pozeHH2021" />
       <recent name="D:\Faculta\HERMES\website-2017-hermeshackathon\public\images" />
+      <recent name="D:\Faculta\HERMES\website-2017-hermeshackathon\resources\views" />
+      <recent name="D:\Faculta\HERMES\website-2017-hermeshackathon\public\images\partners\2021" />
       <recent name="D:\Faculta\HERMES\website-2017-hermeshackathon\public\images\categories_2021" />
-      <recent name="D:\Faculta\HERMES\website-2017-hermeshackathon\public\images\wedding" />
-      <recent name="C:\Users\Cosmin\Desktop\Hermes\website-2017-hermeshackathon\public\images\partners\2020" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Faculta\HERMES\website-2017-hermeshackathon\public\images\wedding" />
@@ -212,14 +224,11 @@
       <workItem from="1637174513704" duration="147000" />
       <workItem from="1637174827152" duration="4594000" />
       <workItem from="1637229608871" duration="652000" />
-      <workItem from="1637322653822" duration="6245000" />
-    </task>
-    <task id="LOCAL-00004" summary=".gitignore updated">
-      <created>1604562342476</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1604562342476</updated>
+      <workItem from="1637322653822" duration="6858000" />
+      <workItem from="1637933169708" duration="81000" />
+      <workItem from="1637933431536" duration="5471000" />
+      <workItem from="1637998393454" duration="2301000" />
+      <workItem from="1638021543020" duration="6060000" />
     </task>
     <task id="LOCAL-00005" summary="themes updated according to the 2020 event">
       <created>1604562489483</created>
@@ -557,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637343044840</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="set timer to move sponsor bar">
+      <created>1637344906032</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1637344906032</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TodoView">
@@ -585,7 +601,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change themes" />
     <MESSAGE value="change online mess" />
     <MESSAGE value="add imgs" />
     <MESSAGE value="test 2000" />
@@ -610,6 +625,7 @@
     <MESSAGE value="extend signup time" />
     <MESSAGE value="add sponsors" />
     <MESSAGE value="align sponsor logos" />
-    <option name="LAST_COMMIT_MESSAGE" value="align sponsor logos" />
+    <MESSAGE value="set timer to move sponsor bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="set timer to move sponsor bar" />
   </component>
 </project>
