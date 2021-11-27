@@ -19,21 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="set timer to move sponsor bar">
-      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/EasyQR.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/EasyQR2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/Manuscrito.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/Manuscrito2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/PMs.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/Polytron.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/Polytron2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/Speak2code.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/Speak2code2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pozeHH2021/prez.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/articol.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend.blade.php" afterDir="false" />
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="add Article page">
+      <change beforePath="$PROJECT_DIR$/resources/views/articol.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/articol.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,14 +215,7 @@
       <workItem from="1637933169708" duration="81000" />
       <workItem from="1637933431536" duration="5471000" />
       <workItem from="1637998393454" duration="2301000" />
-      <workItem from="1638021543020" duration="6060000" />
-    </task>
-    <task id="LOCAL-00005" summary="themes updated according to the 2020 event">
-      <created>1604562489483</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1604562489483</updated>
+      <workItem from="1638021543020" duration="6357000" />
     </task>
     <task id="LOCAL-00006" summary="Registration date updated">
       <created>1604574749838</created>
@@ -573,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637344906032</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="add Article page">
+      <created>1638027701554</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1638027701564</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TodoView">
@@ -601,7 +588,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change online mess" />
     <MESSAGE value="add imgs" />
     <MESSAGE value="test 2000" />
     <MESSAGE value="test 2021" />
@@ -626,6 +612,7 @@
     <MESSAGE value="add sponsors" />
     <MESSAGE value="align sponsor logos" />
     <MESSAGE value="set timer to move sponsor bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="set timer to move sponsor bar" />
+    <MESSAGE value="add Article page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Article page" />
   </component>
 </project>

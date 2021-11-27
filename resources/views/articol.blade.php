@@ -115,3 +115,11 @@
 		</div>
 
 	</section><!-- #content end -->
+
+<footer id="footer" class="lightgrey noborder">
+	<div id="copyrights">
+		<div class="container center clearfix">
+			Copyright Societatea Hermes {{date('Y')}} | All Rights Reserved
+		</div>
+	</div>
+</footer>
