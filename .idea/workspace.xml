@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="add footer for Article page">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/articol.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/articol.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="c9ada3fa-f05e-4215-8d1e-ad8e9fc54303" name="Default Changelist" comment="adapt Article page for mobile" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,14 +214,7 @@
       <workItem from="1637933431536" duration="5471000" />
       <workItem from="1637998393454" duration="2301000" />
       <workItem from="1638021543020" duration="6446000" />
-      <workItem from="1638029526867" duration="1382000" />
-    </task>
-    <task id="LOCAL-00007" summary="Image location fix">
-      <created>1604575520793</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1604575520793</updated>
+      <workItem from="1638029526867" duration="1738000" />
     </task>
     <task id="LOCAL-00008" summary="Image location fix and count down reset">
       <created>1604578616918</created>
@@ -562,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638027989067</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="adapt Article page for mobile">
+      <created>1638030985081</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1638030985082</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TodoView">
@@ -590,7 +587,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test 2000" />
     <MESSAGE value="test 2021" />
     <MESSAGE value="change labels placeholders" />
     <MESSAGE value="change labels placeholders again" />
@@ -615,6 +611,7 @@
     <MESSAGE value="set timer to move sponsor bar" />
     <MESSAGE value="add Article page" />
     <MESSAGE value="add footer for Article page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add footer for Article page" />
+    <MESSAGE value="adapt Article page for mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="adapt Article page for mobile" />
   </component>
 </project>
