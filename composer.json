@@ -10,7 +10,8 @@
         "webpatser/laravel-uuid": "2.*",
         "laravel/socialite": "^2.0",
         "intervention/image": "^2.3",
-        "sammyk/laravel-facebook-sdk": "^3.3"
+        "sammyk/laravel-facebook-sdk": "^3.3",
+        "twbs/bootstrap":"^5.3.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -51,6 +52,9 @@
         ]
     },
     "config": {
-        "preferred-install": "dist"
+        "preferred-install": "dist",
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
     }
 }
