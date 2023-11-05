@@ -37,41 +37,56 @@ class GenericController extends Controller
 
         $timeline = array( /// start_date si end_date sunt in urma cu 2 ore, deci ora 20 devine ora 18; am folosit real_start_time pentru afisare
 
-            'Prezentarea de inceput a Hackathonului: mod de desfasurare, orar, premii, mod de jurizare' => array(
-                'start_date' => '2021-11-20 11:00',
-                'end_date' => '2021-11-20 13:00',
-                'real_start_date' => '2021-11-20 13:00'
+            'Bun venit la HermesHackathon, ediția 2023!' => array(
+                'start_date' => '2023-11-18 10:00',
+                'end_date' => '2023-11-18 11:00',
+                'real_start_date' => '2023-11-18 12:00'
             ),
-            'Prima sesiune de mentorat' => array(
-                'start_date' => '2021-11-20 14:00',
-                'end_date' => '2021-11-20 15:00',
-                'real_start_date' => '2021-11-20 16:00'
+            'Deschiderea oficială a evenimentului' => array(
+                'start_date' => '2023-11-18 11:00',
+                'end_date' => '2023-11-18 12:00',
+                'real_start_date' => '2023-11-18 13:00'
             ),
-            'A doua sesiune de mentorat' => array(
-                'start_date' => '2021-11-20 18:00',
-                'end_date' => '2021-11-20 19:00',
-                'real_start_date' => '2021-11-20 20:00'
+            'START CODING!' => array(
+                'start_date' => '2023-11-18 12:00',
+                'end_date' => '2023-11-18 13:00',
+                'real_start_date' => '2023-11-18 14:00'
             ),
-            'INCHEIEREA CONCURSULUI' => array(
-                'start_date' => '2021-11-21 11:00',
-                'end_date' => '2021-11-21 11:30',
-                'real_start_date' => '2021-11-21 13:00'
+            'Pauza de masă' => array(
+                'start_date' => '2023-11-18 13:00',
+                'end_date' => '2023-11-18 14:30',
+                'real_start_date' => '2023-11-18 15:00'
             ),
-            'Primirea juratilor' => array(
-                'start_date' => '2021-11-21 11:30',
-                'end_date' => '2021-11-21 12:00',
-                'real_start_date' => '021-11-21 13:30'
+            'Sesiune de Mentorat I' => array(
+                'start_date' => '2023-11-18 14:30',
+                'end_date' => '2023-11-18 17:30',
+                'real_start_date' => '2023-11-18 16:30'
             ),
-            'Inceperea jurizarii' => array(
-                'start_date' => '2021-11-21 12:00',
-                'end_date' => '2021-11-21 13:00',
-                'real_start_date' => '2021-11-21 14:00'
+            'Sesiune de Mentorat II' => array(
+                'start_date' => '2023-11-19 09:30',
+                'end_date' => '2023-11-19 11:00',
+                'real_start_date' => '2023-11-19 11:30'
             ),
-            'Decernarea premiilor' => array(
-                'start_date' => '2021-11-21 13:00',
-                'end_date' => '2021-11-21 13:30',
-                'real_start_date' => '2021-11-21 15:00'
-            )
+            'STOP CODING' => array(
+                'start_date' => '2023-11-19 12:00',
+                'end_date' => '2023-11-19 12:30',
+                'real_start_date' => '2023-11-19 14:00'
+            ),
+            'Pitching' => array(
+                'start_date' => '2023-11-19 12:30',
+                'end_date' => '2023-11-19 14:00',
+                'real_start_date' => '2023-11-19 14:30'
+            ),
+            'Jurizarea proiectelor' => array(
+                'start_date' => '2023-11-19 14:00',
+                'end_date' => '2023-11-19 14:15',
+                'real_start_date' => '2023-11-19 16:00'
+            ),
+            'Jurizarea proiectelor' => array(
+                'start_date' => '2023-11-19 14:15',
+                'end_date' => '2023-11-19 14:45',
+                'real_start_date' => '2023-11-19 16:15'
+            ),
         );
 
         $addToView = array(
@@ -219,43 +234,43 @@ class GenericController extends Controller
     }
 
 
-    // Facebook handler
-    public function facebookLogin()
-    {
-        return Socialite::driver('facebook')->redirect();
-    }
+    // // Facebook handler
+    // public function facebookLogin()
+    // {
+    //     return Socialite::driver('facebook')->redirect();
+    // }
 
-    public function facebookOauth(FacebookAuth $fbAuth)
-    {
-        $user = Socialite::driver('facebook')->user();
+    // public function facebookOauth(FacebookAuth $fbAuth)
+    // {
+    //     $user = Socialite::driver('facebook')->user();
 
-        $fbAuth = $fbAuth->firstOrNew(['fb_id' => $user->id]);
-        $fbAuth->fullname = $user->name;
-        $fbAuth->token = $user->token;
-        $fbAuth->raw_response = json_encode($user);
-        $fbAuth->save();
+    //     $fbAuth = $fbAuth->firstOrNew(['fb_id' => $user->id]);
+    //     $fbAuth->fullname = $user->name;
+    //     $fbAuth->token = $user->token;
+    //     $fbAuth->raw_response = json_encode($user);
+    //     $fbAuth->save();
 
-        Session::put('facebookData', $user);
-        return redirect('/facebookOverlay');
-    }
+    //     Session::put('facebookData', $user);
+    //     return redirect('/facebookOverlay');
+    // }
 
-    public function facebookOverlay()
-    {
-        $facebookData = Session::get('facebookData');
-        $imgName = Uuid::generate('4');
+    // public function facebookOverlay()
+    // {
+    //     $facebookData = Session::get('facebookData');
+    //     $imgName = Uuid::generate('4');
 
-        $fbAvatar = $facebookData->avatar_original;
-        $fbAvatar = explode('?', $fbAvatar);
-        $fbAvatar = $fbAvatar[0] . "?width=500&height=500";
+    //     $fbAvatar = $facebookData->avatar_original;
+    //     $fbAvatar = explode('?', $fbAvatar);
+    //     $fbAvatar = $fbAvatar[0] . "?width=500&height=500";
 
-        $img = Image::make($fbAvatar)->resize(500, null, function ($constraint) {
-            $constraint->aspectRatio();
-        })->insert('images/appImg/overlay/overlay.png', 'bottom-left')->save('images/overlays/' . $imgName . ".jpg");
+    //     $img = Image::make($fbAvatar)->resize(500, null, function ($constraint) {
+    //         $constraint->aspectRatio();
+    //     })->insert('images/appImg/overlay/overlay.png', 'bottom-left')->save('images/overlays/' . $imgName . ".jpg");
 
-        $addToView['imgSrc'] = $imgName;
+    //     $addToView['imgSrc'] = $imgName;
 
-        return view('facebookOverlay', $addToView);
-    }
+    //     return view('facebookOverlay', $addToView);
+    // }
 
     // public function postToFacebook(\SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb) {
     //     $facebookData = Session::get('facebookData');

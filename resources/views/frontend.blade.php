@@ -1,8 +1,8 @@
 <?php
 $currentDT = Carbon\Carbon::now('Europe/Bucharest');
 // $currentDT = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2016-12-10 11:30');
-$maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2021-11-18 23:59');
-$minSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2021-11-07 18:00'); /// e cu 2 ore in urma: adica daca setezi sa se porneasca la 10, e o sa inceapa la 12
+$maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2023-11-16 15:00');
+$minSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2023-11-05 17:30'); /// e cu 2 ore in urma: adica daca setezi sa se porneasca la 10, e o sa inceapa la 12
 $canSignup = true;
 if($currentDT->gte($maxSignupTime) || $currentDT->lte($minSignupTime)) {
 	$canSignup = false;
@@ -43,11 +43,11 @@ $isDone = true;
 								<li><a href="#" data-href="#section-partners"><div>Partners</div></a></li>
 							@endif
 							<li><a href="#" data-href="#section-contact"><div>Contact</div></a></li>
-							<li class="{{$active == 'articol' ? 'current' : ''}}">
+							<!-- <li class="{{$active == 'articol' ? 'current' : ''}}">
 								<a href="/articol">
 									<div>Articol</div>
 								</a>
-							</li>
+							</li> -->
 						</ul>
 					</nav><!-- #primary-menu end -->
 				</div>
@@ -62,13 +62,13 @@ $isDone = true;
 					<div class="container clearfix">
 						<div class="vertical-middle" style="max-width: 700px;">
 							<div class="heading-block nobottomborder">
-								<h1 style="font-size: 36px;" class="nott font-body">hermesHackathon 2022</h1>
+								<h1 style="font-size: 36px;" class="nott font-body">hermesHackathon 2023</h1>
 								<span style="font-size: 18px;" class="t300 nott ls1 topmargin-sm">coding.start();</span>
 							</div>
 							<div class="bottommargin clearfix" style="display:block; border-top:1px solid rgba(255,255,255,0.2); border-bottom:1px solid rgba(255,255,255,0.2); max-width: 350px; padding: 15px 0; font-size: 16px;">
-								<span style="font-size: 18px;" class="t300 nott ls1 topmargin-sm">See you next time in 2023!</span>
-								<!-- <span style="font-size: 18px;" class="t300 nott ls1 topmargin-sm">We start in </span> -->
-								<!-- <i class="icon-line-clock i-plain notopmargin nobottommargin"></i> <div id="countdown-ex4" class="countdown countdown-inline" style="margin-top: 7px;"></div> -->
+								<!-- <span style="font-size: 18px;" class="t300 nott ls1 topmargin-sm">See you next time in 2024!</span> -->
+								<span style="font-size: 18px;" class="t300 nott ls1 topmargin-sm">We start in </span>
+								<i class="icon-line-clock i-plain notopmargin nobottommargin"></i> <div id="countdown-ex4" class="countdown countdown-inline" style="margin-top: 7px;"></div>
 							</div>
 							<a href="#" data-scrollto="#section-signup" ata-easing="easeInOutExpo" data-speed="1250" data-offset="65" class="button button-red button-3d nomargin">Sign up</a>
 						</div>
@@ -122,7 +122,7 @@ $isDone = true;
 							A hackathon is a 24-hour coding marathon that involves creating a desktop, mobile or web application out of an idea. The aim of hermesHackathon is to find solutions that will improve the quality of life for our citizens and will help the environment.
 							<br /><br />
 							<b>How?</b><br />
-							Each team can have a maximum number of 4 members, so you can gather your friends and participate together or you can participate on your own. There will be at least 2 mentoring sessions during the event where the contestants will get advice and will be helped to better understand the approach of a hackathon.</p>
+							Each team can have from 3 to 5 members, so you can gather your friends and participate together or you can complete <a href='https://forms.gle/FtrFJ62yvuMwn2gc6'>this form</a> to find your teammates. There will be at least 2 mentoring sessions during the event where the contestants will get advice and will be helped to better understand the approach of a hackathon.</p>
 						<p class="bottommargin" style="font-size: 16px;"><a href="#" data-scrollto="#section-services" data-easing="easeInOutExpo" data-speed="1250" data-offset="70" class="more-link">Themes <i class="icon-angle-right"></i></a></p>
 					</div>
 				</div>
@@ -138,12 +138,12 @@ $isDone = true;
 						<div class="col-md-12">
 							<div class="max-height">
 								<div class="row common-height grid-border clearfix">
-									<div class="col-md-3 col-sm-6 col-padding">
+									<!-- <div class="col-md-3 col-sm-6 col-padding">
 										<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
 											<div class="fbox-icon">
 												<img src="/images/categories_2021/digitalizare.png">
 											</div>
-											<h3>Digital</h3>
+											<h3>Future of Work</h3>
 										</div>
 									</div>
 									<div class="col-md-3 col-sm-6 col-padding">
@@ -151,16 +151,15 @@ $isDone = true;
 											<div class="fbox-icon">
 												<img src="/images/categories_2021/sanatate.png">
 											</div>
-											<h3>Health</h3>
+											<h3>Global Resilience</h3>
 										</div>
 									</div>
-
 									<div class="col-md-3 col-sm-6 col-padding">
 										<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
 											<div class="fbox-icon">
 												<img src="/images/categories_2021/securitate.png">
 											</div>
-											<h3>Security</h3>
+											<h3>Educational Innovation</h3>
 										</div>
 									</div>
 									<div class="col-md-3 col-sm-6 col-padding">
@@ -168,8 +167,19 @@ $isDone = true;
 											<div class="fbox-icon">
 												<img src="/images/categories_2021/sport.png">
 											</div>
-											<h3>Sport</h3>
+											<h3>Sustainability & Environment</h3>
 										</div>
+									</div> -->
+									<!-- <div class="col-md-3 col-sm-6 col-padding">
+										<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
+											<div class="fbox-icon">
+												<img src="/images/categories_2021/sport.png">
+											</div>
+											<h3>Digital Health</h3>
+										</div>
+									</div> -->
+									<div class="col-md-12 col-sm-12 text-center col-padding">
+										<img src="/images/categories_2023/themes.jpg">
 									</div>
 								</div>
 							</div>
@@ -241,8 +251,8 @@ $isDone = true;
 							<div class="container clearfix">
 								<div class="divcenter center" style="max-width: 900px;">
                                     <h2 class="nobottommargin t300 ls1">Sign up <br /></h2>
-									{{--								<h3><small> Due to the large number of participants, we decided to end the registration on 19th November at 23:59.</small></h3>--}}
-									<h3><small>The sign-up form will be available starting with November 08th 20:00.</small></h3>
+									{{--								<h3><small> Due to the large number of participants, we decided to end the registration on 16th November at 15:00.</small></h3>--}}
+									<h3><small>The sign-up form will be available starting with November 05th 19:30.</small></h3>
 								</div>
 							</div>
 						</div>
@@ -253,17 +263,22 @@ $isDone = true;
 						<div class="nomargin">
 							<div class="container clearfix">
 								<div class="divcenter center" style="max-width: 900px;">
-									<h2 class="nobottommargin t300 ls1">Sign up <br /><small>Your team can have up to 4 members.</small></h2>
-									{{--								<h3><small> Due to the large number of participants, we decided to end the registration on 19th November at 23:59.</small></h3>--}}
-									<h3><small>The sign-up form is open until November the 18th at 23:59. Thank you for choosing hermesHackathon :) </small></h3>
-									<h3><small>*In case the form doesn't show up, please use the incognito mode of your browser.</small></h3>
+									<h2 class="nobottommargin t300 ls1">Sign up <br /><small>Your team can have between 3 and 5 members.</small></h2>
+									{{--								<h3><small> Due to the large number of participants, we decided to end the registration on 16th November at 15:00.</small></h3>--}}
+									<h3><small>The sign-up form is open until November the 16th at 15:00. Thank you for choosing hermesHackathon :) </small></h3>
+									<!-- <h3><small>*In case the form doesn't show up, please use the incognito mode of your browser.</small></h3> -->
 									<h3><small>
-											Don't have a team? Don't worry! We have prepared a group for you to find the perfect teammates. Join here: <a href="https://chat.whatsapp.com/KsZFw8ipVaW6U47HsvJjaF">Group</a><br>
+											Don't have a team? Don't worry! We have prepared a group for you to find the perfect teammates. Complete this <a href="https://forms.gle/FtrFJ62yvuMwn2gc6">form</a><br>
 										</small>
 									</h3>
 								</div>
 							</div>
 						</div>
+						<div class="col-md-12 text-center">
+							<button class="button button-border button-circle topmargin-sm" type="submit" onclick="window.location.href='https://forms.gle/BSAJHJvws3FfJAtm9';">Sign up</button>
+						</div>
+
+<!-- {{--
 						<div class="widget subscribe-widget clearfix" data-loader="button">
 							<div class="widget-subscribe-form-result"></div>
 							<form id="widget-subscribe-form" role="form" method="post" class="nobottommargin">
@@ -372,7 +387,7 @@ $isDone = true;
 									<div class="container clearfix">
 										<div class="divcenter center" style="max-width: 900px;">
 {{--											<h2 class="nobottommargin t300 ls1">Sign up <br /><small>Your team can have up to 4 members.</small></h2>--}}
-											<h3><small> Please accept the data processing policy and fill the questions below. Let the code begin!</small></h3>
+{{--										<h3><small> Please accept the data processing policy and fill the questions below. Let the code begin!</small></h3>--}}
 										</div>
 									</div>
 								</div>
@@ -476,45 +491,34 @@ $isDone = true;
 						</div>
 					@endif
 				</div>
-
+--}} -->
+				
 				<div id="section-partners" class="page-section nopadding">
 					<div class="section nomargin">
 						<div class="container clearfix">
 							<div class="divcenter center" style="max-width: 900px;">
 								<h2 class="nobottommargin t300 ls1">Partners</h2>
-{{--								<h3 class="nobottommargin t300 lsl">To be announced</h3>--}}
+								<h3 class="nobottommargin t300 lsl">To be announced</h3>
 							</div>
 						</div>
-                        <div class="container clearfix">
+{{--                        <div class="container clearfix">
                             <div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="50" data-loop="true" data-nav="false" data-autoplay="4000" data-pagi="false" data-items-xxs="1" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5">
-                                <div class="oc-item"><a></a></div>
-                                <div class="oc-item" style="margin-top: 30px"><a href="https://www.accenture.com/ro-en" target="_blank"><img src="/images/partners/2021/Accenture-logo.png" alt="Accenture"></a></div>
-                                <div class="oc-item"><a href="https://cartofisserie.ro/" target="_blank"><img src="/images/partners/2021/Cartofisserie-logo.png" alt="Cartofisserie"></a></div>
-                                <div class="oc-item" style="margin-top: 50px"><a href="" target="_blank"><img src="/images/partners/2021/CrispyStore-logo.jpg" alt="Crispy Store"></a></div>
-                                <div class="oc-item" style="margin-top: 50px"><a href="https://www.ducfarm.ro/" target="_blank"><img src="/images/partners/2021/Ducfarm-logo.png" alt="Ducfarm"></a></div>
-                                <div class="oc-item" style="margin-top: 50px"><a href="https://www.evozon.com/ro/" target="_blank"><img src="/images/partners/2021/Evozon-logo.png" alt="Evozon"></a></div>
-                                <div class="oc-item" style="margin-top: 20px"><a href="https://www.jouve.com/en/" target="_blank"><img src="/images/partners/2021/Jouve-logo.png" alt="Jouve"></a></div>
-                                <div class="oc-item"><a href="https://www.mcdonalds.ro/" target="_blank"><img src="/images/partners/2021/MC-logo.png" alt="MC"></a></div>
-                                <div class="oc-item" style="margin-top: 50px"><a href="https://nobilsushi.ro/" target="_blank"><img src="/images/partners/2021/NobilSushi-logo.png" alt="Nobil Sushi"></a></div>
-                                <div class="oc-item" style="margin-top: 30px"><a href="https://tsfhealthclub.ro/" target="_blank"><img src="/images/partners/2021/TechnologySportFun-logo.png" alt="Technology.Sport.Fun"></a></div>
-                                <div class="oc-item" style="margin-top: 60px"><a href="https://www.telenav.com/" target="_blank"><img src="/images/partners/2021/Telenav-logo.png" alt="Telenav"></a></div>
-                                <div class="oc-item"><a></a></div>
-                            </div>
-                        </div>
+                                <div class="oc-item" style="margin-top: 50px"><a href="https://cs.ubbcluj.ro/" target="_blank"><img src="/images/partners/ubb.png" alt="UBB"></a></div>
+                            </div> --}}
+                        </div> 
 					</div>
 				</div>
 
 				@if($isDone)
 				<div id="section-contact" class="page-section nopadding">
 					<div class="row noleftmargin nomargin bottommargin-lg common-height">
-{{--						<div id="headquarters-map" class="col-md-8 col-sm-6 gmap hidden-xs nopadding"></div>--}}
-						<div class="col-md col-sm dark" style="background-color: rgb(51, 51, 51);">
-							<div class="col-padding max-height center">
+						<div id="headquarters-map" class="col-md-8 col-sm-6 gmap hidden-xs nopadding"></div>
+						<div class="col-md-4 col-sm-6 dark" style="background-color: rgb(51, 51, 51);">
+							<div class="col-padding max-height">
 								<h3 class="font-body t400 ls1">hermesHackathon location</h3>
 								<div style="font-size: 16px; line-height: 1.7;">
 									<address style="line-height: 1.7;">
-										<h2>Online</h2><br>
-										Due to current situation, we've <br> decided to move everything online
+										<h2>Tech'n'Trade</h2><br>
 									</address>
 									<div class="clear topmargin"></div>
 {{--									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (+40) 751.452-668<br>--}}
