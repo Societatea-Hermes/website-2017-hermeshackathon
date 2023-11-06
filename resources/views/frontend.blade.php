@@ -519,6 +519,7 @@ $isDone = true;
 								<div style="font-size: 16px; line-height: 1.7;">
 									<address style="line-height: 1.7;">
 										<h2>Tech'n'Trade</h2><br>
+										Strada Teodor Mihali 62, Cluj-Napoca 400394
 									</address>
 									<div class="clear topmargin"></div>
 {{--									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (+40) 751.452-668<br>--}}
