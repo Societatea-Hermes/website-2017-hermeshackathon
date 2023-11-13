@@ -41,6 +41,16 @@ $isProduction = App::environment() == 'production' ? true : false;
 		    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 		</script>
 
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-TL9Y575EKR"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-TL9Y575EKR');
+		</script>
+
 		@yield('extraCss')
 
 		<!-- Document Title
