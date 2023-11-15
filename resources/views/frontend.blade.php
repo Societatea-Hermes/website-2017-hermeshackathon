@@ -493,18 +493,26 @@ $isDone = true;
 				</div>
 --}} -->
 				
-				<div id="section-partners" class="page-section nopadding">
+				<div id="section-partners" class="page-section nopadding col-md-12">
 					<div class="section nomargin">
 						<div class="container clearfix">
 							<div class="divcenter center" style="max-width: 900px;">
 								<h2 class="nobottommargin t300 ls1">Partners</h2>
-								<h3 class="nobottommargin t300 lsl">To be announced</h3>
 							</div>
 						</div>
-{{--                        <div class="container clearfix">
+                        <div class="container clearfix">
                             <div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="50" data-loop="true" data-nav="false" data-autoplay="4000" data-pagi="false" data-items-xxs="1" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5">
-                                <div class="oc-item" style="margin-top: 50px"><a href="https://cs.ubbcluj.ro/" target="_blank"><img src="/images/partners/ubb.png" alt="UBB"></a></div>
-                            </div> --}}
+								<div class="oc-item" style="margin-top: 50px"><a href="https://axon-soft.com/" target="_blank"><img src="/images/partners/2023/axonsoft.png" alt="Axon Soft"></a></div>
+                                <div class="oc-item" style="margin-top: 50px"><a href="https://www.bigbelly-cluj.ro/" target="_blank"><img src="/images/partners/2023/bigbelly.png" alt="Big Belly"></a></div>
+                                <div class="oc-item" style="margin-top: 50px"><a href="https://www.cloudflight.io/" target="_blank"><img src="/images/partners/2023/cloudflight.png" alt="Cloudflight"></a></div>
+                                <div class="oc-item" style="margin-top: 50px"><a href="https://restaurantenigma.ro/" target="_blank"><img src="/images/partners/2023/enigma.png" alt="Enigma"></a></div>
+                                <div class="oc-item" style="margin-top: 50px"><a href="https://www.flowtraders.com/" target="_blank"><img src="/images/partners/2023/flowtraders.png" alt="Flow Traders"></a></div>
+                                <div class="oc-item" style="margin-top: 50px"><a href="https://www.qubiz.com/" target="_blank"><img src="/images/partners/2023/qubiz.png" alt="Qubiz"></a></div>
+                                <div class="oc-item" style="margin-top: 50px"><a href="https://usedproducts.ro/" target="_blank"><img src="/images/partners/2023/usedproducts.png" alt="Used Products"></a></div>
+								<div class="oc-item" style="margin-top: 50px"><a href="https://vmaxcluj.ro/en/" target="_blank"><img src="/images/partners/2023/vmax.png" alt="VMax"></a></div>
+								<div class="oc-item" style="margin-top: 50px"><a href="https://arobs.com/" target="_blank"><img src="/images/partners/2023/arobs.png" alt="AROBS"></a></div>
+								<div class="oc-item" style="margin-top: 50px"><a href="https://techntrade.ro/" target="_blank"><img src="/images/partners/2023/techntrade.png" alt="Tech'n'Trade"></a></div>
+							</div> 
                         </div> 
 					</div>
 				</div>
