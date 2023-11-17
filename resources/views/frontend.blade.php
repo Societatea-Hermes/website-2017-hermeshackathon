@@ -511,7 +511,8 @@ $isDone = true;
                                 <div class="oc-item" style="margin-top: 50px"><a href="https://usedproducts.ro/" target="_blank"><img src="/images/partners/2023/usedproducts.png" alt="Used Products"></a></div>
 								<div class="oc-item" style="margin-top: 50px"><a href="https://vmaxcluj.ro/en/" target="_blank"><img src="/images/partners/2023/vmax.png" alt="VMax"></a></div>
 								<div class="oc-item" style="margin-top: 50px"><a href="https://arobs.com/" target="_blank"><img src="/images/partners/2023/arobs.png" alt="AROBS"></a></div>
-								<div class="oc-item" style="margin-top: 50px"><a href="https://techntrade.ro/" target="_blank"><img src="/images/partners/2023/techntrade.png" alt="Tech'n'Trade"></a></div>
+								<div class="oc-item" style="margin-top: 50px"><a href="https://techntrade.ro/" target="_blank"><img src="/images/partners/2023/tech.png" alt="Tech'n'Trade"></a></div>
+								<div class="oc-item" style="margin-top: 50px"><a href="https://metro.digital/" target="_blank"><img src="/images/partners/2023/metro.png" alt="METRO.digital"></a></div>
 								<div class="oc-item" style="margin-top: 50px"><a href="https://cartofisserie.ro/" target="_blank"><img src="/images/partners/2023/cartofisserie.png" alt="Cartofisserie"></a></div>
 							</div> 
                         </div> 
