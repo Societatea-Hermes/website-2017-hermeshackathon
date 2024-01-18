@@ -5,7 +5,7 @@ name: Create & Push Docker Image
 on:
   push:
     branches:
-      - main
+      - master
 env:
   IMAGE_NAME: hermes-old-hackathon-website
 
