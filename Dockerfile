@@ -10,6 +10,8 @@ USER root
 RUN composer install --no-scripts
 RUN composer update --no-scripts
 RUN php artisan migrate --force
+RUN cp .env.example .env
+RUN php artisan key:generate
 
 EXPOSE 8000
 
