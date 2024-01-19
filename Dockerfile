@@ -1,4 +1,4 @@
-FROM bitnami/laravel:8.0.1
+FROM bitnami/laravel:9.5.2
 
 WORKDIR /web
 
@@ -6,12 +6,10 @@ COPY . /web
 
 USER root
 
-RUN apt-get update && apt-get install -y python2
 
-RUN composer dump-autoload
+RUN composer install --no-scripts
 RUN composer update --no-scripts
-RUN npm install
-RUN php artisan migrate
+RUN php artisan migrate --force
 
 EXPOSE 8000
 

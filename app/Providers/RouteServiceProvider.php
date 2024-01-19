@@ -2,43 +2,39 @@
 
 namespace App\Providers;
 
-use Illuminate\Routing\Router;
+use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\RateLimiter;
+use Illuminate\Support\Facades\Route;
 
 class RouteServiceProvider extends ServiceProvider
 {
     /**
-     * This namespace is applied to the controller routes in your routes file.
+     * The path to your application's "home" route.
      *
-     * In addition, it is set as the URL generator's root namespace.
+     * Typically, users are redirected here after authentication.
      *
      * @var string
      */
-    protected $namespace = 'App\Http\Controllers';
+    public const HOME = '/home';
 
     /**
-     * Define your route model bindings, pattern filters, etc.
-     *
-     * @param  \Illuminate\Routing\Router  $router
-     * @return void
+     * Define your route model bindings, pattern filters, and other route configuration.
      */
-    public function boot(Router $router)
+    public function boot(): void
     {
-        //
+        RateLimiter::for('api', function (Request $request) {
+            return Limit::perMinute(60)->by($request->user()?->id ?: $request->ip());
+        });
 
-        parent::boot($router);
-    }
+        $this->routes(function () {
+            Route::middleware('api')
+                ->prefix('api')
+                ->group(base_path('routes/api.php'));
 
-    /**
-     * Define the routes for the application.
-     *
-     * @param  \Illuminate\Routing\Router  $router
-     * @return void
-     */
-    public function map(Router $router)
-    {
-        $router->group(['namespace' => $this->namespace], function ($router) {
-            require app_path('Http/routes.php');
+            Route::middleware('web')
+                ->group(base_path('routes/web.php'));
         });
     }
 }
